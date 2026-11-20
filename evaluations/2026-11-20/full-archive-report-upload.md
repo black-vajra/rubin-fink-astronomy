@@ -1,0 +1,157 @@
+# Archive-wide extragalactic discovery triage
+
+Generated 2026-11-20T15:42:33.906513+00:00
+
+Read 1,043,458 indexed alerts, spanning 2026-10-30 through 2026-11-15. Every eligible object/filter was scored.
+32,732 object/filter groups scored; 10,008 passed the heuristic variability cut, representing 8,891 objects.
+
+This is an unclassified review list. No extragalactic discovery is confirmed.
+
+## Selection fixed for this first pass
+
+{
+  "database": "/home/pepper/rubin-historical-2026/alerts.sqlite3",
+  "output": "reports/2026/11/20/archive-scan-20261120T154225Z",
+  "min_visits": 3,
+  "min_nights": 3,
+  "min_abs_b": 20,
+  "max_scatter": 2,
+  "min_fraction": 0.2,
+  "min_amplitude": 1000,
+  "top": 100
+}
+
+Known SSO-associated object groups excluded. Median measurements per visit, then median visit measurements per UTC night, reduce repeated-row weighting. No error bars or formal significance can be recovered from this index.
+
+## Ranked review list
+
+| Object | Band | Nights | Visits | Difference range nJy | Fraction | Watchlist |
+|---|---|---:|---:|---:|---:|---|
+| 170604728153538580 | i | 3 | 7 | 1840.7 | 41.411 | False |
+| 313972150610952230 | z | 3 | 5 | 2325.8 | 35.996 | False |
+| 170591537890590861 | i | 3 | 3 | 1072.1 | 35.681 | False |
+| 171141237247049750 | i | 3 | 3 | 2280.1 | 18.239 | False |
+| 170591538084577333 | i | 4 | 13 | 2480.1 | 14.959 | False |
+| 170657511538425904 | i | 3 | 3 | 3454.5 | 16.834 | False |
+| 170604728182898711 | i | 3 | 5 | 1347.7 | 16.218 | False |
+| 170028497739186335 | g | 4 | 5 | 21195.0 | 11.028 | False |
+| 170028486629523609 | z | 3 | 3 | 7890.8 | 12.534 | False |
+| 170604728200724587 | i | 4 | 5 | 4725.8 | 10.632 | False |
+| 171141216166477958 | i | 3 | 4 | 2335.3 | 12.191 | False |
+| 313629129709715483 | g | 5 | 9 | 107514.5 | 8.774 | False |
+| 171141200222355576 | i | 3 | 4 | 2000.6 | 11.217 | False |
+| 171141215993987138 | i | 5 | 6 | 2394.2 | 8.346 | False |
+| 170028497655824484 | g | 3 | 3 | 1139.9 | 10.577 | False |
+| 170591544767152256 | i | 3 | 4 | 2402.0 | 10.567 | False |
+| 313967752714387494 | g | 3 | 3 | 2165.4 | 10.391 | False |
+| 170587116776980514 | i | 3 | 4 | 1556.7 | 10.201 | False |
+| 171145597380722733 | z | 3 | 3 | 3044.3 | 9.807 | False |
+| 170644268991381553 | i | 3 | 6 | 1579.8 | 9.540 | False |
+| 171189565222027287 | i | 3 | 6 | 1981.9 | 9.500 | False |
+| 171141237252816955 | i | 5 | 5 | 1950.2 | 6.996 | False |
+| 170591545544671282 | i | 3 | 6 | 2631.0 | 8.623 | False |
+| 170604735139676348 | i | 4 | 6 | 219910.9 | 7.451 | False |
+| 171145624663621759 | i | 3 | 4 | 1054.4 | 8.367 | False |
+| 171145616871653416 | z | 5 | 5 | 2988.0 | 6.469 | False |
+| 170635528220704884 | i | 3 | 3 | 3413.7 | 8.241 | False |
+| 313690716575891465 | z | 3 | 6 | 62445.7 | 8.196 | False |
+| 313985346468053177 | z | 3 | 3 | 3235.2 | 8.094 | False |
+| 313985348157833393 | z | 3 | 3 | 2317.3 | 7.873 | False |
+| 170028485983600750 | i | 3 | 3 | 1466.1 | 7.734 | False |
+| 170591538829590576 | i | 5 | 6 | 1636.7 | 5.870 | False |
+| 171141216027017268 | i | 3 | 3 | 2751.1 | 7.527 | False |
+| 313629129709715483 | i | 5 | 9 | 60389.2 | 5.772 | False |
+| 313673106912706577 | g | 5 | 8 | 35211.6 | 5.679 | False |
+| 170604728170315924 | i | 5 | 10 | 1315.8 | 5.557 | False |
+| 170657506505261185 | i | 3 | 4 | 3457.7 | 7.019 | False |
+| 171141216050086014 | i | 4 | 6 | 1072.3 | 6.067 | False |
+| 171141200208724151 | i | 4 | 15 | 2196.1 | 5.994 | False |
+| 170644274830376979 | i | 4 | 6 | 1867.4 | 5.962 | False |
+| 170604720938811396 | i | 3 | 3 | 128054.2 | 6.657 | False |
+| 170604730167853965 | i | 3 | 3 | 2473.5 | 6.509 | False |
+| 170644275042713663 | z | 3 | 3 | 2701.8 | 6.493 | False |
+| 171145616853827654 | z | 4 | 4 | 2745.2 | 5.546 | False |
+| 170028492493160589 | i | 3 | 3 | 1991.3 | 6.382 | False |
+| 170028486230540434 | z | 4 | 4 | 1322.5 | 5.452 | False |
+| 170604732087795889 | i | 5 | 17 | 68704.8 | 4.705 | False |
+| 170604740885348435 | z | 3 | 4 | 2344.3 | 6.034 | False |
+| 170028493310001223 | i | 3 | 3 | 1653.9 | 6.003 | False |
+| 170604728140955789 | i | 4 | 32 | 54256.3 | 5.185 | False |
+| 313695087464808584 | r | 3 | 5 | 19427.3 | 5.979 | False |
+| 171141214497669199 | i | 3 | 5 | 2790.1 | 5.779 | False |
+| 313963359488180233 | z | 4 | 4 | 40014.8 | 4.958 | False |
+| 313721465870483560 | z | 3 | 4 | 1451.8 | 5.702 | False |
+| 170591545585566587 | i | 3 | 4 | 1939.1 | 5.639 | False |
+| 313985347891495034 | z | 4 | 4 | 2714.1 | 4.878 | False |
+| 170591538211979278 | i | 6 | 29 | 265458.5 | 3.955 | False |
+| 313985346787868826 | z | 4 | 5 | 1259.7 | 4.820 | False |
+| 171141216376717391 | i | 4 | 4 | 1679.2 | 4.731 | False |
+| 170631126341648449 | z | 3 | 4 | 1376.8 | 5.442 | False |
+| 171141216949239835 | i | 3 | 3 | 1022.7 | 5.362 | False |
+| 171171972897570970 | i | 3 | 7 | 1104.0 | 5.337 | False |
+| 170591538024808534 | i | 3 | 5 | 15660.0 | 5.313 | False |
+| 171141216530858052 | r | 3 | 3 | 2833.4 | 5.305 | False |
+| 170644258388181103 | i | 3 | 3 | 1284.3 | 5.294 | False |
+| 170666303790514215 | i | 4 | 5 | 21080.3 | 4.564 | False |
+| 170604738892005572 | i | 3 | 9 | 1843.3 | 5.233 | False |
+| 170591538162696270 | i | 3 | 3 | 1681.9 | 5.148 | False |
+| 171141193240936566 | i | 3 | 5 | 1165.6 | 5.029 | False |
+| 170028487661322270 | z | 4 | 4 | 2107.7 | 4.298 | False |
+| 170587106809741582 | i | 3 | 3 | 18525.9 | 4.913 | False |
+| 313897382194446428 | z | 4 | 6 | 1082.7 | 4.146 | False |
+| 171141218940485736 | z | 3 | 3 | 1646.0 | 4.773 | False |
+| 313932564983185409 | i | 4 | 8 | 1463.6 | 4.128 | False |
+| 171141199266578441 | i | 3 | 3 | 1416.5 | 4.765 | False |
+| 170604720217915532 | i | 3 | 4 | 1887.9 | 4.763 | False |
+| 171145616870080623 | z | 3 | 3 | 2882.8 | 4.748 | False |
+| 170028487861076040 | z | 3 | 3 | 1982.3 | 4.687 | False |
+| 170604740919427091 | z | 3 | 5 | 1172.4 | 4.676 | False |
+| 170028485775458392 | z | 3 | 3 | 1805.7 | 4.656 | False |
+| 313862201215549441 | i | 4 | 7 | 1911.7 | 3.963 | False |
+| 170595944461500475 | i | 5 | 7 | 69317.9 | 3.541 | False |
+| 313998539874631702 | i | 3 | 3 | 1329.4 | 4.571 | False |
+| 170604730867777696 | i | 3 | 3 | 1594.9 | 4.537 | False |
+| 170028485983600750 | z | 5 | 5 | 2227.4 | 3.500 | False |
+| 170591538045255879 | i | 5 | 24 | 33489.5 | 3.466 | False |
+| 170666303791562781 | i | 7 | 11 | 451011.8 | 2.891 | False |
+| 313730260232830987 | z | 3 | 3 | 6266.1 | 4.414 | False |
+| 170591538803900590 | i | 3 | 5 | 1295.6 | 4.382 | False |
+| 170591545590284343 | i | 4 | 4 | 3119.0 | 3.784 | False |
+| 313695087471624266 | z | 3 | 5 | 1705.4 | 4.304 | False |
+| 313994145115930737 | z | 3 | 3 | 6498.4 | 4.242 | False |
+| 171141193470050361 | r | 3 | 4 | 67780.6 | 4.222 | False |
+| 170644264769290279 | i | 4 | 18 | 400858.0 | 3.653 | False |
+| 171189565516677139 | i | 3 | 3 | 2458.3 | 4.209 | False |
+| 170591544899797175 | i | 3 | 6 | 1537.1 | 4.192 | False |
+| 170653057257308304 | r | 3 | 4 | 46129.2 | 4.161 | False |
+| 170591547604598907 | i | 3 | 3 | 3231.1 | 4.105 | False |
+| 170644272412885022 | i | 3 | 22 | 6947.3 | 4.080 | False |
+| 170604728168218662 | i | 5 | 25 | 1759.6 | 3.139 | False |
+
+## Limitations
+
+- Index lacks flux errors, quality flags, template flux, host matches and stellar crossmatches.
+- Galactic latitude and positional consistency do not establish an extragalactic identity.
+- Score and relative amplitude are heuristic; no statistical significance or false-discovery rate is claimed.
+- Alert-only sampling is biased; nondetections and forced photometry are absent. Single-night transients are outside this initial multi-night screen.
+- Known SSO labels are excluded, but unlabeled moving objects can remain.
+
+## Next pass
+
+Retrieve original source measurements and flags for shortlisted objects, reject problematic photometry, inspect science/template/difference cutouts, and crossmatch stellar, galaxy and AGN catalogs. Keep known watchlist objects visibly marked. A large science-only rise with stable difference flux is a measurement/reference review flag.
+
+Full scoring is in all-scored.csv. All passing groups are in shortlist.csv; only the detailed JSON and displayed list are capped by --top.
+
+## Selection accounting
+
+{
+  "all_source_rows_read": 1043458,
+  "object_groups_seen": 445046,
+  "missing_object_id_rows": 236428,
+  "too_few_visits": 445050,
+  "scored": 32732,
+  "too_few_nights": 20263,
+  "scored_object_filter_groups": 32732,
+  "candidate_object_filter_groups": 10008,
+  "candidate_unique_objects": 8891
+}

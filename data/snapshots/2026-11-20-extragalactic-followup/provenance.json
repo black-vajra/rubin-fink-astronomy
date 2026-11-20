@@ -1,0 +1,46 @@
+[
+  {
+    "file": "object-170591538211979278.json",
+    "sha256": "dda548a76a695ec07913e6d1b464023221a1664f0cf0a896f5ca41fedcaaafb6",
+    "api_endpoint": "https://api.lsst.fink-portal.org/api/v1/sources",
+    "parameters": {
+      "diaObjectId": "170591538211979278",
+      "output-format": "json"
+    },
+    "retrieval_date": "2026-11-20",
+    "exact_retrieval_timestamp_retained": false
+  },
+  {
+    "file": "object-170604728153538580.json",
+    "sha256": "9f7ca7843c2270e7a98140724db0506ca6ef31077cfb878071bde26d44f6b5b5",
+    "api_endpoint": "https://api.lsst.fink-portal.org/api/v1/sources",
+    "parameters": {
+      "diaObjectId": "170604728153538580",
+      "output-format": "json"
+    },
+    "retrieval_date": "2026-11-20",
+    "exact_retrieval_timestamp_retained": false
+  },
+  {
+    "file": "object-170666303791562781.json",
+    "sha256": "b5a8776ca5c89afa4244a65dd79241c6358df466249be341573374870642195e",
+    "api_endpoint": "https://api.lsst.fink-portal.org/api/v1/sources",
+    "parameters": {
+      "diaObjectId": "170666303791562781",
+      "output-format": "json"
+    },
+    "retrieval_date": "2026-11-20",
+    "exact_retrieval_timestamp_retained": false
+  },
+  {
+    "file": "object-313629129709715483.json",
+    "sha256": "3c9b9e02677b90511a5fca2a1f08a9241796c281e61d5c8f03486d4b817e6f46",
+    "api_endpoint": "https://api.lsst.fink-portal.org/api/v1/sources",
+    "parameters": {
+      "diaObjectId": "313629129709715483",
+      "output-format": "json"
+    },
+    "retrieval_date": "2026-11-20",
+    "exact_retrieval_timestamp_retained": false
+  }
+]

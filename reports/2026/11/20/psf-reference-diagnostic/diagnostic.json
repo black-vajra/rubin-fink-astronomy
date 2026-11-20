@@ -1,0 +1,534 @@
+{
+  "generated_utc": "2026-11-20T15:52:01.652101+00:00",
+  "status": "diagnostic; not independently validated photometry",
+  "measurements": [
+    {
+      "file": "2026-11-11-171194008185340018-Difference.fits",
+      "sha256": "d9ba7418b2302ca83c957397636fbaac9afc9af4dd10be94077aa35f58516000",
+      "kind": "Difference",
+      "date": "2026-11-11",
+      "shape": [
+        30,
+        30
+      ],
+      "psf_sum": 0.9999997348998857,
+      "psf_rms_pixels": 2.7282115065866037,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 100641.39657811908,
+        "constant_background_njy_pixel": 33.22371602923622,
+        "rms_residual_njy_pixel": 210.86144086424412,
+        "pixels": 314
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 77886.92053508759,
+          "pixels": 51,
+          "mask_nonzero_pixels": 51
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 97751.59004878998,
+          "pixels": 113,
+          "mask_nonzero_pixels": 113
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 103216.41514825821,
+          "pixels": 201,
+          "mask_nonzero_pixels": 201
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 109037.38148736954,
+          "pixels": 315,
+          "mask_nonzero_pixels": 315
+        }
+      },
+      "mask_values": [
+        0,
+        32
+      ],
+      "plate_singular_values_arcsec": [
+        0.19982530944720156,
+        0.19939806119780343
+      ]
+    },
+    {
+      "file": "2026-11-11-171194008185340018-Science.fits",
+      "sha256": "262058c1f0967702536ed65c4564babffba29c8226c0049cfd634189d7ddc85d",
+      "kind": "Science",
+      "date": "2026-11-11",
+      "shape": [
+        30,
+        30
+      ],
+      "psf_sum": 0.9999997348998857,
+      "psf_rms_pixels": 2.7282115065866037,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 714032.8389649617,
+        "constant_background_njy_pixel": 1343.7114676932995,
+        "rms_residual_njy_pixel": 901.7092415563238,
+        "pixels": 314
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 655544.9775085449,
+          "pixels": 51,
+          "mask_nonzero_pixels": 51
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 832965.894317627,
+          "pixels": 113,
+          "mask_nonzero_pixels": 113
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 931189.3489685059,
+          "pixels": 201,
+          "mask_nonzero_pixels": 201
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 985221.9262390137,
+          "pixels": 315,
+          "mask_nonzero_pixels": 315
+        }
+      },
+      "mask_values": [
+        65568
+      ],
+      "plate_singular_values_arcsec": [
+        0.19982530944720156,
+        0.19939806119780343
+      ]
+    },
+    {
+      "file": "2026-11-11-171194008185340018-Template.fits",
+      "sha256": "1a76533fb67000486c8ebf8def12e82ad56de03b87b8bff2491e64da23c43b0c",
+      "kind": "Template",
+      "date": "2026-11-11",
+      "shape": [
+        30,
+        30
+      ],
+      "psf_sum": 0.9999999974918965,
+      "psf_rms_pixels": 2.240111176691404,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 565395.9146051798,
+        "constant_background_njy_pixel": 1375.7966539193062,
+        "rms_residual_njy_pixel": 493.02775117846426,
+        "pixels": 314
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 500380.53717041016,
+          "pixels": 51,
+          "mask_nonzero_pixels": 51
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 688407.3554077148,
+          "pixels": 113,
+          "mask_nonzero_pixels": 113
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 795834.575378418,
+          "pixels": 201,
+          "mask_nonzero_pixels": 201
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 854857.9221191406,
+          "pixels": 315,
+          "mask_nonzero_pixels": 315
+        }
+      },
+      "mask_values": [
+        786464,
+        1835040
+      ],
+      "plate_singular_values_arcsec": [
+        0.19982530944720156,
+        0.19939806119780343
+      ]
+    },
+    {
+      "file": "2026-11-13-171202809503416341-Difference.fits",
+      "sha256": "6d7b95132f22de2cbe344e45c15854cfdfee8e6d83c80f9d1b2a239ecce08078",
+      "kind": "Difference",
+      "date": "2026-11-13",
+      "shape": [
+        53,
+        53
+      ],
+      "psf_sum": 1.0000007271479334,
+      "psf_rms_pixels": 3.6508410165567042,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 99007.92177511026,
+        "constant_background_njy_pixel": 65.12517940095321,
+        "rms_residual_njy_pixel": 100.56815244062398,
+        "pixels": 313
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 61397.95780944824,
+          "pixels": 48,
+          "mask_nonzero_pixels": 48
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 89071.6658449173,
+          "pixels": 113,
+          "mask_nonzero_pixels": 113
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 98814.75212621689,
+          "pixels": 201,
+          "mask_nonzero_pixels": 201
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 103304.87074995041,
+          "pixels": 314,
+          "mask_nonzero_pixels": 314
+        }
+      },
+      "mask_values": [
+        0,
+        32
+      ],
+      "plate_singular_values_arcsec": [
+        0.19988716743768498,
+        0.19947226177113309
+      ]
+    },
+    {
+      "file": "2026-11-13-171202809503416341-Science.fits",
+      "sha256": "285123ddf44050a31085de3f6270ae0ca4cdffe72581bf0bd446478f69366191",
+      "kind": "Science",
+      "date": "2026-11-13",
+      "shape": [
+        53,
+        53
+      ],
+      "psf_sum": 1.0000007271479334,
+      "psf_rms_pixels": 3.6508410165567042,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 778701.6784568289,
+        "constant_background_njy_pixel": 1162.9634403612272,
+        "rms_residual_njy_pixel": 675.8473121958103,
+        "pixels": 313
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 500307.65087890625,
+          "pixels": 48,
+          "mask_nonzero_pixels": 48
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 736177.0133972168,
+          "pixels": 113,
+          "mask_nonzero_pixels": 113
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 863082.2774353027,
+          "pixels": 201,
+          "mask_nonzero_pixels": 201
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 931587.0848999023,
+          "pixels": 314,
+          "mask_nonzero_pixels": 314
+        }
+      },
+      "mask_values": [
+        65568
+      ],
+      "plate_singular_values_arcsec": [
+        0.19988716743768498,
+        0.19947226177113309
+      ]
+    },
+    {
+      "file": "2026-11-13-171202809503416341-Template.fits",
+      "sha256": "f5baed0bceec915240d5cf2891f4134b71c292cf2070a9d30dc53c8fd18d691a",
+      "kind": "Template",
+      "date": "2026-11-13",
+      "shape": [
+        53,
+        53
+      ],
+      "psf_sum": 0.9999999985167032,
+      "psf_rms_pixels": 2.2187529737161005,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 553081.1697475617,
+        "constant_background_njy_pixel": 1414.8366595357415,
+        "rms_residual_njy_pixel": 719.4119754605008,
+        "pixels": 313
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 482688.3928222656,
+          "pixels": 48,
+          "mask_nonzero_pixels": 48
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 687394.3990325928,
+          "pixels": 113,
+          "mask_nonzero_pixels": 113
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 795573.4294281006,
+          "pixels": 201,
+          "mask_nonzero_pixels": 201
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 855002.0475158691,
+          "pixels": 314,
+          "mask_nonzero_pixels": 314
+        }
+      },
+      "mask_values": [
+        786464,
+        786476,
+        1835040
+      ],
+      "plate_singular_values_arcsec": [
+        0.19988716743768498,
+        0.19947226177113309
+      ]
+    },
+    {
+      "file": "2026-11-15-171211605978644501-Difference.fits",
+      "sha256": "5a690dfff2adde77e5b226d3ed7cd460ce27e8644aa799d3f3face7e47b9d8ae",
+      "kind": "Difference",
+      "date": "2026-11-15",
+      "shape": [
+        62,
+        62
+      ],
+      "psf_sum": 0.9999999994142978,
+      "psf_rms_pixels": 5.362926883223701,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 105382.3481215184,
+        "constant_background_njy_pixel": 10.855844007299742,
+        "rms_residual_njy_pixel": 213.9181379352135,
+        "pixels": 316
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 27017.10105895996,
+          "pixels": 52,
+          "mask_nonzero_pixels": 52
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 46171.02458572388,
+          "pixels": 115,
+          "mask_nonzero_pixels": 115
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 59346.83414077759,
+          "pixels": 205,
+          "mask_nonzero_pixels": 205
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 66452.90014266968,
+          "pixels": 317,
+          "mask_nonzero_pixels": 317
+        }
+      },
+      "mask_values": [
+        0,
+        32
+      ],
+      "plate_singular_values_arcsec": [
+        0.19984595897857876,
+        0.19945808219743222
+      ]
+    },
+    {
+      "file": "2026-11-15-171211605978644501-Science.fits",
+      "sha256": "54bb99baaac4c4f96b6e4fc616d6528bae0a09a7575aefbefcfdb19a152e3dac",
+      "kind": "Science",
+      "date": "2026-11-15",
+      "shape": [
+        62,
+        62
+      ],
+      "psf_sum": 0.9999999994142978,
+      "psf_rms_pixels": 5.362926883223701,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 902935.5390771927,
+        "constant_background_njy_pixel": 835.1807940760519,
+        "rms_residual_njy_pixel": 233.7423739353686,
+        "pixels": 316
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 245803.77319335938,
+          "pixels": 52,
+          "mask_nonzero_pixels": 52
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 437142.26068115234,
+          "pixels": 115,
+          "mask_nonzero_pixels": 115
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 595562.2627563477,
+          "pixels": 205,
+          "mask_nonzero_pixels": 205
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 694046.3107299805,
+          "pixels": 317,
+          "mask_nonzero_pixels": 317
+        }
+      },
+      "mask_values": [
+        65568
+      ],
+      "plate_singular_values_arcsec": [
+        0.19984595897857876,
+        0.19945808219743222
+      ]
+    },
+    {
+      "file": "2026-11-15-171211605978644501-Template.fits",
+      "sha256": "5128121f7f91bec87eb29a5e8441f8408cd3f3129e19c7414e0e9752603f103f",
+      "kind": "Template",
+      "date": "2026-11-15",
+      "shape": [
+        62,
+        62
+      ],
+      "psf_sum": 0.9999999904691151,
+      "psf_rms_pixels": 2.280093004551953,
+      "fit_with_own_psf": {
+        "fitted_amplitude_njy": 578877.4067525194,
+        "constant_background_njy_pixel": 1330.583459322828,
+        "rms_residual_njy_pixel": 477.2652042586323,
+        "pixels": 316
+      },
+      "apertures_arcsec": {
+        "0.8": {
+          "sum_minus_local_median_njy": 506926.32427978516,
+          "pixels": 52,
+          "mask_nonzero_pixels": 52
+        },
+        "1.2": {
+          "sum_minus_local_median_njy": 691895.09324646,
+          "pixels": 115,
+          "mask_nonzero_pixels": 115
+        },
+        "1.6": {
+          "sum_minus_local_median_njy": 798374.5119781494,
+          "pixels": 205,
+          "mask_nonzero_pixels": 205
+        },
+        "2.0": {
+          "sum_minus_local_median_njy": 854698.1802520752,
+          "pixels": 317,
+          "mask_nonzero_pixels": 317
+        }
+      },
+      "mask_values": [
+        786464,
+        786476,
+        1835040
+      ],
+      "plate_singular_values_arcsec": [
+        0.19984595897857876,
+        0.19945808219743222
+      ]
+    }
+  ],
+  "fixed_reference_experiment": [
+    {
+      "added_gaussian_sigma_pixels": 0.0,
+      "fitted_amplitude_njy": 578877.407867875,
+      "constant_background_njy_pixel": 1330.5834371147257,
+      "rms_residual_njy_pixel": 477.2652239430099,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 1.0,
+      "fitted_amplitude_njy": 587156.2517495275,
+      "constant_background_njy_pixel": 1288.8163814170189,
+      "rms_residual_njy_pixel": 404.9257070639932,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 2.0,
+      "fitted_amplitude_njy": 609419.7730110899,
+      "constant_background_njy_pixel": 1172.2000906536528,
+      "rms_residual_njy_pixel": 279.23769470076456,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 3.0,
+      "fitted_amplitude_njy": 637848.179610071,
+      "constant_background_njy_pixel": 1017.9691301287554,
+      "rms_residual_njy_pixel": 175.65461772333637,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 4.0,
+      "fitted_amplitude_njy": 668926.1247468372,
+      "constant_background_njy_pixel": 862.4099511859176,
+      "rms_residual_njy_pixel": 112.55558195145518,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 5.0,
+      "fitted_amplitude_njy": 702302.0174607782,
+      "constant_background_njy_pixel": 723.4202355695968,
+      "rms_residual_njy_pixel": 75.88276762544358,
+      "pixels": 316
+    }
+  ],
+  "point_source_control": [
+    {
+      "added_gaussian_sigma_pixels": 0.0,
+      "fitted_amplitude_njy": 1000000.0000000002,
+      "constant_background_njy_pixel": 100.0000000000001,
+      "rms_residual_njy_pixel": 1.6343923888113834e-12,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 1.0,
+      "fitted_amplitude_njy": 1000000.0,
+      "constant_background_njy_pixel": 100.00000000000118,
+      "rms_residual_njy_pixel": 1.8135161314036009e-12,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 2.0,
+      "fitted_amplitude_njy": 999999.9999999999,
+      "constant_background_njy_pixel": 99.99999999999861,
+      "rms_residual_njy_pixel": 2.219526614464678e-12,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 3.0,
+      "fitted_amplitude_njy": 1000000.0000000002,
+      "constant_background_njy_pixel": 100.00000000000024,
+      "rms_residual_njy_pixel": 1.8215341097943877e-12,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 4.0,
+      "fitted_amplitude_njy": 1000000.0000000006,
+      "constant_background_njy_pixel": 99.99999999999952,
+      "rms_residual_njy_pixel": 1.3272541166048224e-12,
+      "pixels": 316
+    },
+    {
+      "added_gaussian_sigma_pixels": 5.0,
+      "fitted_amplitude_njy": 1000000.0000000001,
+      "constant_background_njy_pixel": 99.99999999999942,
+      "rms_residual_njy_pixel": 6.942454019446478e-13,
+      "pixels": 316
+    }
+  ],
+  "point_control_max_fractional_error": 6.661338147750939e-16,
+  "method": "Same November 15 template image, flux-conserving Gaussian blur and matching blurred PSF, unweighted PSF-plus-constant fit within 10 pixels at fixed supplied CRPIX position.",
+  "limitations": [
+    "Mask-to-bit mapping is absent; masks are inventoried but not decoded or applied. Apertures and fits are diagnostic only.",
+    "Fixed annulus and fitted constants can absorb host light; changing fitted PSF amplitude is not changing total galaxy light.",
+    "Gaussian blur is a controlled mechanism demonstration, not a reproduction of the Rubin pipeline or the actual inter-epoch PSFs.",
+    "No independent zeropoint check, background validation, covariance model, PSF matching across epochs, or nuclear/host decomposition.",
+    "Aperture metric uses the local header linear matrix only; no global WCS repair is asserted. No aperture error bars or cross-epoch significance claimed."
+  ]
+}

@@ -1,0 +1,52 @@
+<!doctype html><meta charset="utf-8"><pre># PGC image/reference diagnostic — work in progress
+
+2026-11-20T15:52:01.652101+00:00
+
+**Diagnostic only: mask semantics and independent photometric validation remain unresolved.**
+
+## Supplied PSF kernels
+
+| UTC date | Science PSF RMS, pixels | Template PSF RMS, pixels | Difference PSF RMS, pixels |
+|---|---:|---:|---:|
+| 2026-11-11 | 2.728 | 2.240 | 2.728 |
+| 2026-11-13 | 3.651 | 2.219 | 3.651 |
+| 2026-11-15 | 5.363 | 2.280 | 5.363 |
+
+The actual supplied science PSF kernels broaden across visits, while template PSF kernels remain comparatively similar. These are kernel second moments, not calibrated seeing FWHM.
+
+## Controlled experiment on one unchanged template
+
+Same November 15 template image, flux-conserving Gaussian blur and matching blurred PSF, unweighted PSF-plus-constant fit within 10 pixels at fixed supplied CRPIX position.
+
+| Added Gaussian sigma, pixels | Fitted amplitude, nJy | Relative to no added blur |
+|---:|---:|---:|
+| 0.0 | 578,877 | 1.000 |
+| 1.0 | 587,156 | 1.014 |
+| 2.0 | 609,420 | 1.053 |
+| 3.0 | 637,848 | 1.102 |
+| 4.0 | 668,926 | 1.156 |
+| 5.0 | 702,302 | 1.213 |
+
+Point-source control maximum fractional amplitude error: 0.000000.
+
+Any amplitude response in the unchanged real template demonstrates model/measurement sensitivity in this experiment. It does not establish that the Rubin pipeline made the same measurement or that this explains the complete observed trend.
+
+## Limits
+
+- Mask-to-bit mapping is absent; masks are inventoried but not decoded or applied. Apertures and fits are diagnostic only.
+- Fixed annulus and fitted constants can absorb host light; changing fitted PSF amplitude is not changing total galaxy light.
+- Gaussian blur is a controlled mechanism demonstration, not a reproduction of the Rubin pipeline or the actual inter-epoch PSFs.
+- No independent zeropoint check, background validation, covariance model, PSF matching across epochs, or nuclear/host decomposition.
+- Aperture metric uses the local header linear matrix only; no global WCS repair is asserted. No aperture error bars or cross-epoch significance claimed.
+
+
+## Fixed-aperture diagnostic and residual-image fits
+
+| UTC date | Template, 2 arcsec aperture nJy | Science, 2 arcsec aperture nJy | Difference own-PSF fit nJy |
+|---|---:|---:|---:|
+| 2026-11-11 | 854,858 | 985,222 | 100,641 |
+| 2026-11-13 | 855,002 | 931,587 | 99,008 |
+| 2026-11-15 | 854,698 | 694,046 | 105,382 |
+
+These local-background-subtracted pixel sums are unmasked diagnostics, not certified photometry. The template aperture sums span approximately 0.036% of their mean. This small spread must not be interpreted as a precision or uncertainty estimate. Science aperture sums are affected by PSF-dependent encircled light. The difference-image own-PSF fits remain about 99,000–105,000 nJy under this diagnostic model. Neither comparison establishes an intrinsic nuclear light curve.
+</pre>
