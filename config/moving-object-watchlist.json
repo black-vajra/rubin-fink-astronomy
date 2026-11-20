@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-20",
+  "active_watchlist": [
+    "2001 QY297",
+    "2014 WV203",
+    "2013 CR7",
+    "2026 ED138"
+  ],
+  "purpose": "Restrict this moving-object research workflow to these four objects. Does not modify installed systemd services.",
+  "2026 ED138": {
+    "status": "awaiting public astrometry",
+    "fit_enabled": false
+  },
+  "acceptance_radius_arcsec": 60,
+  "new_objects_require_explicit_scope_change": true
+}

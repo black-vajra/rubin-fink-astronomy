@@ -1,0 +1,27 @@
+{
+  "source_snapshot_origins": {
+    "2001_QY297-sources.json": "Fresh Fink designation query retained in reports/2026/11/20/qy297-investigation/fink-name.json; designation/number agreement checked there.",
+    "2014_WV203-sources.json": "Retained public Fink SSO snapshot from the historical project, data/sso-2014_WV203.json.",
+    "2013_CR7-sources.json": "Retained public Fink SSO snapshot from the historical project, data/sso-2013_CR7.json."
+  },
+  "observer_geometry": "Fresh JPL Horizons geometric Sun vectors on November 20, 2026; exact request parameters and full responses retained in inputs. No target ephemerides used by the fitter.",
+  "full_night_evidence": {
+    "origin": "User supplied completed Pots report in conversation",
+    "generated_UTC": "2026-11-20T16:55:37+00:00",
+    "predictor": "External JPL known orbit",
+    "night": "2026-11-12",
+    "alerts": 235039,
+    "visits": 145,
+    "control_sid": "171198373954584702",
+    "rank": 1,
+    "miss_arcsec": 0.094,
+    "matches_within_60_arcsec": 1,
+    "other_or_unassociated_matches_within_60_arcsec": 0,
+    "independent_physical_fit_all_alert_ranking": "not executed in this workspace"
+  },
+  "runtime": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "astropy": "8.0.3"
+  }
+}

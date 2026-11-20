@@ -2,6 +2,10 @@
 
 Last assessed November 20, 2026. Later dated evidence supersedes earlier interpretations; preserve earlier entries rather than rewriting them.
 
+Moving-object daily work is now restricted to **2001 QY297**, **2014 WV203**, **2013 CR7**, and **2026 ED138**. QY297 is the primary research target; WV203 and CR7 are validation controls; ED138 awaits usable public astrometry. Do not expand moving-object scans beyond this list without a new scope decision. The separate extragalactic project retains its own scope.
+
+See the [physical orbit benchmark](../reports/2026/11/20/physical-orbit-watchlist/report.md). A pre-November-12 Sun-only fit predicts QY297 within about 0.65 arcsec and CR7 within about 0.054 arcsec, while WV203's two-date training solution fails later tests. Improve dynamics/ambiguity handling and withhold additional epochs within this same list. Published QY297 binary mass is an external reference, not a new measurement.
+
 | Priority | Objective | Completion evidence |
 |---|---|---|
 | 1A | Inspect PGC 766016 science/reference/difference images for November 11, 13 and 15; review seeing, detector and calibration | Same-band, traceable measurements and image review explaining or bounding the science/template discrepancy |

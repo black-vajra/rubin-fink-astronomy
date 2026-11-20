@@ -1,0 +1,1040 @@
+{
+  "generated_UTC": "2026-11-20T17:12:27+00:00",
+  "model": "Newtonian heliocentric Sun-only test particle",
+  "watchlist": [
+    "2001 QY297",
+    "2014 WV203",
+    "2013 CR7",
+    "2026 ED138"
+  ],
+  "results": [
+    {
+      "name": "2001 QY297",
+      "test_cutoff_UTC": "2026-11-12",
+      "reference_TDB_JD": 2461218.907692524,
+      "sigma_arcsec_per_coordinate": 0.15,
+      "trial_distances_AU": [
+        2,
+        3,
+        5,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "trials": [
+        {
+          "seed_range_AU": 2,
+          "converged": true,
+          "training_chi2": 0.41359097615635404,
+          "state": [
+            41.63058960908213,
+            -14.099258014003288,
+            -7.124242088662243,
+            0.0009300504403203615,
+            0.0021829493250737583,
+            0.0008979132062331489
+          ],
+          "nfev": 16,
+          "message": "`xtol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 3,
+          "converged": true,
+          "training_chi2": 0.4135909761666647,
+          "state": [
+            41.63058962861216,
+            -14.099258020195894,
+            -7.124242091823822,
+            0.0009300503665334341,
+            0.002182949345656021,
+            0.0008979132169204676
+          ],
+          "nfev": 11,
+          "message": "`ftol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 5,
+          "converged": true,
+          "training_chi2": 0.4135909761613436,
+          "state": [
+            41.630589604579676,
+            -14.099258012575318,
+            -7.124242087933215,
+            0.0009300504588213494,
+            0.0021829493197994625,
+            0.0008979132035026096
+          ],
+          "nfev": 10,
+          "message": "`ftol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 10,
+          "converged": true,
+          "training_chi2": 0.4135909761623671,
+          "state": [
+            41.63058960751054,
+            -14.099258013504668,
+            -7.124242088407687,
+            0.0009300504476035517,
+            0.0021829493229397253,
+            0.0008979132051324005
+          ],
+          "nfev": 10,
+          "message": "`xtol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 20,
+          "converged": true,
+          "training_chi2": 0.4135909761568789,
+          "state": [
+            41.63058961274785,
+            -14.09925801516539,
+            -7.124242089255552,
+            0.0009300504275111674,
+            0.0021829493285675967,
+            0.0008979132080529998
+          ],
+          "nfev": 9,
+          "message": "`ftol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 40,
+          "converged": true,
+          "training_chi2": 0.41359097617711404,
+          "state": [
+            41.63058960714709,
+            -14.099258013389417,
+            -7.124242088348845,
+            0.0009300504490172981,
+            0.0021829493225422915,
+            0.0008979132049262562
+          ],
+          "nfev": 8,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 80,
+          "converged": true,
+          "training_chi2": 0.4135909761563507,
+          "state": [
+            41.630589606996956,
+            -14.099258013341817,
+            -7.124242088324544,
+            0.000930050449576718,
+            0.0021829493223867948,
+            0.0008979132048454659
+          ],
+          "nfev": 7,
+          "message": "`ftol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 160,
+          "converged": true,
+          "training_chi2": 0.41359097618831064,
+          "state": [
+            41.63058960503908,
+            -14.099258012720995,
+            -7.124242088007588,
+            0.0009300504570469675,
+            0.0021829493202973295,
+            0.0008979132037609282
+          ],
+          "nfev": 7,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "bound": true
+        }
+      ],
+      "training_ids": [
+        "170591542309814341",
+        "170591542522151093",
+        "170604720644161575",
+        "170644257014546577",
+        "170657506293973037",
+        "170657513273294899",
+        "171141185995800664",
+        "171141191944372349",
+        "171141198923694290"
+      ],
+      "withheld_ids": [
+        "171198373954584702"
+      ],
+      "training_dates_UTC": [
+        "2026-06-27",
+        "2026-06-30",
+        "2026-07-09",
+        "2026-07-12",
+        "2026-10-30"
+      ],
+      "training_span_days": 124.65383776370436,
+      "test_used_for_optimizer_or_model_selection": false,
+      "status": "Exploratory bound fit; held-out evaluation below",
+      "state": [
+        41.630589606996956,
+        -14.099258013341817,
+        -7.124242088324544,
+        0.000930050449576718,
+        0.0021829493223867948,
+        0.0008979132048454659
+      ],
+      "elements": {
+        "heliocentric_distance_AU_at_reference": 44.526956923711296,
+        "a_AU": 43.16821106181202,
+        "e": 0.034311065627116416,
+        "bound": true,
+        "period_years": 283.62602413989896
+      },
+      "training_chi2": 0.41359097619107305,
+      "training_dof": 12,
+      "training_max_error_arcsec": 0.07231600418486694,
+      "local_jacobian_rank": 6,
+      "covariance_state": [
+        [
+          0.04308152905879503,
+          -0.013660768115423678,
+          -0.006974375542425177,
+          -0.0001647236746170333,
+          4.609936887996467e-05,
+          2.392628884981175e-05
+        ],
+        [
+          -0.013660768115423678,
+          0.004331707952655818,
+          0.0022115122845197087,
+          5.223315410141014e-05,
+          -1.4617963715326393e-05,
+          -7.5869455153071115e-06
+        ],
+        [
+          -0.006974375542425177,
+          0.0022115122845197083,
+          0.0011290668008737416,
+          2.6667091965674744e-05,
+          -7.463044440215571e-06,
+          -3.87343600213813e-06
+        ],
+        [
+          -0.0001647236746170333,
+          5.223315410141014e-05,
+          2.6667091965674744e-05,
+          6.33089143637711e-07,
+          -1.7741254491990715e-07,
+          -9.206271316118619e-08
+        ],
+        [
+          4.609936887996467e-05,
+          -1.4617963715326393e-05,
+          -7.463044440215572e-06,
+          -1.7741254491990715e-07,
+          4.973403624462323e-08,
+          2.5806671547596452e-08
+        ],
+        [
+          2.3926288849811753e-05,
+          -7.5869455153071115e-06,
+          -3.87343600213813e-06,
+          -9.206271316118619e-08,
+          2.5806671547596452e-08,
+          1.3391052235015216e-08
+        ]
+      ],
+      "covariance_note": "Conditional local linearization for independent 0.15 arcsec coordinate errors; not rescaled down by small training chi-square; excludes model/photocenter systematics and alternative orbit branches.",
+      "withheld": [
+        {
+          "sid": "171198373954584702",
+          "visit": "2026111100115",
+          "UTC": "2026-11-12T01:21:40.083",
+          "east_error_arcsec": -0.590398695013131,
+          "north_error_arcsec": -0.27692234655550313,
+          "error_arcsec": 0.6521170179500514,
+          "fixed_radius_arcsec": 60.0,
+          "inside_fixed_radius": true,
+          "predicted_ra_deg": 340.58775273477556,
+          "predicted_dec_deg": -9.506084158434739,
+          "formal_prediction_95pct_semiaxes_arcsec": [
+            6.841186494075735,
+            0.23448165583152103
+          ],
+          "formal_combined_mahalanobis_sigma": 0.26165755078965497,
+          "formal_position_covariance_arcsec2": [
+            [
+              6.59443247727169,
+              2.8309290865733403
+            ],
+            [
+              2.8309290865723087,
+              1.2261619577079064
+            ]
+          ]
+        }
+      ],
+      "local_Gaussian_draws": {
+        "draws": 512,
+        "bound_draws": 512,
+        "note": "Illustrative 16/50/84 percentiles of local state-Gaussian draws, conditional on bound draws. Not a global posterior, confidence interval, size estimate or mass measurement.",
+        "bound_percentiles": {
+          "a_AU": [
+            43.25485615860695,
+            44.951117765924906,
+            54.22217512601271
+          ],
+          "e": [
+            0.06855842568329659,
+            0.21019047374023925,
+            0.4504241714127798
+          ],
+          "heliocentric_distance_AU_at_reference": [
+            44.31767844085434,
+            44.5179885328448,
+            44.74493882690092
+          ]
+        }
+      }
+    },
+    {
+      "name": "2014 WV203",
+      "test_cutoff_UTC": "2026-11-12",
+      "reference_TDB_JD": 2461230.9062862163,
+      "sigma_arcsec_per_coordinate": 0.15,
+      "trial_distances_AU": [
+        2,
+        3,
+        5,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "trials": [
+        {
+          "seed_range_AU": 2,
+          "converged": true,
+          "training_chi2": 0.1223816019537913,
+          "state": [
+            2.3142186933248765,
+            -1.0233342509208683,
+            -0.42404874345679,
+            0.011771766021770567,
+            0.007292829320555245,
+            0.0038977752117560533
+          ],
+          "nfev": 15,
+          "message": "`xtol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 3,
+          "converged": false,
+          "training_chi2": 0.33753031723894256,
+          "state": [
+            2.169643124681884,
+            -1.0139648178848208,
+            -0.4213915102263055,
+            0.004311230007059265,
+            0.009480911578134804,
+            0.00450652587304901
+          ],
+          "nfev": 100,
+          "message": "The maximum number of function evaluations is exceeded.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 5,
+          "converged": false,
+          "training_chi2": 6.358337922231807,
+          "state": [
+            2.300631604622606,
+            -1.0224403397424509,
+            -0.4237952361558079,
+            0.005302860789041876,
+            0.009013402046267787,
+            0.004383686906328145
+          ],
+          "nfev": 100,
+          "message": "The maximum number of function evaluations is exceeded.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 10,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        },
+        {
+          "seed_range_AU": 20,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        },
+        {
+          "seed_range_AU": 40,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        },
+        {
+          "seed_range_AU": 80,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        },
+        {
+          "seed_range_AU": 160,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        }
+      ],
+      "training_ids": [
+        "170644273831608327",
+        "171141198341210168",
+        "171141198384201774",
+        "171141205320532020",
+        "171141205363523626"
+      ],
+      "withheld_ids": [
+        "171198378362798086",
+        "171198378851958839",
+        "171211556189634583"
+      ],
+      "training_dates_UTC": [
+        "2026-07-09",
+        "2026-10-30"
+      ],
+      "training_span_days": 112.67770158266649,
+      "test_used_for_optimizer_or_model_selection": false,
+      "status": "Exploratory bound fit; held-out evaluation below",
+      "state": [
+        2.3142186933248765,
+        -1.0233342509208683,
+        -0.42404874345679,
+        0.011771766021770567,
+        0.007292829320555245,
+        0.0038977752117560533
+      ],
+      "elements": {
+        "heliocentric_distance_AU_at_reference": 2.5656653106883125,
+        "a_AU": 12.476035456921291,
+        "e": 0.8485260756281112,
+        "bound": true,
+        "period_years": 44.067143575386424
+      },
+      "training_chi2": 0.12238160199661373,
+      "training_dof": 4,
+      "training_max_error_arcsec": 0.03591102492070612,
+      "local_jacobian_rank": 6,
+      "covariance_state": [
+        [
+          0.06239007305458578,
+          -0.0040525326483801275,
+          -0.0011493359902196678,
+          0.007029235417463651,
+          -0.0019294789452550106,
+          -0.0005434194829341033
+        ],
+        [
+          -0.004052532648380127,
+          0.0002632314686674455,
+          7.465489464634558e-05,
+          -0.00045664917354274425,
+          0.000125346284038533,
+          3.530262267285864e-05
+        ],
+        [
+          -0.0011493359902196678,
+          7.465489464634559e-05,
+          2.11728253421782e-05,
+          -0.0001295099257360347,
+          3.5549364976130306e-05,
+          1.0012150128978136e-05
+        ],
+        [
+          0.007029235417463652,
+          -0.0004566491735427443,
+          -0.00012950992573603471,
+          0.0008211036679270814,
+          -0.00022498878856961027,
+          -6.337823575774155e-05
+        ],
+        [
+          -0.0019294789452550106,
+          0.00012534628403853304,
+          3.5549364976130306e-05,
+          -0.00022498878856961024,
+          6.165393911767782e-05,
+          1.7367449345189602e-05
+        ],
+        [
+          -0.0005434194829341031,
+          3.530262267285864e-05,
+          1.0012150128978136e-05,
+          -6.337823575774155e-05,
+          1.7367449345189602e-05,
+          4.892284409418947e-06
+        ]
+      ],
+      "covariance_note": "Conditional local linearization for independent 0.15 arcsec coordinate errors; not rescaled down by small training chi-square; excludes model/photocenter systematics and alternative orbit branches.",
+      "withheld": [
+        {
+          "sid": "171198378362798086",
+          "visit": "2026111100148",
+          "UTC": "2026-11-12T01:47:02.731",
+          "east_error_arcsec": -962.8202014467881,
+          "north_error_arcsec": -343.4199328769128,
+          "error_arcsec": 1022.2370301826991,
+          "fixed_radius_arcsec": 60.0,
+          "inside_fixed_radius": false,
+          "predicted_ra_deg": 345.94739855472426,
+          "predicted_dec_deg": -3.9451547217448435,
+          "formal_prediction_95pct_semiaxes_arcsec": [
+            5374.831538558778,
+            13.10352216218305
+          ],
+          "formal_combined_mahalanobis_sigma": 2.3355077643186135,
+          "formal_position_covariance_arcsec2": [
+            [
+              4240357.719840558,
+              1570006.1805620473
+            ],
+            [
+              1570006.1805620885,
+              581332.4601746529
+            ]
+          ]
+        },
+        {
+          "sid": "171198378851958839",
+          "visit": "2026111100151",
+          "UTC": "2026-11-12T01:49:05.616",
+          "east_error_arcsec": -963.0047312819767,
+          "north_error_arcsec": -343.52461702142773,
+          "error_arcsec": 1022.446007002177,
+          "fixed_radius_arcsec": 60.0,
+          "inside_fixed_radius": false,
+          "predicted_ra_deg": 345.9474779483752,
+          "predicted_dec_deg": -3.945121714887779,
+          "formal_prediction_95pct_semiaxes_arcsec": [
+            5375.846036605231,
+            13.106073132428628
+          ],
+          "formal_combined_mahalanobis_sigma": 2.330259177085843,
+          "formal_position_covariance_arcsec2": [
+            [
+              4241934.687357395,
+              1570626.782026352
+            ],
+            [
+              1570626.7820263703,
+              581575.8502969866
+            ]
+          ]
+        },
+        {
+          "sid": "171211556189634583",
+          "visit": "2026111400026",
+          "UTC": "2026-11-15T00:21:48.506",
+          "east_error_arcsec": -1403.0182823375856,
+          "north_error_arcsec": -510.65211046339994,
+          "error_arcsec": 1493.0722736238224,
+          "fixed_radius_arcsec": 60.0,
+          "inside_fixed_radius": false,
+          "predicted_ra_deg": 346.1408814928204,
+          "predicted_dec_deg": -3.8704403345278027,
+          "formal_prediction_95pct_semiaxes_arcsec": [
+            7841.970139997885,
+            16.536858381953124
+          ],
+          "formal_combined_mahalanobis_sigma": 2.2287894285637533,
+          "formal_position_covariance_arcsec2": [
+            [
+              8997536.959058914,
+              3375669.6728788535
+            ],
+            [
+              3375669.672878852,
+              1266525.9694442328
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2013 CR7",
+      "test_cutoff_UTC": "2026-11-12",
+      "reference_TDB_JD": 2461218.924550172,
+      "sigma_arcsec_per_coordinate": 0.15,
+      "trial_distances_AU": [
+        2,
+        3,
+        5,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "trials": [
+        {
+          "seed_range_AU": 2,
+          "converged": true,
+          "training_chi2": 0.5169333517833838,
+          "state": [
+            2.3574507946123227,
+            -1.2204841969287483,
+            -0.5183262952091688,
+            0.003791762296472521,
+            0.008432489758331543,
+            0.003194579282810473
+          ],
+          "nfev": 6,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 3,
+          "converged": true,
+          "training_chi2": 0.5169333518446196,
+          "state": [
+            2.3574507932436064,
+            -1.220484196752339,
+            -0.5183262951383726,
+            0.003791762317994643,
+            0.008432489752828074,
+            0.003194579280198629
+          ],
+          "nfev": 12,
+          "message": "`ftol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 5,
+          "converged": true,
+          "training_chi2": 0.5169333517873546,
+          "state": [
+            2.3574507946893473,
+            -1.2204841969386755,
+            -0.5183262952131527,
+            0.0037917622952596277,
+            0.008432489758641202,
+            0.0031945792829573055
+          ],
+          "nfev": 8,
+          "message": "`xtol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 10,
+          "converged": true,
+          "training_chi2": 0.516933351870441,
+          "state": [
+            2.357450794606545,
+            -1.220484196928004,
+            -0.5183262952088702,
+            0.0037917622965623365,
+            0.008432489758308688,
+            0.00319457928279964
+          ],
+          "nfev": 10,
+          "message": "`xtol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 20,
+          "converged": true,
+          "training_chi2": 0.5169333518524846,
+          "state": [
+            2.3574507946140613,
+            -1.2204841969289724,
+            -0.5183262952092587,
+            0.0037917622964453892,
+            0.008432489758338456,
+            0.003194579282813752
+          ],
+          "nfev": 51,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 40,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        },
+        {
+          "seed_range_AU": 80,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        },
+        {
+          "seed_range_AU": 160,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        }
+      ],
+      "training_ids": [
+        "170591546664026860",
+        "170604731378958388",
+        "171141185997373456",
+        "171141191945945091",
+        "171141198925266948"
+      ],
+      "withheld_ids": [
+        "171198373978701903"
+      ],
+      "training_dates_UTC": [
+        "2026-06-27",
+        "2026-06-30",
+        "2026-10-30"
+      ],
+      "training_span_days": 124.63698011590168,
+      "test_used_for_optimizer_or_model_selection": false,
+      "status": "Exploratory bound fit; held-out evaluation below",
+      "state": [
+        2.3574507946123227,
+        -1.2204841969287483,
+        -0.5183262952091688,
+        0.003791762296472521,
+        0.008432489758331543,
+        0.003194579282810473
+      ],
+      "elements": {
+        "heliocentric_distance_AU_at_reference": 2.704776898798928,
+        "a_AU": 2.4034956876089306,
+        "e": 0.16864270830837896,
+        "bound": true,
+        "period_years": 3.726190213527541
+      },
+      "training_chi2": 0.5169333514404958,
+      "training_dof": 4,
+      "training_max_error_arcsec": 0.08103784791366221,
+      "local_jacobian_rank": 6,
+      "covariance_state": [
+        [
+          4.334215787052478e-06,
+          -5.584315650939772e-07,
+          -2.2407600812765046e-07,
+          -6.761959163419012e-08,
+          1.723197930238716e-08,
+          8.170363313002156e-09
+        ],
+        [
+          -5.584315650939772e-07,
+          7.19522092873156e-08,
+          2.8871133094693566e-08,
+          8.715166584900806e-09,
+          -2.2212807141838304e-09,
+          -1.053233882540434e-09
+        ],
+        [
+          -2.2407600812765046e-07,
+          2.887113309469357e-08,
+          1.1586302168044407e-08,
+          3.4975329655393183e-09,
+          -8.914853518074145e-10,
+          -4.22722519461449e-10
+        ],
+        [
+          -6.76195916341901e-08,
+          8.715166584900808e-09,
+          3.497532965539318e-09,
+          1.0629704951241322e-09,
+          -2.717809841161137e-10,
+          -1.2897798780417262e-10
+        ],
+        [
+          1.723197930238716e-08,
+          -2.2212807141838304e-09,
+          -8.914853518074145e-10,
+          -2.7178098411611374e-10,
+          6.958883773644992e-11,
+          3.3037257533158575e-11
+        ],
+        [
+          8.170363313002156e-09,
+          -1.0532338825404342e-09,
+          -4.22722519461449e-10,
+          -1.2897798780417265e-10,
+          3.3037257533158575e-11,
+          1.5686211991064175e-11
+        ]
+      ],
+      "covariance_note": "Conditional local linearization for independent 0.15 arcsec coordinate errors; not rescaled down by small training chi-square; excludes model/photocenter systematics and alternative orbit branches.",
+      "withheld": [
+        {
+          "sid": "171198373978701903",
+          "visit": "2026111100115",
+          "UTC": "2026-11-12T01:21:40.083",
+          "east_error_arcsec": -0.006398934891217481,
+          "north_error_arcsec": -0.05323017772889551,
+          "error_arcsec": 0.05361341426335555,
+          "fixed_radius_arcsec": 60.0,
+          "inside_fixed_radius": true,
+          "predicted_ra_deg": 341.32410272994616,
+          "predicted_dec_deg": -9.357506263760476,
+          "formal_prediction_95pct_semiaxes_arcsec": [
+            9.638537223380315,
+            0.3594378257299681
+          ],
+          "formal_combined_mahalanobis_sigma": 0.19078491705292713,
+          "formal_position_covariance_arcsec2": [
+            [
+              10.439862638182772,
+              7.264752177636482
+            ],
+            [
+              7.264752177636657,
+              5.087325184973912
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2014 WV203",
+      "test_cutoff_UTC": "2026-11-15",
+      "reference_TDB_JD": 2461230.9062862163,
+      "sigma_arcsec_per_coordinate": 0.15,
+      "trial_distances_AU": [
+        2,
+        3,
+        5,
+        10,
+        20,
+        40,
+        80,
+        160
+      ],
+      "trials": [
+        {
+          "seed_range_AU": 2,
+          "converged": true,
+          "training_chi2": 0.2584310416238064,
+          "state": [
+            2.163095189066925,
+            -1.013541388240516,
+            -0.421271422299486,
+            0.004367734567540022,
+            0.009475767067682956,
+            0.004504570169529601
+          ],
+          "nfev": 6,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 3,
+          "converged": true,
+          "training_chi2": 0.25843104163938296,
+          "state": [
+            2.1630951890669623,
+            -1.0135413882405182,
+            -0.4212714222994869,
+            0.00436773456752776,
+            0.009475767067686117,
+            0.004504570169530483
+          ],
+          "nfev": 11,
+          "message": "`xtol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 5,
+          "converged": true,
+          "training_chi2": 0.25843104163991887,
+          "state": [
+            2.16309518906705,
+            -1.013541388240524,
+            -0.42127142229948833,
+            0.004367734567527346,
+            0.009475767067686108,
+            0.004504570169530487
+          ],
+          "nfev": 9,
+          "message": "`xtol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 10,
+          "converged": true,
+          "training_chi2": 0.2584310416775645,
+          "state": [
+            2.1630951890667545,
+            -1.0135413882405049,
+            -0.4212714222994831,
+            0.004367734567529464,
+            0.00947576706768595,
+            0.004504570169530415
+          ],
+          "nfev": 11,
+          "message": "Both `ftol` and `xtol` termination conditions are satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 20,
+          "converged": true,
+          "training_chi2": 0.25843104164515107,
+          "state": [
+            2.1630951890669703,
+            -1.0135413882405189,
+            -0.4212714222994869,
+            0.0043677345675276445,
+            0.009475767067686134,
+            0.004504570169530489
+          ],
+          "nfev": 44,
+          "message": "`xtol` termination condition is satisfied.",
+          "bound": true
+        },
+        {
+          "seed_range_AU": 40,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        },
+        {
+          "seed_range_AU": 80,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        },
+        {
+          "seed_range_AU": 160,
+          "converged": false,
+          "error": "8-second initialization budget exceeded"
+        }
+      ],
+      "training_ids": [
+        "170644273831608327",
+        "171141198341210168",
+        "171141198384201774",
+        "171141205320532020",
+        "171141205363523626",
+        "171198378362798086",
+        "171198378851958839"
+      ],
+      "withheld_ids": [
+        "171211556189634583"
+      ],
+      "training_dates_UTC": [
+        "2026-07-09",
+        "2026-10-30",
+        "2026-11-12"
+      ],
+      "training_span_days": 125.67027395917103,
+      "test_used_for_optimizer_or_model_selection": false,
+      "status": "Exploratory bound fit; held-out evaluation below",
+      "state": [
+        2.163095189066925,
+        -1.013541388240516,
+        -0.421271422299486,
+        0.004367734567540022,
+        0.009475767067682956,
+        0.004504570169529601
+      ],
+      "elements": {
+        "heliocentric_distance_AU_at_reference": 2.4256373500354953,
+        "a_AU": 2.5769868660587845,
+        "e": 0.09477018064365775,
+        "bound": true,
+        "period_years": 4.1368360336881
+      },
+      "training_chi2": 0.25843104138495643,
+      "training_dof": 8,
+      "training_max_error_arcsec": 0.058424705636470675,
+      "local_jacobian_rank": 6,
+      "covariance_state": [
+        [
+          2.911510904285307e-07,
+          -1.8850766954913243e-08,
+          -5.233676202110152e-09,
+          -1.0219765437482594e-08,
+          2.3004310207844204e-09,
+          6.672600597835015e-10
+        ],
+        [
+          -1.8850766954913243e-08,
+          1.2223625212806863e-09,
+          3.388743092103956e-10,
+          6.614451989293678e-10,
+          -1.4889339149784262e-10,
+          -4.3184472054807756e-11
+        ],
+        [
+          -5.233676202110152e-09,
+          3.3887430921039563e-10,
+          9.589913317868402e-11,
+          1.836123797115485e-10,
+          -4.132667610531379e-11,
+          -1.2001429983013373e-11
+        ],
+        [
+          -1.0219765437482595e-08,
+          6.614451989293678e-10,
+          1.836123797115485e-10,
+          3.6042690673620716e-10,
+          -8.119889425649347e-11,
+          -2.3547834972029482e-11
+        ],
+        [
+          2.30043102078442e-09,
+          -1.4889339149784262e-10,
+          -4.132667610531379e-11,
+          -8.119889425649345e-11,
+          1.829576823171692e-11,
+          5.305587697747985e-12
+        ],
+        [
+          6.672600597835015e-10,
+          -4.318447205480776e-11,
+          -1.2001429983013375e-11,
+          -2.3547834972029482e-11,
+          5.305587697747985e-12,
+          1.5387170868336293e-12
+        ]
+      ],
+      "covariance_note": "Conditional local linearization for independent 0.15 arcsec coordinate errors; not rescaled down by small training chi-square; excludes model/photocenter systematics and alternative orbit branches.",
+      "withheld": [
+        {
+          "sid": "171211556189634583",
+          "visit": "2026111400026",
+          "UTC": "2026-11-15T00:21:48.506",
+          "east_error_arcsec": -0.478365377318531,
+          "north_error_arcsec": -0.24794115012893522,
+          "error_arcsec": 0.538802605923811,
+          "fixed_radius_arcsec": 60.0,
+          "inside_fixed_radius": true,
+          "predicted_ra_deg": 346.53136956624155,
+          "predicted_dec_deg": -3.72874764953166,
+          "formal_prediction_95pct_semiaxes_arcsec": [
+            1.839934481703229,
+            0.1702670794375817
+          ],
+          "formal_combined_mahalanobis_sigma": 0.7156795600193623,
+          "formal_position_covariance_arcsec2": [
+            [
+              0.42650293687597973,
+              0.24168580297921785
+            ],
+            [
+              0.2416858029791868,
+              0.14336604065311884
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "source_hashes": {
+    "2001_QY297-sources.json": "3f431076a26b3c43f916b1372ee476832f5b0d9b178100a7b986fcb21e67bb40",
+    "2001_QY297-sun-barycentric.json": "c0f07b52adaf91d28b0139a623f64f82ad142e1758b5bb0e61d2db9aa3aeed64",
+    "2001_QY297-sun-from-observer.json": "40ca900f583b6a4d690632e454708ff72e370b3200e3fe71567035f0a46115cd",
+    "2013_CR7-sources.json": "f137add7c15b51e18d9bb7b722b90492152732f50bed8a8d356a6571257b3e00",
+    "2013_CR7-sun-barycentric.json": "e636e5a12d14b502795586b6072d6e20a137a6afdc8c7ef4050fd6f4434d5996",
+    "2013_CR7-sun-from-observer.json": "0fa3ab954e02c60884d95a3dfa8377eaa47e00efc9383daafb8abcda4df64a45",
+    "2014_WV203-sources.json": "d15e47f98b0a904c97699d450630144f13695aa80758af1b3b9bf632c6842605",
+    "2014_WV203-sun-barycentric.json": "e55ca892b86a701ccd99136e83ce7d2e81550d6e4598e922219c90bc11478d63",
+    "2014_WV203-sun-from-observer.json": "fb52f9fb1231e532d8014aed2f23199f6ab3e83c21b72611b732b045c441c802"
+  },
+  "script_sha256": "06cb1ecc86f0d8610208d96120e3be0c739372998be4a29c4a2c8e34a95a5f32"
+}

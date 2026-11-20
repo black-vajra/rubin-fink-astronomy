@@ -194,7 +194,8 @@ def main():
         "resolved the mutual orbit, measured component masses, or established sizes/densities. "
         "If blended, orbital photocenter motion can contribute astrometric scatter; this report does not quantify it.", "",
         "## What remains", "",
-        "1. Execute the full-night local recovery and inspect all competing matches inside the fixed radius.",
+        ("1. Repeat recovery across additional withheld nights and known TNO controls."
+         if archive else "1. Execute the full-night local recovery and inspect all competing matches inside the fixed radius."),
         "2. Fit a physical orbit to pre-test observations and propagate prediction uncertainty; add more withheld nights/controls.",
         "3. Obtain usable detector footprints and masks before interpreting matched-footprint comparison counts or false-match rates.",
         "4. Only then extend to unknown slow movers. QY297 is a known binary, with no Planet Nine identification or new mass claim.", "",

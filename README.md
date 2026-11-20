@@ -29,6 +29,7 @@ No unknown-body discovery, Planet Nine identification or mass measurement has be
 
 ## Latest reports
 
+- [November 20 restricted-watchlist physical orbit benchmark](reports/2026/11/20/physical-orbit-watchlist/report.md)
 - [November 20 QY297 distant-binary investigation](reports/2026/11/20/qy297-investigation/report.md)
 - [November 20 extragalactic report](reports/2026/11/20/2026-11-20-extragalactic-report.md)
 - [November 20 moving-object report](reports/2026/11/20/2026-11-20-moving-object-report.md)

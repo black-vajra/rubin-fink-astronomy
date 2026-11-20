@@ -1,6 +1,7 @@
 # Collection of dependencies used across the preserved scripts.
 # This is an installation aid, not a fully reproducible environment lock.
 numpy
+scipy
 astropy
 pyarrow
 fastavro
