@@ -1,0 +1,58 @@
+{
+  "generated_UTC": "2026-11-20T16:51:02.784766+00:00",
+  "requests": [
+    {
+      "file": "fink-name.json",
+      "method": "POST",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sso",
+      "parameters": {
+        "n_or_d": "2001 QY297",
+        "output-format": "json"
+      },
+      "saved_UTC_from_filesystem_mtime": "2026-11-20T16:44:45.485803+00:00",
+      "sha256": "3f431076a26b3c43f916b1372ee476832f5b0d9b178100a7b986fcb21e67bb40"
+    },
+    {
+      "file": "fink-number.json",
+      "method": "POST",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sso",
+      "parameters": {
+        "n_or_d": "275809",
+        "output-format": "json"
+      },
+      "saved_UTC_from_filesystem_mtime": "2026-11-20T16:44:45.614199+00:00",
+      "sha256": "3f431076a26b3c43f916b1372ee476832f5b0d9b178100a7b986fcb21e67bb40"
+    },
+    {
+      "file": "jpl-sbdb.json",
+      "method": "GET",
+      "endpoint": "https://ssd-api.jpl.nasa.gov/sbdb.api",
+      "parameters": {
+        "sstr": "275809",
+        "full-prec": "true"
+      },
+      "saved_UTC_from_filesystem_mtime": "2026-11-20T16:44:45.523545+00:00",
+      "sha256": "7463efb838cb6c434c29d94b07de7c2c9b042f79a5b8779ae6b1f4698f91e9c4"
+    }
+  ],
+  "timestamps_note": "Retrieval times taken from saved response file modification times, not server timestamps.",
+  "Horizons": "Responses retained in ephemeris-cache; request construction and observer/time/frame choices in src/historical/slow-control-recovery.py. Exact epochs retained in source rows/results.",
+  "literature": {
+    "url": "https://arxiv.org/abs/1103.2751",
+    "DOI": "10.1016/j.icarus.2011.03.012",
+    "table": 8,
+    "period_days": [
+      138.11,
+      0.023
+    ],
+    "mutual_semimajor_axis_km": [
+      9960,
+      31
+    ],
+    "system_mass_kg": [
+      4.105e+18,
+      3.8e+16
+    ],
+    "note": "Reported literature values, not measurements made by this project."
+  }
+}

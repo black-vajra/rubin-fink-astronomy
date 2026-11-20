@@ -1,5 +1,7 @@
 # Status · November 20, 2026
 
+Later moving-object addendum: [2001 QY297 investigation](../reports/2026/11/20/qy297-investigation/report.md) retrieved ten catalog detections and checked them against JPL within 0.140 arcsecond. Simple angular fits failed the existing 60-arcsecond November 12 radius. QY297 is a published binary with an external system-mass benchmark; no new mass was measured. Full-night QY297 recovery remains to run against the Pots database using `bash tools/run-qy297-review.sh`. [Journal e](../journal/2026/11/2026-11-20e-rubin-journal.md) records this work. The paragraphs below retain earlier status observations; later dated reports supersede them.
+
 Seven fresh Fink queries found no added or removed source IDs in four watchlist histories or two named slow-control histories compared with saved November 19 responses. November statistics still ended November 15.
 
 The official repair notice last found earlier on November 20 was dated November 17. It described loss of pumped-coolant cooling capacity on November 15, safe camera shutdown and continued troubleshooting. No restart date was established in that check. This is a dated status observation, not a continuously updated operations feed.

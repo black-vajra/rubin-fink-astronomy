@@ -1,0 +1,66 @@
+<!doctype html><meta charset=utf-8><title>QY297 investigation</title><pre style='white-space:pre-wrap;max-width:1000px;margin:2em auto;font:16px/1.5 system-ui'># 2001 QY297 · distant-binary investigation
+
+Generated 2026-11-20T16:51:03+00:00.
+
+Identity: **275809 (2001 QY297)**; Fink ssObjectId **21163611629303641**.
+
+Ten unique returned detections on six UTC dates, June 27–November 12. Name and number queries agree. Only four detections (October 30 and November 12) fall inside the original July 16–November 15 interval. The earlier six explicitly extend this target&#x27;s investigation outside that interval. Returned history is not a completeness guarantee.
+
+## Position check against JPL
+
+Rubin topocenter X05; astrometric ICRF positions. TAI measurement times converted to UTC before Horizons queries. No time shift or positional offset fitted. This is an external known-orbit check, not an independent orbit solution.
+
+| UTC | Band | Source ID | JPL miss (arcsec) |
+|---|---|---|---:|
+| 2026-06-27T09:45:55.450 | i | 170591542309814341 | 0.0114 |
+| 2026-06-27T09:46:38.513 | i | 170591542522151093 | 0.0395 |
+| 2026-06-30T07:54:52.648 | i | 170604720644161575 | 0.0480 |
+| 2026-07-09T08:14:39.027 | i | 170644257014546577 | 0.1398 |
+| 2026-07-12T08:36:00.457 | r | 170657506293973037 | 0.1276 |
+| 2026-07-12T09:12:03.533 | i | 170657513273294899 | 0.1234 |
+| 2026-10-30T00:19:56.947 | i | 171141185995800664 | 0.0890 |
+| 2026-10-30T00:51:21.895 | r | 171141191944372349 | 0.0764 |
+| 2026-10-30T01:27:27.034 | i | 171141198923694290 | 0.0924 |
+| 2026-11-12T01:21:40.083 | i | 171198373954584702 | 0.0940 |
+
+All ten have pixelFlags=False, centroid_flag=False and isDipole=False: **True**. These checks do not certify all astrometric or image-quality effects.
+
+## Training-only angular prediction diagnostics
+
+November 12 is excluded from each fit. The project radius remains **60 arcsec**, established before these scores. These retrospective diagnostics were selected after the catalog detection was known; they are not a prospective blind search. Polynomials fit unweighted offsets on the sky and omit observer parallax and orbital dynamics.
+
+| Fit | Training points | November 12 miss (arcsec) | Inside 60 arcsec? |
+|---|---:|---:|---|
+| October 30 only, linear | 3 | 128.766 | False |
+| June 27–October 30, linear | 9 | 408.081 | False |
+| June 27–October 30, quadratic | 9 | 793.969 | False |
+| External JPL orbit | Not fitted here | 0.0940 | True |
+
+Adding a longer arc to an unsuitable angular model did not improve extrapolation. Next independent prediction gate: a physical orbit fit using earlier measurements, with observer motion, light travel time and uncertainty, tested on withheld epochs.
+
+## Full-night recovery against the local archive
+
+**Not run in this report.** The complete Pots database is not present in this workspace. Use --db with the local archive to perform this test. The 0.094 arcsec catalog match alone is not a rank against all 235,039 November 12 alerts.
+
+## Published binary and mass benchmark
+
+JPL classifies this as a trans-Neptunian object: osculating heliocentric semimajor axis **43.7575 AU**, perihelion **40.1882 AU**, aphelion **47.3268 AU**, period **289.46 years** (SBDB solution 23; element epoch JD 2461200.5 TDB). These are orbit parameters, not its instantaneous distance.
+
+Grundy et al. (2011), Table 8, report a resolved **binary mutual** period **138.110 ± 0.023 days**, relative semimajor axis **9,960 ± 31 km**, and **total system mass (4.105 ± 0.038) × 10^18 kg**. This is a literature measurement from Hubble/Keck observations, not a mass measured by our Rubin analysis. The mutual and heliocentric orbits are distinct. Recomputing 4π²a³/(G P²) from the rounded published a and P gives approximately 4.104 × 10^18 kg; it reuses their measurements, so it is not independent validation.
+
+This provides an external dynamical-mass benchmark. Rubin alert astrometry/brightness alone has not resolved the mutual orbit, measured component masses, or established sizes/densities. If blended, orbital photocenter motion can contribute astrometric scatter; this report does not quantify it.
+
+## What remains
+
+1. Execute the full-night local recovery and inspect all competing matches inside the fixed radius.
+2. Fit a physical orbit to pre-test observations and propagate prediction uncertainty; add more withheld nights/controls.
+3. Obtain usable detector footprints and masks before interpreting matched-footprint comparison counts or false-match rates.
+4. Only then extend to unknown slow movers. QY297 is a known binary, with no Planet Nine identification or new mass claim.
+
+## Sources and provenance
+
+- Fink SSO API: https://api.lsst.fink-portal.org/api/v1/sso ; POST queries by designation and number retained in provenance.json.
+- JPL SBDB: https://ssd-api.jpl.nasa.gov/sbdb.api?sstr=275809&amp;full-prec=true ; original JSON retained.
+- JPL Horizons: https://ssd.jpl.nasa.gov/horizons/ ; raw responses cached; exact request parameters in the source helper.
+- Grundy et al. 2011: https://arxiv.org/abs/1103.2751 ; DOI https://doi.org/10.1016/j.icarus.2011.03.012 ; Table 8.
+</pre>

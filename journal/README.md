@@ -12,3 +12,4 @@
 New entries use their actual local date. Same-day additions get `b`, then `c`. Existing entries remain historical evidence. Later interpretation is recorded separately.
 
 - [November 20d — extragalactic investigation](2026/11/2026-11-20d-rubin-journal.md)
+- [November 20e — QY297 distant-binary investigation](2026/11/2026-11-20e-rubin-journal.md)
