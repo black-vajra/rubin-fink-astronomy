@@ -1,0 +1,8 @@
+[Unit]
+Description=Generate the Rubin morning research report
+After=rubin-quasar-report.service
+
+[Service]
+Type=oneshot
+ExecStart=%h/rubin-live/venv/bin/python %h/rubin-live/research/rubin-morning-research.py
+TimeoutStartSec=15min

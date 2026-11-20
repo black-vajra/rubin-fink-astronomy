@@ -1,0 +1,9 @@
+[Unit]
+Description=Run the Rubin research report at 9:10 AM Eastern
+
+[Timer]
+OnCalendar=*-*-* 09:10:00 America/New_York
+AccuracySec=1s
+
+[Install]
+WantedBy=timers.target

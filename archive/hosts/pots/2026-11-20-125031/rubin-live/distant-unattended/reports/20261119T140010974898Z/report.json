@@ -1,0 +1,1350 @@
+{
+  "version": "0.2.0",
+  "generated_utc": "2026-11-19T14:00:10+00:00",
+  "freshness": "HISTORICAL | age 4.4 days | 2026-11-15T05:30:32.245Z",
+  "observation_span": {
+    "earliest_utc": "2026-11-05T02:07:51.950Z",
+    "latest_utc": "2026-11-15T05:30:32.245Z",
+    "earliest_mjd_tai": 61349.08922396322,
+    "latest_mjd_tai": 61359.229968116575,
+    "elapsed_seconds": 876160.295
+  },
+  "fields": [
+    {
+      "label": "Pots smoke field near the 2015 XX21 control",
+      "ra": 34.492974069194425,
+      "dec": -4.652331088966105,
+      "radius": 1800.0,
+      "attempted": 0.0,
+      "description": "User-selected patch; no inferred survey completeness."
+    }
+  ],
+  "warnings": [
+    "Experimental linkage proposals, not confirmed objects or discoveries. A trial heliocentric radius is a MODEL INPUT, not a measured distance.",
+    "No orbit fit, acceleration fit, radial-velocity solution, mass measurement, or planetary classification. Fixed-radius short-arc models can be degenerate and can produce accidental linkages.",
+    "One filter at a time; >=6 visits on >=4 UTC-noon night bins spanning 7\u201390 days. These cuts sacrifice sensitivity. Capped samples, point/seed budgets, and historical data are explicitly recorded.",
+    "A missing ssObjectId or absent catalog match does not prove novelty. SkyBoT is checked only for a bounded number of top proposals; service failures remain UNCHECKED. Image inspection and independent orbital follow-up are required.",
+    "Size scenarios assume all measured science flux belongs to one unblended reflecting body, zero phase angle, an SDSS-r solar proxy, and r-band geometric albedo 0.04\u20130.60. They are not measured sizes, masses, or probabilities.",
+    "The model uses a geocentric observer and builtin solar ephemerides, a 0.20 arcsec per-axis systematic error floor, and a 20% angular-speed allowance. Topocentric offsets, light-time dynamics, RA\u2013Dec covariance, calibration systematics, and full gravitational dynamics are not modeled.",
+    "The AVRO run uses the current detection from each saved packet. Embedded histories are not ingested.",
+    "The saved topic is a sampled stream. Analysis covers only the configured sky patches and does not establish survey completeness."
+  ],
+  "analysis_budgets": [
+    {
+      "field": "Pots smoke field near the 2015 XX21 control",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "Pots smoke field near the 2015 XX21 control",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "Pots smoke field near the 2015 XX21 control",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "Pots smoke field near the 2015 XX21 control",
+      "band": "i",
+      "input_points": 25,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 25
+    },
+    {
+      "field": "Pots smoke field near the 2015 XX21 control",
+      "band": "z",
+      "input_points": 8,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 8
+    },
+    {
+      "field": "Pots smoke field near the 2015 XX21 control",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    }
+  ],
+  "proposals": [],
+  "recent_runs": [
+    {
+      "id": 16,
+      "utc": "2026-11-19T14:00:10+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 25,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 25
+          },
+          {
+            "band": "z",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 8,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 8
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 2696,
+        "proposals": 0,
+        "total_records": 6579
+      }
+    },
+    {
+      "id": 15,
+      "utc": "2026-11-19T14:00:10+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 6579,
+        "inserted": 0,
+        "known_sso": 1645,
+        "packets": 6579,
+        "unassociated": 4934,
+        "unchanged": 6579,
+        "updated": 0
+      }
+    },
+    {
+      "id": 14,
+      "utc": "2026-11-18T14:01:09+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 25,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 25
+          },
+          {
+            "band": "z",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 8,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 8
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 2696,
+        "proposals": 0,
+        "total_records": 6579
+      }
+    },
+    {
+      "id": 13,
+      "utc": "2026-11-18T14:01:09+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 6579,
+        "inserted": 0,
+        "known_sso": 1645,
+        "packets": 6579,
+        "unassociated": 4934,
+        "unchanged": 6579,
+        "updated": 0
+      }
+    },
+    {
+      "id": 12,
+      "utc": "2026-11-17T17:38:50+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 25,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 25
+          },
+          {
+            "band": "z",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 8,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 8
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 2696,
+        "proposals": 0,
+        "total_records": 6579
+      }
+    },
+    {
+      "id": 11,
+      "utc": "2026-11-17T17:38:50+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 6579,
+        "inserted": 0,
+        "known_sso": 1645,
+        "packets": 6579,
+        "unassociated": 4934,
+        "unchanged": 6579,
+        "updated": 0
+      }
+    },
+    {
+      "id": 10,
+      "utc": "2026-11-16T14:00:57+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 25,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 25
+          },
+          {
+            "band": "z",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 8,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 8
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 2696,
+        "proposals": 0,
+        "total_records": 6579
+      }
+    },
+    {
+      "id": 9,
+      "utc": "2026-11-16T14:00:56+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 6579,
+        "inserted": 0,
+        "known_sso": 1645,
+        "packets": 6579,
+        "unassociated": 4934,
+        "unchanged": 6579,
+        "updated": 0
+      }
+    },
+    {
+      "id": 8,
+      "utc": "2026-11-15T14:00:34+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 25,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 25
+          },
+          {
+            "band": "z",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 8,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 8
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 2696,
+        "proposals": 0,
+        "total_records": 6579
+      }
+    },
+    {
+      "id": 7,
+      "utc": "2026-11-15T14:00:34+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 6579,
+        "inserted": 1194,
+        "known_sso": 1645,
+        "packets": 6579,
+        "unassociated": 4934,
+        "unchanged": 5385,
+        "updated": 0
+      }
+    },
+    {
+      "id": 6,
+      "utc": "2026-11-14T14:01:04+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 24,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 24
+          },
+          {
+            "band": "z",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 8,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 8
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 2221,
+        "proposals": 0,
+        "total_records": 5385
+      }
+    },
+    {
+      "id": 5,
+      "utc": "2026-11-14T14:01:03+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 5385,
+        "inserted": 0,
+        "known_sso": 1360,
+        "packets": 5385,
+        "unassociated": 4025,
+        "unchanged": 5385,
+        "updated": 0
+      }
+    },
+    {
+      "id": 4,
+      "utc": "2026-11-14T13:09:41+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 24,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 24
+          },
+          {
+            "band": "z",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 8,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 8
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 2221,
+        "proposals": 0,
+        "total_records": 5385
+      }
+    },
+    {
+      "id": 3,
+      "utc": "2026-11-14T13:09:41+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 5385,
+        "inserted": 4434,
+        "known_sso": 1360,
+        "packets": 5385,
+        "unassociated": 4025,
+        "unchanged": 951,
+        "updated": 0
+      }
+    },
+    {
+      "id": 2,
+      "utc": "2026-11-14T11:39:22+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 3,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "z",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 1,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "Pots smoke field near the 2015 XX21 control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 451,
+        "proposals": 0,
+        "total_records": 951
+      }
+    },
+    {
+      "id": 1,
+      "utc": "2026-11-14T11:39:22+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 951,
+        "inserted": 951,
+        "known_sso": 215,
+        "packets": 951,
+        "unassociated": 736,
+        "unchanged": 0,
+        "updated": 0
+      }
+    }
+  ],
+  "fetch_errors": []
+}

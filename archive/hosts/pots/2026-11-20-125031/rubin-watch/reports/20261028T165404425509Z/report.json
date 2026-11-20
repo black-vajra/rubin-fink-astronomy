@@ -1,0 +1,823 @@
+{
+  "version": "1.0.0",
+  "generated_utc": "2026-10-28T16:54:04+00:00",
+  "latest_observation": "HISTORICAL | age 106.3 days | 2026-07-14T10:03:00.470Z",
+  "totals": {
+    "detections": 1584,
+    "objects": 242,
+    "usable": 1209,
+    "stored_versions": 1594
+  },
+  "limitations": [
+    "Selected public-API samples, not the complete Rubin survey. A full-sized response means possible omissions. Even overlapping samples cannot prove complete coverage.",
+    "Newly downloaded is not newly observed. Historical observations remain labelled historical.",
+    "Photometry uses signed difference-image flux in nJy, separated by filter. It is not total brightness. Thresholds are exploratory and uncorrected for selection/multiple tests.",
+    "Position fits are within one broker-associated object, within one filter, on short arcs. They can reflect mis-association, centroid errors, parallax, proper motion, or artifacts. No cross-object linking or orbit fitting is performed; this is not a Planet Nine search.",
+    "Broker catalog matches are recorded when present. No independent catalog search, image-cutout inspection, or scientific confirmation is performed automatically.",
+    "Quality flags may be absent or unpopulated. Unknown quality is retained, but those measurements are excluded from the watchlist. Reliability is displayed, not trusted as a gate.",
+    "Daily reports use a rolling 24-hour schedule while this program runs. Stopping the computer stops collection; the next run reports the elapsed gap."
+  ],
+  "candidates": [
+    {
+      "key": "170019717277810735/flux:g",
+      "oid": "170019717277810735",
+      "kind": "flux:g",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "2524b3dcb9d7e93e63dd1448a3361df641993be7ef0e14cbe2db8569e4fe7f4d",
+      "evidence": {
+        "band": "g",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 42320.275,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 240.48,
+        "independent_visits": 125,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 16
+      }
+    },
+    {
+      "key": "170019717277810735/flux:i",
+      "oid": "170019717277810735",
+      "kind": "flux:i",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "a479bcfe6f805f81dfdcd7d3ced7343faa2e2deb8328d92dc8665d11fb9d04dc",
+      "evidence": {
+        "band": "i",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 28807.813,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 171.17,
+        "independent_visits": 268,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 20
+      }
+    },
+    {
+      "key": "170019717277810735/flux:r",
+      "oid": "170019717277810735",
+      "kind": "flux:r",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "774a6385da46e377ae85c501c4d48d117c5aa7d74117054c4fe6a9315a6402ee",
+      "evidence": {
+        "band": "r",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 39502.664,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 117.96,
+        "independent_visits": 122,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 19
+      }
+    },
+    {
+      "key": "170019717277810735/flux:z",
+      "oid": "170019717277810735",
+      "kind": "flux:z",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "3e1c0f9b5e284c0d5ca88ebc922180cbf433ca9a43a8c7a6ab643aea89ba12bd",
+      "evidence": {
+        "band": "z",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 15833.743,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 25.61,
+        "independent_visits": 101,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 14
+      }
+    },
+    {
+      "key": "170019717277810735/repeated-hostless:g",
+      "oid": "170019717277810735",
+      "kind": "repeated-hostless:g",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "8905eb28c389d87a817e7dbafcefe4106a79c5254470a769f19a1bde6e9bf444",
+      "evidence": {
+        "band": "g",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "explanation": "Repeated >=5-S/N detections in a broker hostless selection; hostlessness and novelty remain unverified.",
+        "independent_visits": 125,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 16
+      }
+    },
+    {
+      "key": "170019717277810735/repeated-hostless:i",
+      "oid": "170019717277810735",
+      "kind": "repeated-hostless:i",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "57489a972dda81ca2349de3f326fe8be1d14b09a7b7d793281af89e9ae6381e5",
+      "evidence": {
+        "band": "i",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "explanation": "Repeated >=5-S/N detections in a broker hostless selection; hostlessness and novelty remain unverified.",
+        "independent_visits": 268,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 20
+      }
+    },
+    {
+      "key": "170019717277810735/repeated-hostless:r",
+      "oid": "170019717277810735",
+      "kind": "repeated-hostless:r",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "3cf6e7ab6a7d26fbae4bf85c907d22d3acbe0f336995a2638560ba76b866a1b7",
+      "evidence": {
+        "band": "r",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "explanation": "Repeated >=5-S/N detections in a broker hostless selection; hostlessness and novelty remain unverified.",
+        "independent_visits": 122,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 19
+      }
+    },
+    {
+      "key": "170019717277810735/repeated-hostless:y",
+      "oid": "170019717277810735",
+      "kind": "repeated-hostless:y",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "82f91f8bd6bd46328da0c42ebf0d655495e67344008beefc60d7f7f13aa75bb5",
+      "evidence": {
+        "band": "y",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "explanation": "Repeated >=5-S/N detections in a broker hostless selection; hostlessness and novelty remain unverified.",
+        "independent_visits": 8,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 4
+      }
+    },
+    {
+      "key": "170019717277810735/repeated-hostless:z",
+      "oid": "170019717277810735",
+      "kind": "repeated-hostless:z",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "f65ee6e8a01653e4609c52e6dc8caad61f179d15c81a46ce701f5f54acb0713e",
+      "evidence": {
+        "band": "z",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "nan",
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_legacydr8_e_zphot": 0.273,
+          "f:xm_legacydr8_fqual": 1,
+          "f:xm_legacydr8_pstar": 0.021,
+          "f:xm_legacydr8_zphot": 0.582,
+          "f:xm_simbad_otype": "nan",
+          "f:xm_tns_fullname": "AT 2026ctw",
+          "f:xm_tns_redshift": 0.15,
+          "f:xm_tns_type": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "explanation": "Repeated >=5-S/N detections in a broker hostless selection; hostlessness and novelty remain unverified.",
+        "independent_visits": 101,
+        "latest_mjd_tai": 61190.9742287726,
+        "object_id": "170019717277810735",
+        "tags": [
+          "hostless_candidate"
+        ],
+        "tai_day_bins": 14
+      }
+    },
+    {
+      "key": "170028485720932363/flux:g",
+      "oid": "170028485720932363",
+      "kind": "flux:g",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "7f151cabbb8475d1e559b95f295044e4357eda512e138ecc8c36f30f4a03bb3c",
+      "evidence": {
+        "band": "g",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4837036978149432832",
+          "f:xm_gaiadr3_Plx": 5.3256,
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_gaiadr3_e_Plx": 0.1074,
+          "f:xm_legacydr8_e_zphot": 0.756,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 1.0,
+          "f:xm_legacydr8_zphot": 0.597,
+          "f:xm_simbad_otype": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 2393.173,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 11.7,
+        "independent_visits": 11,
+        "latest_mjd_tai": 61235.4187436385,
+        "object_id": "170028485720932363",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 3
+      }
+    },
+    {
+      "key": "170028485720932363/flux:r",
+      "oid": "170028485720932363",
+      "kind": "flux:r",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "680dfaa9f0fcbe09493f4be9c85d0e4ee7cdda0befd60513b34e437eabd7f14b",
+      "evidence": {
+        "band": "r",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4837036978149432832",
+          "f:xm_gaiadr3_Plx": 5.3256,
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_gaiadr3_e_Plx": 0.1074,
+          "f:xm_legacydr8_e_zphot": 0.756,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 1.0,
+          "f:xm_legacydr8_zphot": 0.597,
+          "f:xm_simbad_otype": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 8923.367,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 27.83,
+        "independent_visits": 5,
+        "latest_mjd_tai": 61235.4187436385,
+        "object_id": "170028485720932363",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 3
+      }
+    },
+    {
+      "key": "170028485720932363/position:g",
+      "oid": "170028485720932363",
+      "kind": "position:g",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "7bae443192ef4e8bc21be9ac41ddecbb30a85c06317a8ae138cbc6194941754d",
+      "evidence": {
+        "band": "g",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4837036978149432832",
+          "f:xm_gaiadr3_Plx": 5.3256,
+          "f:xm_gaiadr3_VarFlag": "0",
+          "f:xm_gaiadr3_e_Plx": 0.1074,
+          "f:xm_legacydr8_e_zphot": 0.756,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 1.0,
+          "f:xm_legacydr8_zphot": 0.597,
+          "f:xm_simbad_otype": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "explanation": "Centroid drift within ONE associated object/filter; review association and images. Not an unknown-body identification.",
+        "heuristic_motion_sigma": 6.4,
+        "independent_visits": 11,
+        "latest_mjd_tai": 61235.4187436385,
+        "object_id": "170028485720932363",
+        "rate_arcsec_day": 0.21016,
+        "reduced_chi2_x": 1.981,
+        "reduced_chi2_y": 1.245,
+        "span_days": 4.994,
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ]
+      }
+    },
+    {
+      "key": "170028485732991897/flux:g",
+      "oid": "170028485732991897",
+      "kind": "flux:g",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "d650d23533db59afe91e3acf73e0a8d1b33d76753f267610e5b9b3f46b1fd811",
+      "evidence": {
+        "band": "g",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4837361334081031424",
+          "f:xm_gaiadr3_Plx": 0.703,
+          "f:xm_gaiadr3_VarFlag": "1",
+          "f:xm_gaiadr3_e_Plx": 0.4647,
+          "f:xm_legacydr8_e_zphot": 0.595,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 0.002,
+          "f:xm_legacydr8_zphot": 1.054,
+          "f:xm_simbad_otype": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 31257.471,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 66.15,
+        "independent_visits": 41,
+        "latest_mjd_tai": 61235.4187436385,
+        "object_id": "170028485732991897",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 8
+      }
+    },
+    {
+      "key": "170028485732991897/flux:i",
+      "oid": "170028485732991897",
+      "kind": "flux:i",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "ba0e7544afbcdbc424f08c10ba37608c863466e02d76dc616ab9c7a49cbda2b2",
+      "evidence": {
+        "band": "i",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4837361334081031424",
+          "f:xm_gaiadr3_Plx": 0.703,
+          "f:xm_gaiadr3_VarFlag": "1",
+          "f:xm_gaiadr3_e_Plx": 0.4647,
+          "f:xm_legacydr8_e_zphot": 0.595,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 0.002,
+          "f:xm_legacydr8_zphot": 1.054,
+          "f:xm_simbad_otype": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 40761.899,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 51.46,
+        "independent_visits": 35,
+        "latest_mjd_tai": 61235.4187436385,
+        "object_id": "170028485732991897",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 10
+      }
+    },
+    {
+      "key": "170028485732991897/flux:r",
+      "oid": "170028485732991897",
+      "kind": "flux:r",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "c3fea6937409b6ef22c30fa09425be99afedd64c07f4a053a7e6bab254a68c48",
+      "evidence": {
+        "band": "r",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4837361334081031424",
+          "f:xm_gaiadr3_Plx": 0.703,
+          "f:xm_gaiadr3_VarFlag": "1",
+          "f:xm_gaiadr3_e_Plx": 0.4647,
+          "f:xm_legacydr8_e_zphot": 0.595,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 0.002,
+          "f:xm_legacydr8_zphot": 1.054,
+          "f:xm_simbad_otype": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 33993.874,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 65.51,
+        "independent_visits": 44,
+        "latest_mjd_tai": 61235.4187436385,
+        "object_id": "170028485732991897",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 7
+      }
+    },
+    {
+      "key": "170028485732991897/flux:z",
+      "oid": "170028485732991897",
+      "kind": "flux:z",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "0760bba4f1bf9e69dcf7f9ae5a240f030a7cadbaafdb169745aef620122c8be9",
+      "evidence": {
+        "band": "z",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4837361334081031424",
+          "f:xm_gaiadr3_Plx": 0.703,
+          "f:xm_gaiadr3_VarFlag": "1",
+          "f:xm_gaiadr3_e_Plx": 0.4647,
+          "f:xm_legacydr8_e_zphot": 0.595,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 0.002,
+          "f:xm_legacydr8_zphot": 1.054,
+          "f:xm_simbad_otype": "nan"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 55893.14,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 57.26,
+        "independent_visits": 34,
+        "latest_mjd_tai": 61235.4187436385,
+        "object_id": "170028485732991897",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 7
+      }
+    },
+    {
+      "key": "170028485847285898/flux:i",
+      "oid": "170028485847285898",
+      "kind": "flux:i",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "fcbcf11e9714e3da40acb95538cd30d0d10dd7aa9c9b0304c9d616b5f6c82c93",
+      "evidence": {
+        "band": "i",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4831563025151827072",
+          "f:xm_gaiadr3_Plx": -0.0521,
+          "f:xm_gaiadr3_VarFlag": "1",
+          "f:xm_gaiadr3_e_Plx": 0.0388,
+          "f:xm_legacydr8_e_zphot": 0.314,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 0.0,
+          "f:xm_legacydr8_zphot": 0.543,
+          "f:xm_simbad_otype": "Bla"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 98420.616,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 34.07,
+        "independent_visits": 19,
+        "latest_mjd_tai": 61235.4178098047,
+        "object_id": "170028485847285898",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 6
+      }
+    },
+    {
+      "key": "170028485847285898/flux:z",
+      "oid": "170028485847285898",
+      "kind": "flux:z",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "1945bbec526dc06d3d05ae616548f74c527e1876653f5a1a00c108daca095a9b",
+      "evidence": {
+        "band": "z",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4831563025151827072",
+          "f:xm_gaiadr3_Plx": -0.0521,
+          "f:xm_gaiadr3_VarFlag": "1",
+          "f:xm_gaiadr3_e_Plx": 0.0388,
+          "f:xm_legacydr8_e_zphot": 0.314,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 0.0,
+          "f:xm_legacydr8_zphot": 0.543,
+          "f:xm_simbad_otype": "Bla"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 86889.395,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 12.27,
+        "independent_visits": 15,
+        "latest_mjd_tai": 61235.4178098047,
+        "object_id": "170028485847285898",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 5
+      }
+    },
+    {
+      "key": "170028485999329316/flux:i",
+      "oid": "170028485999329316",
+      "kind": "flux:i",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "e08efe79b3335b198847fd676241587b33e9a28eb2f79a8022389c9221930dcc",
+      "evidence": {
+        "band": "i",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4831990906974051328",
+          "f:xm_gaiadr3_Plx": 0.0273,
+          "f:xm_gaiadr3_VarFlag": "1",
+          "f:xm_gaiadr3_e_Plx": 0.0447,
+          "f:xm_legacydr8_e_zphot": 1.192,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 0.996,
+          "f:xm_legacydr8_zphot": 0.884,
+          "f:xm_simbad_otype": "EB*",
+          "f:xm_vsx_Type": "E"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 50991.435,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 11.18,
+        "independent_visits": 22,
+        "latest_mjd_tai": 61235.4191836794,
+        "object_id": "170028485999329316",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 7
+      }
+    },
+    {
+      "key": "170028485999329316/flux:r",
+      "oid": "170028485999329316",
+      "kind": "flux:r",
+      "status": "review",
+      "first_flagged": "2026-10-28T16:54:04+00:00",
+      "changed": "2026-10-28T16:54:04+00:00",
+      "fingerprint": "ad54beda3069825b38271f129eaf8f91aa637c3348caab269111ae9682255f5a",
+      "evidence": {
+        "band": "r",
+        "catalog_metadata": {
+          "f:xm_gaiadr3_DR3Name": "Gaia DR3 4831990906974051328",
+          "f:xm_gaiadr3_Plx": 0.0273,
+          "f:xm_gaiadr3_VarFlag": "1",
+          "f:xm_gaiadr3_e_Plx": 0.0447,
+          "f:xm_legacydr8_e_zphot": 1.192,
+          "f:xm_legacydr8_fqual": 0,
+          "f:xm_legacydr8_pstar": 0.996,
+          "f:xm_legacydr8_zphot": 0.884,
+          "f:xm_simbad_otype": "EB*",
+          "f:xm_vsx_Type": "E"
+        },
+        "confirmation": "UNVERIFIED: images and independent catalog checks needed",
+        "difference_flux_range_njy": 221394.354,
+        "explanation": "Same-filter difference-flux change across >=3 TAI calendar-day bins; review images and calibration.",
+        "heuristic_change_sigma": 55.58,
+        "independent_visits": 29,
+        "latest_mjd_tai": 61235.4191836794,
+        "object_id": "170028485999329316",
+        "tags": [
+          "extragalactic_lt20mag_candidate"
+        ],
+        "tai_day_bins": 6
+      }
+    }
+  ],
+  "recent_fetches": [
+    {
+      "id": 9,
+      "retrieved_utc": "2026-10-28T16:53:52+00:00",
+      "selection": "history:170028487056818180",
+      "url": "https://api.lsst.fink-portal.org/api/v1/sources?diaObjectId=170028487056818180&output-format=json",
+      "returned_count": 149,
+      "error": null
+    },
+    {
+      "id": 8,
+      "retrieved_utc": "2026-10-28T16:53:43+00:00",
+      "selection": "history:170028485999329316",
+      "url": "https://api.lsst.fink-portal.org/api/v1/sources?diaObjectId=170028485999329316&output-format=json",
+      "returned_count": 109,
+      "error": null
+    },
+    {
+      "id": 7,
+      "retrieved_utc": "2026-10-28T16:53:34+00:00",
+      "selection": "history:170028485847285898",
+      "url": "https://api.lsst.fink-portal.org/api/v1/sources?diaObjectId=170028485847285898&output-format=json",
+      "returned_count": 133,
+      "error": null
+    },
+    {
+      "id": 6,
+      "retrieved_utc": "2026-10-28T16:53:21+00:00",
+      "selection": "history:170028485732991897",
+      "url": "https://api.lsst.fink-portal.org/api/v1/sources?diaObjectId=170028485732991897&output-format=json",
+      "returned_count": 162,
+      "error": null
+    },
+    {
+      "id": 5,
+      "retrieved_utc": "2026-10-28T16:53:16+00:00",
+      "selection": "history:170028485720932363",
+      "url": "https://api.lsst.fink-portal.org/api/v1/sources?diaObjectId=170028485720932363&output-format=json",
+      "returned_count": 92,
+      "error": null
+    },
+    {
+      "id": 4,
+      "retrieved_utc": "2026-10-28T16:52:21+00:00",
+      "selection": "history:170019717277810735",
+      "url": "https://api.lsst.fink-portal.org/api/v1/sources?diaObjectId=170019717277810735&output-format=json",
+      "returned_count": 649,
+      "error": null
+    },
+    {
+      "id": 3,
+      "retrieved_utc": "2026-10-28T16:52:13+00:00",
+      "selection": "extragalactic_lt20mag_candidate",
+      "url": "https://api.lsst.fink-portal.org/api/v1/tags?tag=extragalactic_lt20mag_candidate&n=100&output-format=json",
+      "returned_count": 100,
+      "error": null
+    },
+    {
+      "id": 2,
+      "retrieved_utc": "2026-10-28T16:52:06+00:00",
+      "selection": "extragalactic_new_candidate",
+      "url": "https://api.lsst.fink-portal.org/api/v1/tags?tag=extragalactic_new_candidate&n=100&output-format=json",
+      "returned_count": 100,
+      "error": null
+    },
+    {
+      "id": 1,
+      "retrieved_utc": "2026-10-28T16:51:58+00:00",
+      "selection": "hostless_candidate",
+      "url": "https://api.lsst.fink-portal.org/api/v1/tags?tag=hostless_candidate&n=100&output-format=json",
+      "returned_count": 100,
+      "error": null
+    }
+  ],
+  "coverage": [
+    {
+      "id": 3,
+      "utc": "2026-10-28T16:52:13+00:00",
+      "selection": "extragalactic_lt20mag_candidate",
+      "detail": {
+        "completeness": "UNVERIFIED",
+        "latest_mjd_tai": 61235.4191836794,
+        "limit_reached": true,
+        "new": 100,
+        "overlapping": 0,
+        "returned": 100,
+        "sample_limit": 100
+      }
+    },
+    {
+      "id": 2,
+      "utc": "2026-10-28T16:52:06+00:00",
+      "selection": "extragalactic_new_candidate",
+      "detail": {
+        "completeness": "UNVERIFIED",
+        "latest_mjd_tai": 61235.4127394704,
+        "limit_reached": true,
+        "new": 100,
+        "overlapping": 0,
+        "returned": 100,
+        "sample_limit": 100
+      }
+    },
+    {
+      "id": 1,
+      "utc": "2026-10-28T16:51:58+00:00",
+      "selection": "hostless_candidate",
+      "detail": {
+        "completeness": "UNVERIFIED",
+        "latest_mjd_tai": 61235.3556491221,
+        "limit_reached": true,
+        "new": 100,
+        "overlapping": 0,
+        "returned": 100,
+        "sample_limit": 100
+      }
+    }
+  ]
+}

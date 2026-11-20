@@ -1,0 +1,11 @@
+[Unit]
+Description=Start Rubin collection at 5 PM Eastern and check the window at login or boot
+
+[Timer]
+OnCalendar=*-*-* 17:00:00 America/New_York
+OnStartupSec=15s
+AccuracySec=1s
+Unit=rubin-quasar-collector-window.service
+
+[Install]
+WantedBy=timers.target

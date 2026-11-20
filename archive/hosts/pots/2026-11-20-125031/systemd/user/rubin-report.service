@@ -1,0 +1,9 @@
+[Unit]
+Description=Generate the Rubin distant-object report
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/rubin-live/search
+ExecStart=/bin/bash ./rubin-live-search.sh --data-dir %h/rubin-live/distant-unattended --fields pots-smoke-field.json --points 3000 --avro %h/rubin-live/alerts/unattended
+StandardOutput=append:%h/rubin-live/operations/report.log
+StandardError=append:%h/rubin-live/operations/report.log

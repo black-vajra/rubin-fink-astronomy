@@ -1,0 +1,12 @@
+[Unit]
+Description=Collect bright extragalactic Rubin alerts from Fink
+
+[Service]
+ExecStart=%h/rubin-watch/venv/bin/python %h/rubin-quasar/collect.py
+Restart=on-failure
+RestartSec=30s
+KillMode=mixed
+TimeoutStopSec=30s
+
+[Install]
+WantedBy=default.target

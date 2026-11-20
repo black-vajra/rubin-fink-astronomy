@@ -1,0 +1,6 @@
+[Unit]
+Description=Apply the Rubin collector's overnight schedule
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -ec 'hour=$$(TZ=America/New_York /usr/bin/date +%%H); if (( 10#$$hour >= 17 || 10#$$hour < 9 )); then exec /usr/bin/systemctl --user start rubin-quasar-collector.service; else exec /usr/bin/systemctl --user stop rubin-quasar-collector.service; fi'

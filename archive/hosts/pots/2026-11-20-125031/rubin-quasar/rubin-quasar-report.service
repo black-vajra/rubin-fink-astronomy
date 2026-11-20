@@ -1,0 +1,6 @@
+[Unit]
+Description=Generate Rubin bright extragalactic alert report
+
+[Service]
+Type=oneshot
+ExecStart=%h/rubin-watch/venv/bin/python %h/rubin-quasar/report.py

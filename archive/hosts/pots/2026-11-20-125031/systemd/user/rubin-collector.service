@@ -1,0 +1,14 @@
+[Unit]
+Description=Collect Rubin LSST alerts from Fink
+
+[Service]
+ExecStart=%h/rubin-live/venv/bin/python %h/rubin-live/operations/collect.py
+Restart=on-failure
+RestartSec=30s
+KillMode=mixed
+TimeoutStopSec=30s
+StandardOutput=append:%h/rubin-live/operations/collector.log
+StandardError=append:%h/rubin-live/operations/collector.log
+
+[Install]
+WantedBy=default.target

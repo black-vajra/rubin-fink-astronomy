@@ -1,0 +1,304 @@
+{
+  "version": "0.2.0",
+  "generated_utc": "2026-11-14T12:14:53+00:00",
+  "freshness": "RECENT | age 1.2 days | 2026-11-13T06:17:26.671Z",
+  "fields": [
+    {
+      "label": "ECDFS real-data control",
+      "ra": 52.98,
+      "dec": -28.12,
+      "radius": 1800.0,
+      "attempted": 0.0,
+      "description": "User-selected patch; no inferred survey completeness."
+    }
+  ],
+  "warnings": [
+    "Experimental linkage proposals, not confirmed objects or discoveries. A trial heliocentric radius is a MODEL INPUT, not a measured distance.",
+    "No orbit fit, acceleration fit, radial-velocity solution, mass measurement, or planetary classification. Fixed-radius short-arc models can be degenerate and can produce accidental linkages.",
+    "One filter at a time; >=6 visits on >=4 UTC-noon night bins spanning 7\u201390 days. These cuts sacrifice sensitivity. Capped samples, point/seed budgets, and historical data are explicitly recorded.",
+    "A missing ssObjectId or absent catalog match does not prove novelty. SkyBoT is checked only for a bounded number of top proposals; service failures remain UNCHECKED. Image inspection and independent orbital follow-up are required.",
+    "Size scenarios assume all measured science flux belongs to one unblended reflecting body, zero phase angle, an SDSS-r solar proxy, and r-band geometric albedo 0.04\u20130.60. They are not measured sizes, masses, or probabilities.",
+    "The model uses a geocentric observer and builtin solar ephemerides, a 0.20 arcsec per-axis systematic error floor, and a 20% angular-speed allowance. Topocentric offsets, light-time dynamics, RA\u2013Dec covariance, calibration systematics, and full gravitational dynamics are not modeled.",
+    "The AVRO run uses the current detection from each saved packet. Embedded histories are not ingested.",
+    "The saved topic is a sampled stream. Analysis covers only the configured sky patches and does not establish survey completeness."
+  ],
+  "analysis_budgets": [
+    {
+      "field": "ECDFS real-data control",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "ECDFS real-data control",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "ECDFS real-data control",
+      "band": "r",
+      "input_points": 1201,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 180,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 1201
+    },
+    {
+      "field": "ECDFS real-data control",
+      "band": "i",
+      "input_points": 1103,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 195,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 1103
+    },
+    {
+      "field": "ECDFS real-data control",
+      "band": "z",
+      "input_points": 251,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 251
+    },
+    {
+      "field": "ECDFS real-data control",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    }
+  ],
+  "proposals": [],
+  "recent_runs": [
+    {
+      "id": 2,
+      "utc": "2026-11-14T12:14:53+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "ECDFS real-data control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "ECDFS real-data control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "r",
+            "field": "ECDFS real-data control",
+            "input_points": 1201,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 180,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 1201
+          },
+          {
+            "band": "i",
+            "field": "ECDFS real-data control",
+            "input_points": 1103,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 195,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 1103
+          },
+          {
+            "band": "z",
+            "field": "ECDFS real-data control",
+            "input_points": 251,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 251
+          },
+          {
+            "band": "",
+            "field": "ECDFS real-data control",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 3300,
+        "proposals": 0,
+        "total_records": 8410
+      }
+    },
+    {
+      "id": 1,
+      "utc": "2026-11-14T12:14:52+00:00",
+      "kind": "avro_ingest",
+      "detail": {
+        "errors": [],
+        "files": 89,
+        "inserted": 8410,
+        "known_sso": 46,
+        "packets": 8410,
+        "unassociated": 8364,
+        "unchanged": 0,
+        "updated": 0
+      }
+    }
+  ],
+  "fetch_errors": []
+}

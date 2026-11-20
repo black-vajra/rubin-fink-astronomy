@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "name": "rubin-historical-2026.zip",
+      "bytes": 51436603,
+      "sha256": "a86e53ca95a4753061c35c88bc0c9ed767366c0d5aa38a782276d58267a86da5",
+      "source": "/home/pepper/Downloads/rubin-historical-2026.zip",
+      "status": "selected"
+    },
+    {
+      "name": "rubin-fink-astronomy-start.zip",
+      "bytes": 52158532,
+      "sha256": "7c54bd9bcdcf7b479e9f5ddba882fa13d0d89471a3cd0e22d358399535e85110",
+      "source": "/home/pepper/Downloads/rubin-fink-astronomy-start.zip",
+      "status": "selected"
+    },
+    {
+      "name": "rubin-extragalactic-update.zip",
+      "bytes": 324258,
+      "sha256": "c0a5d9cc697b96d78b8b39143119b9936c092a34e321c58cd6cab1cd28093a34",
+      "source": "/home/pepper/Downloads/rubin-extragalactic-update.zip",
+      "status": "selected"
+    },
+    {
+      "name": "rubin-journal-c.zip",
+      "status": "not present in Downloads"
+    },
+    {
+      "name": "rubin-qy297-update.zip",
+      "bytes": 27579,
+      "sha256": "5415a0b115145a2861295af2542b7edee3ab1d8c9d35b0e0b19c6d34d80d3a13",
+      "source": "/home/pepper/Downloads/rubin-qy297-update.zip",
+      "status": "selected"
+    },
+    {
+      "name": "rubin-physical-orbit-update.zip",
+      "bytes": 365417,
+      "sha256": "e4126f9b0721dd083e717a248b3958a24c60881cd089cf52fbab2c37051e14ac",
+      "source": "/home/pepper/Downloads/rubin-physical-orbit-update.zip",
+      "status": "selected"
+    },
+    {
+      "name": "rubin-research-finalize-2026-11-20.zip",
+      "bytes": 296638,
+      "sha256": "87173ab7cba83ae2e20e7d589b47397d82041766a02058f1872cbc0175add47f",
+      "source": "/home/pepper/Downloads/rubin-research-finalize-2026-11-20.zip",
+      "status": "selected"
+    }
+  ],
+  "archive_tag": "research-archive-20261120T175302Z"
+}
