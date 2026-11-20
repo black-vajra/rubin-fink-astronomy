@@ -28,7 +28,10 @@ def run(*cmd, capture=False, check=True):
 
 
 def output(*cmd):
-    return run(*cmd, capture=True).stdout.strip()
+    try:
+        return run(*cmd, capture=True).stdout.strip()
+    except subprocess.CalledProcessError as exc:
+        raise SystemExit((exc.stderr or exc.stdout or str(exc)).strip()) from exc
 
 
 def digest(path):
@@ -44,9 +47,18 @@ def save(path, value):
 
 
 def remote_assets(release):
-    pages = json.loads(output('gh', 'api', '--paginate', '--slurp',
-        f"repos/{REPOSITORY}/releases/{release['id']}/assets?per_page=100"))
-    return {asset['name']: asset for page in pages for asset in page}
+    # Explicit pages work with older gh versions that lack --slurp.
+    assets = {}
+    page = 1
+    while True:
+        rows = json.loads(output('gh', 'api',
+            f"repos/{REPOSITORY}/releases/{release['id']}/assets?per_page=100&page={page}"))
+        if not isinstance(rows, list):
+            raise SystemExit('Unexpected release-assets API response; expected a JSON list.')
+        assets.update((asset['name'], asset) for asset in rows)
+        if len(rows) < 100:
+            return assets
+        page += 1
 
 
 def commit_if_changed(message):

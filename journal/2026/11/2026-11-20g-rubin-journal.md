@@ -26,3 +26,7 @@ The user deferred the binary discussion for a later session, particularly how re
 All available relevant scientific artifacts in this preparation workspace are included in the final commit. Additional Pots-generated reports, research source files and downloaded archives must be captured on Pots, where the authenticated GitHub CLI and full compact alert archive reside. The finalizer captures the allowlisted astronomy directories, snapshots SQLite consistently, creates split release assets for large/raw data, records checksums, and archives the named astronomy delivery ZIPs when present.
 
 The GitHub repository is public, as confirmed by the user. Preparation is not proof of a completed push. Publication receipts are written only after the authenticated finalizer verifies uploaded assets and remote commits. The current environment has no authenticated GitHub write session; the existing Pots login is a separate session.
+
+## Release-listing compatibility repair
+
+Research commit 9edd7ee was successfully pushed to main and release research-archive-20261120T175302Z was created. The initial asset-listing command failed before uploads. The repair replaces --slurp pagination with explicit page requests and makes captured API errors visible. It resumes the existing capture and release; asset publication remains pending until the finalizer writes its verified receipt.
