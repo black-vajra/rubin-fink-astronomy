@@ -1,0 +1,440 @@
+{
+  "generated_utc": "2026-11-20T15:26:36.439345+00:00",
+  "database": "/workspace/scratch/5db9f3fd6d84/scan-watchlist-validation/watchlist.sqlite3",
+  "database_bytes": 20480,
+  "source_index_schema": 1,
+  "utc_span": [
+    "2026-10-30",
+    "2026-11-15"
+  ],
+  "ordered_source_rows_sha256": "b9fb839052846d4d267ccada50e5f4e7737a668a987849cbe875ed722c99cdc9",
+  "script_sha256": "18429c893997a65d180189a14bb3a93205d7ec11038609eaeeed28444feae7c0",
+  "parameters": {
+    "database": "scan-watchlist-validation/watchlist.sqlite3",
+    "output": "scan-watchlist-validation/verified-final",
+    "min_visits": 3,
+    "min_nights": 3,
+    "min_abs_b": 20,
+    "max_scatter": 2,
+    "min_fraction": 0.2,
+    "min_amplitude": 1000,
+    "top": 100
+  },
+  "counts": {
+    "all_source_rows_read": 45,
+    "object_groups_seen": 4,
+    "too_few_visits": 4,
+    "scored": 6,
+    "scored_object_filter_groups": 6,
+    "candidate_object_filter_groups": 1,
+    "candidate_unique_objects": 1
+  },
+  "shortlist": [
+    {
+      "object_id": "171141216913588260",
+      "band": "i",
+      "ra": 54.023136410465604,
+      "dec": -26.607709180200843,
+      "galactic_b_deg": -53.44441831431307,
+      "max_offset_arcsec": 0.13577613101976269,
+      "sources": 6,
+      "visits": 6,
+      "nights": 5,
+      "difference_amplitude_njy": 28935.255000000005,
+      "difference_fraction": 0.28487746684876614,
+      "science_amplitude_njy": 387849.31999999995,
+      "score": 0.637005381131784,
+      "passes_variability_cut": true,
+      "watchlist": true,
+      "nightly": [
+        {
+          "utc_date": "2026-10-30",
+          "visits": 2,
+          "science": 780204.18,
+          "difference": 78496.155
+        },
+        {
+          "utc_date": "2026-11-09",
+          "visits": 1,
+          "science": 801708.06,
+          "difference": 107431.41
+        },
+        {
+          "utc_date": "2026-11-11",
+          "visits": 1,
+          "science": 787641.56,
+          "difference": 101591.984
+        },
+        {
+          "utc_date": "2026-11-13",
+          "visits": 1,
+          "science": 892683.2,
+          "difference": 101570.88
+        },
+        {
+          "utc_date": "2026-11-15",
+          "visits": 1,
+          "science": 1168053.5,
+          "difference": 99608.23
+        }
+      ],
+      "source_ids": [
+        "171141216913588260",
+        "171141252825743462",
+        "171185213561897001",
+        "171194008185340018",
+        "171202809503416341",
+        "171211605978644501"
+      ]
+    }
+  ],
+  "watchlist_scored": [
+    {
+      "object_id": "171141216913588260",
+      "band": "i",
+      "ra": 54.023136410465604,
+      "dec": -26.607709180200843,
+      "galactic_b_deg": -53.44441831431307,
+      "max_offset_arcsec": 0.13577613101976269,
+      "sources": 6,
+      "visits": 6,
+      "nights": 5,
+      "difference_amplitude_njy": 28935.255000000005,
+      "difference_fraction": 0.28487746684876614,
+      "science_amplitude_njy": 387849.31999999995,
+      "score": 0.637005381131784,
+      "passes_variability_cut": true,
+      "watchlist": true,
+      "nightly": [
+        {
+          "utc_date": "2026-10-30",
+          "visits": 2,
+          "science": 780204.18,
+          "difference": 78496.155
+        },
+        {
+          "utc_date": "2026-11-09",
+          "visits": 1,
+          "science": 801708.06,
+          "difference": 107431.41
+        },
+        {
+          "utc_date": "2026-11-11",
+          "visits": 1,
+          "science": 787641.56,
+          "difference": 101591.984
+        },
+        {
+          "utc_date": "2026-11-13",
+          "visits": 1,
+          "science": 892683.2,
+          "difference": 101570.88
+        },
+        {
+          "utc_date": "2026-11-15",
+          "visits": 1,
+          "science": 1168053.5,
+          "difference": 99608.23
+        }
+      ],
+      "source_ids": [
+        "171141216913588260",
+        "171141252825743462",
+        "171185213561897001",
+        "171194008185340018",
+        "171202809503416341",
+        "171211605978644501"
+      ]
+    },
+    {
+      "object_id": "313774266976305153",
+      "band": "i",
+      "ra": 53.84803293188571,
+      "dec": -28.12324622402691,
+      "galactic_b_deg": -53.84467981566923,
+      "max_offset_arcsec": 0.17818665290461608,
+      "sources": 8,
+      "visits": 8,
+      "nights": 4,
+      "difference_amplitude_njy": 13654.994999999995,
+      "difference_fraction": 0.10609353552932396,
+      "science_amplitude_njy": 43422.810000000056,
+      "score": 0.21218707105864792,
+      "passes_variability_cut": false,
+      "watchlist": true,
+      "nightly": [
+        {
+          "utc_date": "2026-10-30",
+          "visits": 4,
+          "science": 626596.19,
+          "difference": 130989.27249999999
+        },
+        {
+          "utc_date": "2026-11-05",
+          "visits": 2,
+          "science": 657512.78,
+          "difference": 126424.9975
+        },
+        {
+          "utc_date": "2026-11-11",
+          "visits": 1,
+          "science": 639227.4,
+          "difference": 136236.94
+        },
+        {
+          "utc_date": "2026-11-15",
+          "visits": 1,
+          "science": 670019.0,
+          "difference": 122581.945
+        }
+      ],
+      "source_ids": [
+        "171141216553926717",
+        "171141216688144457",
+        "171141216822362197",
+        "171141216956579923",
+        "171167620820631557",
+        "171167620953276448",
+        "171194008003936317",
+        "171211605803532319"
+      ]
+    },
+    {
+      "object_id": "313862200773574662",
+      "band": "g",
+      "ra": 64.07981961885221,
+      "dec": -48.07014931860215,
+      "galactic_b_deg": -45.37479323522936,
+      "max_offset_arcsec": 0.11158200819164664,
+      "sources": 8,
+      "visits": 8,
+      "nights": 5,
+      "difference_amplitude_njy": 5510.176999999996,
+      "difference_fraction": 0.07320484015917748,
+      "science_amplitude_njy": 12084.64499999999,
+      "score": 0.16369099887792737,
+      "passes_variability_cut": false,
+      "watchlist": true,
+      "nightly": [
+        {
+          "utc_date": "2026-10-30",
+          "visits": 2,
+          "science": 144157.3,
+          "difference": 75270.66500000001
+        },
+        {
+          "utc_date": "2026-11-05",
+          "visits": 2,
+          "science": 151774.575,
+          "difference": 77342.71299999999
+        },
+        {
+          "utc_date": "2026-11-07",
+          "visits": 2,
+          "science": 155502.615,
+          "difference": 79781.997
+        },
+        {
+          "utc_date": "2026-11-09",
+          "visits": 1,
+          "science": 143417.97,
+          "difference": 74271.82
+        },
+        {
+          "utc_date": "2026-11-13",
+          "visits": 1,
+          "science": 143784.31,
+          "difference": 75215.14
+        }
+      ],
+      "source_ids": [
+        "171141218435596367",
+        "171141218569814090",
+        "171167577543278641",
+        "171167616483721280",
+        "171176424816246815",
+        "171176440527585310",
+        "171185209479266320",
+        "171202807430381614"
+      ]
+    },
+    {
+      "object_id": "313862200773574662",
+      "band": "i",
+      "ra": 64.07983004582974,
+      "dec": -48.07014941543074,
+      "galactic_b_deg": -45.37478633851159,
+      "max_offset_arcsec": 0.11828906739790122,
+      "sources": 7,
+      "visits": 7,
+      "nights": 6,
+      "difference_amplitude_njy": 2283.0970000000016,
+      "difference_fraction": 0.03561408316007761,
+      "science_amplitude_njy": 21576.679999999993,
+      "score": 0.08723633139923721,
+      "passes_variability_cut": false,
+      "watchlist": true,
+      "nightly": [
+        {
+          "utc_date": "2026-10-30",
+          "visits": 2,
+          "science": 141241.01,
+          "difference": 65235.035
+        },
+        {
+          "utc_date": "2026-11-05",
+          "visits": 1,
+          "science": 149513.2,
+          "difference": 64592.65
+        },
+        {
+          "utc_date": "2026-11-09",
+          "visits": 1,
+          "science": 140806.72,
+          "difference": 64265.16
+        },
+        {
+          "utc_date": "2026-11-11",
+          "visits": 1,
+          "science": 137428.88,
+          "difference": 62951.938
+        },
+        {
+          "utc_date": "2026-11-13",
+          "visits": 1,
+          "science": 142192.94,
+          "difference": 63947.996
+        },
+        {
+          "utc_date": "2026-11-15",
+          "visits": 1,
+          "science": 159005.56,
+          "difference": 63040.363
+        }
+      ],
+      "source_ids": [
+        "171141218972467246",
+        "171141219106684967",
+        "171167616757923860",
+        "171185209747177539",
+        "171194009864634390",
+        "171202807700914181",
+        "171211606236069899"
+      ]
+    },
+    {
+      "object_id": "313862200773574662",
+      "band": "r",
+      "ra": 64.07983025405008,
+      "dec": -48.07015023971277,
+      "galactic_b_deg": -45.37478607200981,
+      "max_offset_arcsec": 0.04861524188017158,
+      "sources": 8,
+      "visits": 8,
+      "nights": 6,
+      "difference_amplitude_njy": 9165.525999999998,
+      "difference_fraction": 0.13001240884103432,
+      "science_amplitude_njy": 15445.399999999994,
+      "score": 0.3184640618906465,
+      "passes_variability_cut": false,
+      "watchlist": true,
+      "nightly": [
+        {
+          "utc_date": "2026-10-31",
+          "visits": 1,
+          "science": 138611.77,
+          "difference": 70449.734
+        },
+        {
+          "utc_date": "2026-11-05",
+          "visits": 3,
+          "science": 146256.39,
+          "difference": 70910.81
+        },
+        {
+          "utc_date": "2026-11-07",
+          "visits": 1,
+          "science": 147727.56,
+          "difference": 71623.76
+        },
+        {
+          "utc_date": "2026-11-08",
+          "visits": 1,
+          "science": 136252.5,
+          "difference": 70544.9
+        },
+        {
+          "utc_date": "2026-11-12",
+          "visits": 1,
+          "science": 132282.16,
+          "difference": 62458.234
+        },
+        {
+          "utc_date": "2026-11-14",
+          "visits": 1,
+          "science": 134417.55,
+          "difference": 67769.63
+        }
+      ],
+      "source_ids": [
+        "171145616751591496",
+        "171167584254165044",
+        "171167605729001542",
+        "171167605863219266",
+        "171176448043778091",
+        "171180820581056558",
+        "171198413307641858",
+        "171207204969906298"
+      ]
+    },
+    {
+      "object_id": "313862200773574662",
+      "band": "z",
+      "ra": 64.0798354088662,
+      "dec": -48.0701567644335,
+      "galactic_b_deg": -45.37478164819352,
+      "max_offset_arcsec": 0.03489248275992102,
+      "sources": 3,
+      "visits": 3,
+      "nights": 3,
+      "difference_amplitude_njy": 1278.0199999999968,
+      "difference_fraction": 0.022681027661635895,
+      "science_amplitude_njy": 2688.8740000000107,
+      "score": 0.03928469227782849,
+      "passes_variability_cut": false,
+      "watchlist": true,
+      "nightly": [
+        {
+          "utc_date": "2026-10-31",
+          "visits": 1,
+          "science": 123314.586,
+          "difference": 56347.535
+        },
+        {
+          "utc_date": "2026-11-06",
+          "visits": 1,
+          "science": 123716.44,
+          "difference": 55101.203
+        },
+        {
+          "utc_date": "2026-11-08",
+          "visits": 1,
+          "science": 126003.46,
+          "difference": 56379.223
+        }
+      ],
+      "source_ids": [
+        "171145617037328439",
+        "171172018714574878",
+        "171180821358051343"
+      ]
+    }
+  ],
+  "limitations": [
+    "Index lacks flux errors, quality flags, template flux, host matches and stellar crossmatches.",
+    "Galactic latitude and positional consistency do not establish an extragalactic identity.",
+    "Score and relative amplitude are heuristic; no statistical significance or false-discovery rate is claimed.",
+    "Alert-only sampling is biased; nondetections and forced photometry are absent. Single-night transients are outside this initial multi-night screen.",
+    "Known SSO labels are excluded, but unlabeled moving objects can remain."
+  ]
+}

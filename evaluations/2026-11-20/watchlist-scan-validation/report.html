@@ -1,0 +1,57 @@
+<!doctype html><meta charset="utf-8"><title>Archive extragalactic triage</title><style>body{font:16px system-ui;margin:2rem}pre{white-space:pre-wrap}</style><pre># Archive-wide extragalactic discovery triage
+
+Generated 2026-11-20T15:26:36.439345+00:00
+
+Read 45 indexed alerts, spanning 2026-10-30 through 2026-11-15. Every eligible object/filter was scored.
+6 object/filter groups scored; 1 passed the heuristic variability cut, representing 1 objects.
+
+This is an unclassified review list. No extragalactic discovery is confirmed.
+
+## Selection fixed for this first pass
+
+{
+  &quot;database&quot;: &quot;scan-watchlist-validation/watchlist.sqlite3&quot;,
+  &quot;output&quot;: &quot;scan-watchlist-validation/verified-final&quot;,
+  &quot;min_visits&quot;: 3,
+  &quot;min_nights&quot;: 3,
+  &quot;min_abs_b&quot;: 20,
+  &quot;max_scatter&quot;: 2,
+  &quot;min_fraction&quot;: 0.2,
+  &quot;min_amplitude&quot;: 1000,
+  &quot;top&quot;: 100
+}
+
+Known SSO-associated object groups excluded. Median measurements per visit, then median visit measurements per UTC night, reduce repeated-row weighting. No error bars or formal significance can be recovered from this index.
+
+## Ranked review list
+
+| Object | Band | Nights | Visits | Difference range nJy | Fraction | Watchlist |
+|---|---|---:|---:|---:|---:|---|
+| 171141216913588260 | i | 5 | 6 | 28935.3 | 0.285 | True |
+
+## Limitations
+
+- Index lacks flux errors, quality flags, template flux, host matches and stellar crossmatches.
+- Galactic latitude and positional consistency do not establish an extragalactic identity.
+- Score and relative amplitude are heuristic; no statistical significance or false-discovery rate is claimed.
+- Alert-only sampling is biased; nondetections and forced photometry are absent. Single-night transients are outside this initial multi-night screen.
+- Known SSO labels are excluded, but unlabeled moving objects can remain.
+
+## Next pass
+
+Retrieve original source measurements and flags for shortlisted objects, reject problematic photometry, inspect science/template/difference cutouts, and crossmatch stellar, galaxy and AGN catalogs. Keep known watchlist objects visibly marked. A large science-only rise with stable difference flux is a measurement/reference review flag.
+
+Full scoring is in all-scored.csv. All passing groups are in shortlist.csv; only the detailed JSON and displayed list are capped by --top.
+
+## Selection accounting
+
+{
+  &quot;all_source_rows_read&quot;: 45,
+  &quot;object_groups_seen&quot;: 4,
+  &quot;too_few_visits&quot;: 4,
+  &quot;scored&quot;: 6,
+  &quot;scored_object_filter_groups&quot;: 6,
+  &quot;candidate_object_filter_groups&quot;: 1,
+  &quot;candidate_unique_objects&quot;: 1
+}
+</pre>

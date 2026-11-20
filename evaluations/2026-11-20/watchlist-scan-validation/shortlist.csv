@@ -1,0 +1,2 @@
+object_id,band,sources,visits,nights,ra,dec,galactic_b_deg,max_offset_arcsec,difference_amplitude_njy,difference_fraction,science_amplitude_njy,score,passes_variability_cut,watchlist
+171141216913588260,i,6,6,5,54.023136410465604,-26.607709180200843,-53.44441831431307,0.13577613101976269,28935.255000000005,0.28487746684876614,387849.31999999995,0.637005381131784,True,True

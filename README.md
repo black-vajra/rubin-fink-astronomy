@@ -33,6 +33,10 @@ No unknown-body discovery, Planet Nine identification or mass measurement has be
 - [November 20 moving-object report](reports/2026/11/20/2026-11-20-moving-object-report.md)
 - [November 19 all-alert control recovery](reports/2026/11/19/slow-control-recovery.md)
 - [November 20 journal](journal/2026/11/2026-11-20-rubin-journal.md)
+- [November 20 image/reference investigation](reports/2026/11/20/image-reference/report.md)
+- [Broader extragalactic scan methodology and run instructions](docs/EXTRAGALACTIC-SCAN.md)
+
+On Pots, `bash tools/run-extragalactic-scan.sh` generates a dated first-pass review list from the full local index. It downloads no data and does not push automatically.
 
 The November 20 refresh made seven successful small Fink queries. The million-alert database on Pots was not present in that reporting workspace. See [external data](data/manifests/external-data.json). An initial commit is an archive of the available work, not proof that every file on Pots has been uploaded.
 
