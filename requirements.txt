@@ -1,0 +1,10 @@
+# Collection of dependencies used across the preserved scripts.
+# This is an installation aid, not a fully reproducible environment lock.
+numpy
+astropy
+pyarrow
+fastavro
+matplotlib
+requests
+PyYAML
+fink-client

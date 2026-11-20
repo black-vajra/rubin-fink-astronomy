@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-11-20",
+  "host": "Pots / Z890 Kubuntu",
+  "status": "Not present in preparation workspace; not yet uploaded to GitHub",
+  "datasets": [
+    {"path": "~/rubin-historical-2026/alerts/ftransfer_lsst_2026-11-19_639723", "reported_unique_valid_sources": 1043458, "reported_disk_usage": "approximately 2.6 GB", "sha256": null},
+    {"path": "~/rubin-historical-2026/alerts.sqlite3", "purpose": "Full compact archive index", "sha256": null},
+    {"path": "~/rubin-live/alerts", "purpose": "Earlier full-night transfers and live observations, where present", "sha256": null},
+    {"path": "~/rubin-quasar/alerts", "purpose": "Live bright/uniform-topic collections, where present", "sha256": null}
+  ],
+  "operations_missing": "Current installed collector-window units, start/stop timers and local report outputs require capture on Pots.",
+  "null_checksum_meaning": "Not measured here; never infer verified backup from a reported count.",
+  "capture_command": "python3 tools/capture-pots.py --source-home \"$HOME\" --include-large-data"
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "label": "pilot-1",
+    "ra": 334.2496164443,
+    "dec": -18.207956187,
+    "radius_arcsec": 600,
+    "description": "Automatic patch around a public hostless-alert position; NOT a Planet Nine predicted region."
+  },
+  {
+    "label": "pilot-2",
+    "ra": 313.2265018607,
+    "dec": -14.8404326012,
+    "radius_arcsec": 600,
+    "description": "Automatic patch around a public hostless-alert position; NOT a Planet Nine predicted region."
+  },
+  {
+    "label": "pilot-3",
+    "ra": 313.5460615231,
+    "dec": -17.6765649873,
+    "radius_arcsec": 600,
+    "description": "Automatic patch around a public hostless-alert position; NOT a Planet Nine predicted region."
+  }
+]

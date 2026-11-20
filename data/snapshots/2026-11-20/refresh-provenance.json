@@ -1,0 +1,100 @@
+[
+  {
+    "file": "statistics-202611.json",
+    "endpoint": "statistics",
+    "parameters": {
+      "date": "202611"
+    },
+    "requested_utc": "2026-11-20T14:30:30.757958+00:00",
+    "previous_rows": 11,
+    "status": "fresh",
+    "rows": 11,
+    "added_source_ids": [],
+    "removed_source_ids": [],
+    "sha256": "f2ff554800f013f9027dc68d38d432d552af49add92258d1b63da9136bf59a23"
+  },
+  {
+    "file": "object-171141216913588260.json",
+    "endpoint": "sources",
+    "parameters": {
+      "diaObjectId": "171141216913588260"
+    },
+    "requested_utc": "2026-11-20T14:30:30.759212+00:00",
+    "previous_rows": 8,
+    "status": "fresh",
+    "rows": 8,
+    "added_source_ids": [],
+    "removed_source_ids": [],
+    "sha256": "c59ce6a336b956cbabc6f39ae6ab59f01849680b16899ecb4c84d8edcd1d8235"
+  },
+  {
+    "file": "object-313774266976305153.json",
+    "endpoint": "sources",
+    "parameters": {
+      "diaObjectId": "313774266976305153"
+    },
+    "requested_utc": "2026-11-20T14:30:30.760075+00:00",
+    "previous_rows": 9,
+    "status": "fresh",
+    "rows": 9,
+    "added_source_ids": [],
+    "removed_source_ids": [],
+    "sha256": "c03f4784f7ae0e1a843204cc765e58f0d7b64dccd7eee8d06725be794977c708"
+  },
+  {
+    "file": "object-313862200773574662.json",
+    "endpoint": "sources",
+    "parameters": {
+      "diaObjectId": "313862200773574662"
+    },
+    "requested_utc": "2026-11-20T14:30:30.774119+00:00",
+    "previous_rows": 426,
+    "status": "fresh",
+    "rows": 426,
+    "added_source_ids": [],
+    "removed_source_ids": [],
+    "sha256": "9eeba80a436deffd85b89696cb4deaa85e046978250052c5c674381278cee673"
+  },
+  {
+    "file": "object-170653056044630027.json",
+    "endpoint": "sources",
+    "parameters": {
+      "diaObjectId": "170653056044630027"
+    },
+    "requested_utc": "2026-11-20T14:30:40.038976+00:00",
+    "previous_rows": 5,
+    "status": "fresh",
+    "rows": 5,
+    "added_source_ids": [],
+    "removed_source_ids": [],
+    "sha256": "f6341586a170f6207ed9ebede5b2065327321758574e044d00c047155fafc40c"
+  },
+  {
+    "file": "sso-2014_WV203.json",
+    "endpoint": "sso",
+    "parameters": {
+      "n_or_d": "2014 WV203"
+    },
+    "requested_utc": "2026-11-20T14:30:40.062483+00:00",
+    "previous_rows": 8,
+    "status": "fresh",
+    "rows": 8,
+    "added_source_ids": [],
+    "removed_source_ids": [],
+    "sha256": "d15e47f98b0a904c97699d450630144f13695aa80758af1b3b9bf632c6842605"
+  },
+  {
+    "file": "sso-2013_CR7.json",
+    "endpoint": "sso",
+    "parameters": {
+      "n_or_d": "2013 CR7"
+    },
+    "requested_utc": "2026-11-20T14:30:40.479759+00:00",
+    "previous_rows": 6,
+    "status": "fresh",
+    "rows": 6,
+    "added_source_ids": [],
+    "removed_source_ids": [],
+    "sha256": "f137add7c15b51e18d9bb7b722b90492152732f50bed8a8d356a6571257b3e00"
+  }
+]

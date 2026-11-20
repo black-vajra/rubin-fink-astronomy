@@ -1,0 +1,11 @@
+dates:
+  startdate: '2026-11-01'
+  stopdate: '2026-11-13'
+filters: []
+blocks: []
+content:
+  - diaSource
+extra_cond:
+  - diaSource.ra BETWEEN 33.48 AND 35.51
+  - diaSource.dec BETWEEN -5.66 AND -3.65
+catalog_filename: ""

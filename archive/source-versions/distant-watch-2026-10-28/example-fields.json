@@ -1,0 +1,9 @@
+[
+  {
+    "label": "observed-pilot-patch",
+    "ra": 334.2496,
+    "dec": -18.2079,
+    "radius_arcsec": 300,
+    "description": "An observed public alert patch used for software validation. NOT a predicted Planet Nine region."
+  }
+]

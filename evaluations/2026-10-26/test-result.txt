@@ -1,0 +1,25 @@
+[2026-10-26T19:13:33+00:00] Pilot database backup: /tmp/tmpxj91rvgr/backups/rubin-before-public-watch-20261026T191333870290Z.sqlite3
+[2026-10-26T19:13:33+00:00] Imported 1 existing record versions into analysis; originals preserved.
+[2026-10-26T19:13:33+00:00] Imported 0 existing record versions into analysis; originals preserved.
+[2026-10-26T19:13:33+00:00] SOURCE ERROR [test]: ValueError: Missing/unsafe integer identifier (float IDs rejected)
+[2026-10-26T19:13:33+00:00] Imported 0 existing record versions into analysis; originals preserved.
+[2026-10-26T19:13:33+00:00] hostless_candidate: 6 returned | 6 new detections | 6 new versions | 0 already known
+[2026-10-26T19:13:34+00:00]   HISTORICAL | age 334.8 days | 2025-11-25T23:59:23.000Z
+[2026-10-26T19:13:34+00:00]   COVERAGE WARNING: sample limit reached; additional records may be missing.
+[2026-10-26T19:13:34+00:00] hostless_candidate: 6 returned | 0 new detections | 0 new versions | 6 already known
+[2026-10-26T19:13:34+00:00]   HISTORICAL | age 334.8 days | 2025-11-25T23:59:23.000Z
+[2026-10-26T19:13:34+00:00]   COVERAGE WARNING: sample limit reached; additional records may be missing.
+[2026-10-26T19:13:34+00:00] hostless_candidate: 6 returned | 0 new detections | 1 new versions | 6 already known
+[2026-10-26T19:13:34+00:00]   HISTORICAL | age 334.8 days | 2025-11-25T23:59:23.000Z
+[2026-10-26T19:13:34+00:00]   COVERAGE WARNING: sample limit reached; additional records may be missing.
+[2026-10-26T19:13:34+00:00] WATCHLIST: 2 review flags on 1 objects | changes {'new': 2}
+[2026-10-26T19:13:34+00:00] WATCHLIST: 2 review flags on 1 objects | changes {}
+[2026-10-26T19:13:34+00:00] REPORT: /tmp/tmppjw3_zb6/reports/20261026T191334010178Z/index.html
+[2026-10-26T19:13:34+00:00] hostless_candidate: 6 returned | 0 new detections | 6 new versions | 6 already known
+[2026-10-26T19:13:34+00:00]   HISTORICAL | age 334.8 days | 2025-11-25T23:59:23.000Z
+[2026-10-26T19:13:34+00:00]   COVERAGE WARNING: sample limit reached; additional records may be missing.
+[2026-10-26T19:13:34+00:00] WATCHLIST: 0 review flags on 0 objects | changes {'no_longer_flagged': 2}
+----------------------------------------------------------------------
+Ran 10 tests in 0.253s
+
+OK

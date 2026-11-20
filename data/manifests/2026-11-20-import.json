@@ -1,0 +1,761 @@
+[
+  {
+    "path": "journal/2026/11/2026-11-15-rubin-journal.md",
+    "source": "2026-11-15-rubin-journal.md",
+    "sha256": "9520a36481c4452ff24ba45d9387c30dcea0a611d10970350a122c6021bbd1db",
+    "bytes": 14512
+  },
+  {
+    "path": "journal/2026/11/2026-11-18b-rubin-journal.md",
+    "source": "2026-11-18b-rubin-journal.md",
+    "sha256": "f0c6f62188eb1237c5dc03f150f26a432d0e717a26f653ab27dc073f9b7d9338",
+    "bytes": 4803
+  },
+  {
+    "path": "journal/2026/11/2026-11-19-rubin-journal.md",
+    "source": "2026-11-19-rubin-journal.md",
+    "sha256": "e82f6862b0c8dcddb02c2de6d6c823d059aef950aa3bf460b6f1a72e1bc4d5be",
+    "bytes": 6469
+  },
+  {
+    "path": "journal/2026/11/2026-11-19b-rubin-journal.md",
+    "source": "2026-11-19b-rubin-journal.md",
+    "sha256": "d7f4f542fa410ac36bff1ad34d237b3ef8b37a3cc9750553726b30b7800200c2",
+    "bytes": 8725
+  },
+  {
+    "path": "journal/2026/11/2026-11-20-rubin-journal.md",
+    "source": "reports-2026-11-20/2026-11-20-rubin-journal.md",
+    "sha256": "bce60e23b547be861a730a79f3b0828e852bfeef228aed570f61863ee4a7dab9",
+    "bytes": 5596
+  },
+  {
+    "path": "src/public-watch/README.md",
+    "source": "rubin-build/package/README.md",
+    "sha256": "b07cc5eb549ef6658ad1439cc8cbd6f80d6d2869b495890818376602231387f2",
+    "bytes": 8701
+  },
+  {
+    "path": "src/public-watch/example-report/index.html",
+    "source": "rubin-build/package/example-report/index.html",
+    "sha256": "baee9b48e43591e44ab943edc47e34a23d879cf66aa6edfb2a8965202cbe7674",
+    "bytes": 90676
+  },
+  {
+    "path": "src/public-watch/example-report/report.json",
+    "source": "rubin-build/package/example-report/report.json",
+    "sha256": "6bd434fcd2a539d64a73cd16bd8c26556ca7164f31f60a510919b5d2522621e2",
+    "bytes": 10763
+  },
+  {
+    "path": "src/public-watch/example-report/watchlist.csv",
+    "source": "rubin-build/package/example-report/watchlist.csv",
+    "sha256": "0be1ced78872ad4a30b8f82106304f1086f1ed3b2eedc0c51f6c1acaea1fe7a5",
+    "bytes": 4288
+  },
+  {
+    "path": "src/public-watch/rubin-public-watch.py",
+    "source": "rubin-build/package/rubin-public-watch.py",
+    "sha256": "fb43804b2c22fd2d8695cfcaa834a9e04dc8055747e83aea3604a8d8999d5915",
+    "bytes": 33921
+  },
+  {
+    "path": "src/public-watch/rubin-public-watch.sh",
+    "source": "rubin-build/package/rubin-public-watch.sh",
+    "sha256": "a2ba0b8c672b7830f4926abc65ef83ab587f8d4833571799ce0b5cefda69a481",
+    "bytes": 349
+  },
+  {
+    "path": "src/public-watch/test_rubin_public_watch.py",
+    "source": "rubin-build/package/test_rubin_public_watch.py",
+    "sha256": "ea37c285c0cb362cb7779e8ca79a35d952014eb935687c59c30ee8247ac7ff03",
+    "bytes": 7304
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/README.md",
+    "source": "distant-build/package/README.md",
+    "sha256": "cb9afad5d289e4200fc4f28c3410b4a25e57aa54b5ac4b50c30b000fd92ef951",
+    "bytes": 12094
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/example-fields.json",
+    "source": "distant-build/package/example-fields.json",
+    "sha256": "dcb96a661b208d73a7bdbb9b30387472c4369377413470c00fc568b31db6c6d1",
+    "bytes": 234
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/example-real-report/index.html",
+    "source": "distant-build/package/example-real-report/index.html",
+    "sha256": "294371f8553c1aec18f3df2d62bb1e1f9267ff3c68613beeb0890644cabac3f8",
+    "bytes": 3835
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/example-real-report/observations.csv",
+    "source": "distant-build/package/example-real-report/observations.csv",
+    "sha256": "f7be440276f7f4c31df5b880eab6a5c6c5b727e80d4d63d57cd5c8583f28e219",
+    "bytes": 70
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/example-real-report/report.json",
+    "source": "distant-build/package/example-real-report/report.json",
+    "sha256": "ec8f7e2b45f4c69aed8564ded7e5023f3bc89412e9a9fb14e5eedab8fcc14d28",
+    "bytes": 26639
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/rubin-distant-watch.py",
+    "source": "distant-build/package/rubin-distant-watch.py",
+    "sha256": "363f7bd31fa5c2c11b2440dfec95913397a29de84fa1ecdd39befc3c135e5a81",
+    "bytes": 34052
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/rubin-distant-watch.sh",
+    "source": "distant-build/package/rubin-distant-watch.sh",
+    "sha256": "178512374ebb558e8d51929c3df269081fcc236d79192d639ebb91e87b562f1e",
+    "bytes": 412
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/rw_core.py",
+    "source": "distant-build/package/rw_core.py",
+    "sha256": "2b63edbb44a58a8791722d97ef119332f247dcedf34296b9d5e7584c7eb640ca",
+    "bytes": 34145
+  },
+  {
+    "path": "archive/source-versions/distant-watch-2026-10-28/test_distant_watch.py",
+    "source": "distant-build/package/test_distant_watch.py",
+    "sha256": "a28ae1839d2cdc8a5a86738d9333915e5fab61427e05d6ad42c24c1642370add",
+    "bytes": 5878
+  },
+  {
+    "path": "src/distant-watch/README.md",
+    "source": "live-build/package/README.md",
+    "sha256": "9cfbceb3ec5bbcc84f4f8073fe7554595fdb9cd261dd123b440a5ea5c78972a5",
+    "bytes": 1841
+  },
+  {
+    "path": "src/distant-watch/live_avro.py",
+    "source": "live-build/package/live_avro.py",
+    "sha256": "3a46fa1155535eef814d83f92da61bb6174c80c7a80383d5c9c308dbee84d696",
+    "bytes": 3086
+  },
+  {
+    "path": "src/distant-watch/pots-smoke-field.json",
+    "source": "live-build/package/pots-smoke-field.json",
+    "sha256": "3d1227e289cc82c33d97a3afab762080429c019092b14182511c9c67a9435b13",
+    "bytes": 159
+  },
+  {
+    "path": "src/distant-watch/rubin-distant-watch.py",
+    "source": "live-build/package/rubin-distant-watch.py",
+    "sha256": "bd0a80f23b987935955761d78c00478f01e0a32be8622070cf914c53817b5264",
+    "bytes": 35661
+  },
+  {
+    "path": "src/distant-watch/rubin-live-search.sh",
+    "source": "live-build/package/rubin-live-search.sh",
+    "sha256": "1b0809981f1877bb96223412ff9885802ec6ab6f67c0315c9dfd0c55e2b59e4c",
+    "bytes": 247
+  },
+  {
+    "path": "src/distant-watch/rw_core.py",
+    "source": "live-build/package/rw_core.py",
+    "sha256": "2b63edbb44a58a8791722d97ef119332f247dcedf34296b9d5e7584c7eb640ca",
+    "bytes": 34145
+  },
+  {
+    "path": "src/distant-watch/test_distant_watch.py",
+    "source": "live-build/package/test_distant_watch.py",
+    "sha256": "a28ae1839d2cdc8a5a86738d9333915e5fab61427e05d6ad42c24c1642370add",
+    "bytes": 5878
+  },
+  {
+    "path": "src/bright-watch/collect.py",
+    "source": "quasar-build/package/collect.py",
+    "sha256": "5fe48af4f5cccc8e77d988069de268c468b90c05c2abaaa1f3f3ff8594c5f089",
+    "bytes": 1888
+  },
+  {
+    "path": "src/bright-watch/report.py",
+    "source": "quasar-build/package/report.py",
+    "sha256": "796780186ae13f5a37599a08889f027f34985bf9004dcff51c821f15ac65e0bb",
+    "bytes": 4728
+  },
+  {
+    "path": "src/bright-watch/rubin-quasar-collector.service",
+    "source": "quasar-build/package/rubin-quasar-collector.service",
+    "sha256": "edc4223b4a0ccd812c38c191509f5302ca16ff357fedfbecca8d615b269de7da",
+    "bytes": 253
+  },
+  {
+    "path": "src/bright-watch/rubin-quasar-report.service",
+    "source": "quasar-build/package/rubin-quasar-report.service",
+    "sha256": "f3ff23e13cc1562e2ab0be5bfe7718d33819069edb2671032fda98bfc0bfffed",
+    "bytes": 159
+  },
+  {
+    "path": "src/bright-watch/rubin-quasar-report.timer",
+    "source": "quasar-build/package/rubin-quasar-report.timer",
+    "sha256": "cca565f416f200631d9e7490088730e407c7335c7770782f7ba0272b1ad2c34e",
+    "bytes": 174
+  },
+  {
+    "path": "src/morning-research/rubin-morning-research.py",
+    "source": "rubin-morning-research.py",
+    "sha256": "7a919c714ce824c64f85cbe603551aa7396a08a28669de163cfc6e0e24e6b288",
+    "bytes": 20566
+  },
+  {
+    "path": "src/historical/slow-control-recovery.py",
+    "source": "slow-control-recovery.py",
+    "sha256": "d395cf0d363f9c9aa587e890ad4b769d7a31b9aeeb117b59421a181440cdee4b",
+    "bytes": 9022
+  },
+  {
+    "path": "src/historical/historical-original-2026-11-19.py",
+    "source": "rubin-historical-2026/historical.py",
+    "sha256": "50389053acd95be3babfe1c7f57333e0ac8f91726677da8fc0b2966e4512c7a1",
+    "bytes": 17795
+  },
+  {
+    "path": "archive/operations/download-compact-2026-11-19.sh",
+    "source": "rubin-historical-2026/download-compact.sh",
+    "sha256": "52cbb66482ac89a8f097c502ccd82bc8bec25ac6f0e165bf409d4dbdac8e9a3a",
+    "bytes": 477
+  },
+  {
+    "path": "archive/plans/2026-11-19-PROJECT.md",
+    "source": "rubin-historical-2026/PROJECT.md",
+    "sha256": "df87bfccfe4d02cf6e6fa4e72b0c6ff5751b7484e328e29951abc320b154d68f",
+    "bytes": 5437
+  },
+  {
+    "path": "config/examples/pots-field-transfer.yml",
+    "source": "pots-fink-transfer.yml",
+    "sha256": "c5f7e6f178d8b3cf48f4c3647144858036f642baf7aa3f1cc99542f4d6f3e322",
+    "bytes": 220
+  },
+  {
+    "path": "archive/migrations/rubin-observation-span-update.py",
+    "source": "span-build/rubin-observation-span-update.py",
+    "sha256": "9c3b4c73c276b78478778e56eb80a242442280f8b9b71a71096e8f6534ee7ecb",
+    "bytes": 3335
+  },
+  {
+    "path": "archive/migrations/rubin-terminal-upgrade.py",
+    "source": "terminal-update/rubin-terminal-upgrade.py",
+    "sha256": "97fa8d9c0743e5ce566f88b69a3b35be5c0d59789e6c542fd3c1bcdfb8529401",
+    "bytes": 7520
+  },
+  {
+    "path": "evaluations/2026-10-28/public-tests.log",
+    "source": "terminal-update/public-tests.log",
+    "sha256": "97c28bc769f61a53d5e04e6a4712cf957a9b07b99abdf0053a3eeb03af4a6bfb",
+    "bytes": 5046
+  },
+  {
+    "path": "evaluations/2026-10-28/distant-tests.log",
+    "source": "terminal-update/distant-tests.log",
+    "sha256": "b82b0fae492dda3ce2ca3bb4dfb6bede264ffd2d9337cfae00356249e02bf7b2",
+    "bytes": 992
+  },
+  {
+    "path": "evaluations/2026-10-26/test-result.txt",
+    "source": "rubin-build/test-result.txt",
+    "sha256": "0967408f81d8ed7afef4cc62ecf146fd131ed8b5ce5af15de8cc04f3ea28f904",
+    "bytes": 2224
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/reports/20261026T191227272839Z/index.html",
+    "source": "rubin-build/live-check/reports/20261026T191227272839Z/index.html",
+    "sha256": "fa957a2b1099bf853d76bef7beef9091a85313457a6999378c216af84af6c9e1",
+    "bytes": 139525
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/reports/20261026T191227272839Z/report.json",
+    "source": "rubin-build/live-check/reports/20261026T191227272839Z/report.json",
+    "sha256": "1c34aec8d485d993da5c9bdeafe97dbedb2a4720621718146e2ce14fa47467ed",
+    "bytes": 13757
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/reports/20261026T191227272839Z/watchlist.csv",
+    "source": "rubin-build/live-check/reports/20261026T191227272839Z/watchlist.csv",
+    "sha256": "0a7777a929cebf62d935ca84074cfcd073aa24963d49d4919d0fa6a298671569",
+    "bytes": 6009
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/reports/20261026T191335268144Z/index.html",
+    "source": "rubin-build/live-check/reports/20261026T191335268144Z/index.html",
+    "sha256": "d5208421a1215b23c4b20c046d1cc522c4b11cd2f7ff493d9c094db1467e239f",
+    "bytes": 90676
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/reports/20261026T191335268144Z/report.json",
+    "source": "rubin-build/live-check/reports/20261026T191335268144Z/report.json",
+    "sha256": "de2eb3cd8141d10c102905cdb2692560a2d5ad06df346da9d2da6cb93d54225c",
+    "bytes": 10764
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/reports/20261026T191335268144Z/watchlist.csv",
+    "source": "rubin-build/live-check/reports/20261026T191335268144Z/watchlist.csv",
+    "sha256": "0be1ced78872ad4a30b8f82106304f1086f1ed3b2eedc0c51f6c1acaea1fe7a5",
+    "bytes": 4288
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/reports/latest.html",
+    "source": "rubin-build/live-check/reports/latest.html",
+    "sha256": "6125c52aa45345c43900808d61f15f40bdfbf544498ad079166e1a0938a28e12",
+    "bytes": 161
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/rubin.sqlite3-shm",
+    "source": "rubin-build/live-check/rubin.sqlite3-shm",
+    "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+    "bytes": 32768
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-initial/rubin.sqlite3-wal",
+    "source": "rubin-build/live-check/rubin.sqlite3-wal",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "data/snapshots/pilots/public-watch-initial/rubin.sqlite3",
+    "source": "rubin-build/live-check/rubin.sqlite3",
+    "method": "SQLite consistent backup",
+    "sha256": "2a40dc7d1d5bc82228d1de25ea340af1b72c5a44a8ce66f6e8558f4fd60acad7",
+    "bytes": 1613824
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/reports/20261026T191507555832Z/index.html",
+    "source": "rubin-build/live-final/reports/20261026T191507555832Z/index.html",
+    "sha256": "2e535a5806b4c71f7a52bf33f3819fb10f4c4656c72cc36db6b4424f3ffd9291",
+    "bytes": 90676
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/reports/20261026T191507555832Z/report.json",
+    "source": "rubin-build/live-final/reports/20261026T191507555832Z/report.json",
+    "sha256": "f0308a7a8e3c641061fa72462f2d55953527e08a237c43e54fbcc2c9c4281359",
+    "bytes": 10763
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/reports/20261026T191507555832Z/watchlist.csv",
+    "source": "rubin-build/live-final/reports/20261026T191507555832Z/watchlist.csv",
+    "sha256": "0be1ced78872ad4a30b8f82106304f1086f1ed3b2eedc0c51f6c1acaea1fe7a5",
+    "bytes": 4288
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/reports/20261026T191523181983Z/index.html",
+    "source": "rubin-build/live-final/reports/20261026T191523181983Z/index.html",
+    "sha256": "baee9b48e43591e44ab943edc47e34a23d879cf66aa6edfb2a8965202cbe7674",
+    "bytes": 90676
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/reports/20261026T191523181983Z/report.json",
+    "source": "rubin-build/live-final/reports/20261026T191523181983Z/report.json",
+    "sha256": "6bd434fcd2a539d64a73cd16bd8c26556ca7164f31f60a510919b5d2522621e2",
+    "bytes": 10763
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/reports/20261026T191523181983Z/watchlist.csv",
+    "source": "rubin-build/live-final/reports/20261026T191523181983Z/watchlist.csv",
+    "sha256": "0be1ced78872ad4a30b8f82106304f1086f1ed3b2eedc0c51f6c1acaea1fe7a5",
+    "bytes": 4288
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/reports/latest.html",
+    "source": "rubin-build/live-final/reports/latest.html",
+    "sha256": "7a39cb890cfb3daaf53beb8c20205eef0a0d7921e2b3491765dc35cb9ef0e665",
+    "bytes": 161
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/rubin.sqlite3-shm",
+    "source": "rubin-build/live-final/rubin.sqlite3-shm",
+    "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+    "bytes": 32768
+  },
+  {
+    "path": "archive/pilot-runs/public-watch-final/rubin.sqlite3-wal",
+    "source": "rubin-build/live-final/rubin.sqlite3-wal",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "data/snapshots/pilots/public-watch-final/rubin.sqlite3",
+    "source": "rubin-build/live-final/rubin.sqlite3",
+    "method": "SQLite consistent backup",
+    "sha256": "990a6b9f6b38c81e085bd4d17fee8aa57f5d310180894c6d28ddf369ddd24d31",
+    "bytes": 1454080
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/fields.auto.json",
+    "source": "distant-build/live-pilot/fields.auto.json",
+    "sha256": "ab929b57b20f30cc4b0700dc07c981206abef6e31858efaffc61de9e3eb5fd7c",
+    "bytes": 679
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/reports/20261028T170859616883Z/index.html",
+    "source": "distant-build/live-pilot/reports/20261028T170859616883Z/index.html",
+    "sha256": "2a7eec2e07c41b49b9155018d2b8d91917806348b1d0614d8bc78c19ad373686",
+    "bytes": 3835
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/reports/20261028T170859616883Z/observations.csv",
+    "source": "distant-build/live-pilot/reports/20261028T170859616883Z/observations.csv",
+    "sha256": "f7be440276f7f4c31df5b880eab6a5c6c5b727e80d4d63d57cd5c8583f28e219",
+    "bytes": 70
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/reports/20261028T170859616883Z/report.json",
+    "source": "distant-build/live-pilot/reports/20261028T170859616883Z/report.json",
+    "sha256": "b7590ab37840b0e5bf578d9bd34226e65a5f46b783bfd469f95390c88b3cbde8",
+    "bytes": 18117
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/reports/20261028T171141920888Z/index.html",
+    "source": "distant-build/live-pilot/reports/20261028T171141920888Z/index.html",
+    "sha256": "294371f8553c1aec18f3df2d62bb1e1f9267ff3c68613beeb0890644cabac3f8",
+    "bytes": 3835
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/reports/20261028T171141920888Z/observations.csv",
+    "source": "distant-build/live-pilot/reports/20261028T171141920888Z/observations.csv",
+    "sha256": "f7be440276f7f4c31df5b880eab6a5c6c5b727e80d4d63d57cd5c8583f28e219",
+    "bytes": 70
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/reports/20261028T171141920888Z/report.json",
+    "source": "distant-build/live-pilot/reports/20261028T171141920888Z/report.json",
+    "sha256": "ec8f7e2b45f4c69aed8564ded7e5023f3bc89412e9a9fb14e5eedab8fcc14d28",
+    "bytes": 26639
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/reports/latest.html",
+    "source": "distant-build/live-pilot/reports/latest.html",
+    "sha256": "8f45687507e17ca36ace5613386cd0ecf139c9b1c203b889621f302a2403eff2",
+    "bytes": 111
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/rubin-distant.sqlite3-shm",
+    "source": "distant-build/live-pilot/rubin-distant.sqlite3-shm",
+    "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+    "bytes": 32768
+  },
+  {
+    "path": "archive/pilot-runs/distant-watch/rubin-distant.sqlite3-wal",
+    "source": "distant-build/live-pilot/rubin-distant.sqlite3-wal",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "data/snapshots/pilots/distant-watch/rubin-distant.sqlite3",
+    "source": "distant-build/live-pilot/rubin-distant.sqlite3",
+    "method": "SQLite consistent backup",
+    "sha256": "21f79acd7320a66c1ee78b69e4818549fd9d1be6b885cb65b4517132939047be",
+    "bytes": 1986560
+  },
+  {
+    "path": "data/snapshots/2026-10-26-public-watch/history.json",
+    "source": "rubin-build/history.json",
+    "sha256": "06eb12beeb1923f957125eb3209a7c8f8d675b792bba94520c91aed4f6ee42c9",
+    "bytes": 25152
+  },
+  {
+    "path": "data/snapshots/2026-10-26-public-watch/sample.json",
+    "source": "rubin-build/sample.json",
+    "sha256": "47738a4cf017ddddf11b24ac2487443cd157f0a2d489bd771d683ae598a697ae",
+    "bytes": 8824
+  },
+  {
+    "path": "data/snapshots/2026-10-26-public-watch/swagger.json",
+    "source": "rubin-build/swagger.json",
+    "sha256": "b1fb4afc9f79089dec67ea790853a4a5e842fbc6dc2caa0dc5740ebd945a9143",
+    "bytes": 47809
+  },
+  {
+    "path": "data/snapshots/2026-10-26-public-watch/tags.json",
+    "source": "rubin-build/tags.json",
+    "sha256": "982341e3dc163ab312bb759cc0271208fc148df2295156a2eaf6dfcf553ab4d6",
+    "bytes": 1925
+  },
+  {
+    "path": "data/snapshots/2026-10-26-public-watch/plot-check.png",
+    "source": "rubin-build/plot-check.png",
+    "sha256": "496a062804e604b3d50f82b267709f3c7134327cd7aaf2255227f1e6de2636bc",
+    "bytes": 28077
+  },
+  {
+    "path": "data/snapshots/2026-11-19/object-170653056044630027.json",
+    "source": "rubin-historical-2026/data/object-170653056044630027.json",
+    "sha256": "f6341586a170f6207ed9ebede5b2065327321758574e044d00c047155fafc40c",
+    "bytes": 19373
+  },
+  {
+    "path": "data/snapshots/2026-11-19/object-171141216913588260.json",
+    "source": "rubin-historical-2026/data/object-171141216913588260.json",
+    "sha256": "c59ce6a336b956cbabc6f39ae6ab59f01849680b16899ecb4c84d8edcd1d8235",
+    "bytes": 30946
+  },
+  {
+    "path": "data/snapshots/2026-11-19/object-313774266976305153.json",
+    "source": "rubin-historical-2026/data/object-313774266976305153.json",
+    "sha256": "c03f4784f7ae0e1a843204cc765e58f0d7b64dccd7eee8d06725be794977c708",
+    "bytes": 34638
+  },
+  {
+    "path": "data/snapshots/2026-11-19/object-313862200773574662.json",
+    "source": "rubin-historical-2026/data/object-313862200773574662.json",
+    "sha256": "9eeba80a436deffd85b89696cb4deaa85e046978250052c5c674381278cee673",
+    "bytes": 1638226
+  },
+  {
+    "path": "data/snapshots/2026-11-19/sso-2013_CR7.json",
+    "source": "rubin-historical-2026/data/sso-2013_CR7.json",
+    "sha256": "f137add7c15b51e18d9bb7b722b90492152732f50bed8a8d356a6571257b3e00",
+    "bytes": 23293
+  },
+  {
+    "path": "data/snapshots/2026-11-19/sso-2014_WV203.json",
+    "source": "rubin-historical-2026/data/sso-2014_WV203.json",
+    "sha256": "d15e47f98b0a904c97699d450630144f13695aa80758af1b3b9bf632c6842605",
+    "bytes": 31149
+  },
+  {
+    "path": "data/snapshots/2026-11-19/sso-schema.json",
+    "source": "rubin-historical-2026/data/sso-schema.json",
+    "sha256": "d8a5244dd5403a712ed596343d8a43079173c90a44bae354e75335be04341a0e",
+    "bytes": 1438
+  },
+  {
+    "path": "data/snapshots/2026-11-19/ssobulk.parquet",
+    "source": "rubin-historical-2026/data/ssobulk.parquet",
+    "sha256": "edbe2e38174e7884577c2bdc76d0e813c61e513a72173723d229655c67aa26f9",
+    "bytes": 41773913
+  },
+  {
+    "path": "data/snapshots/2026-11-19/ssoft.parquet",
+    "source": "rubin-historical-2026/data/ssoft.parquet",
+    "sha256": "e037db990defd43398183294b10880cc788e32fac32476ec6f8c32d19e1b105f",
+    "bytes": 10485909
+  },
+  {
+    "path": "data/snapshots/2026-11-19/statistics-202607.json",
+    "source": "rubin-historical-2026/data/statistics-202607.json",
+    "sha256": "e2199d4eea1edc79229d2e51b1406ed65756bb948158af08444e61938a149e27",
+    "bytes": 4691
+  },
+  {
+    "path": "data/snapshots/2026-11-19/statistics-202608.json",
+    "source": "rubin-historical-2026/data/statistics-202608.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  {
+    "path": "data/snapshots/2026-11-19/statistics-202609.json",
+    "source": "rubin-historical-2026/data/statistics-202609.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  {
+    "path": "data/snapshots/2026-11-19/statistics-202610.json",
+    "source": "rubin-historical-2026/data/statistics-202610.json",
+    "sha256": "35ef07b75a56ee5b8fe80eb796b2a860fe6f24158397aed4fa7788b7aed2adbc",
+    "bytes": 1022
+  },
+  {
+    "path": "data/snapshots/2026-11-19/statistics-202611.json",
+    "source": "rubin-historical-2026/data/statistics-202611.json",
+    "sha256": "f2ff554800f013f9027dc68d38d432d552af49add92258d1b63da9136bf59a23",
+    "bytes": 5577
+  },
+  {
+    "path": "reports/2026/11/19/historical-initial/moving-object-report.md",
+    "source": "rubin-historical-2026/moving-object-report.md",
+    "sha256": "2320e370aee0befaf2607ed9abbdde530dcc3145728cbad69cb8d775337c6cca",
+    "bytes": 12985
+  },
+  {
+    "path": "reports/2026/11/19/historical-initial/archive-coverage.html",
+    "source": "rubin-historical-2026/archive-coverage.html",
+    "sha256": "3bfe2c1a0ce68c47944f036cb882628e4fc4c56ef47c729576d6aa58c3c38b19",
+    "bytes": 885
+  },
+  {
+    "path": "reports/2026/11/19/historical-initial/extragalactic-report.md",
+    "source": "rubin-historical-2026/extragalactic-report.md",
+    "sha256": "c86cfe464522ba25f3eb3ab6185a00d17fb2382e6615975316bc8457f1e3e2b0",
+    "bytes": 4056
+  },
+  {
+    "path": "reports/2026/11/19/historical-initial/archive-coverage.md",
+    "source": "rubin-historical-2026/archive-coverage.md",
+    "sha256": "dc3670bfd288a51fc13a40476b1ed3aa576a3248ca4b481a2b65cc201bcad0a1",
+    "bytes": 700
+  },
+  {
+    "path": "reports/2026/11/19/historical-initial/slow-controls.json",
+    "source": "rubin-historical-2026/slow-controls.json",
+    "sha256": "2aa81c559f38a1ed3fd9f28d435f92319813c027b1247bf25b826f859a6cde34",
+    "bytes": 33321
+  },
+  {
+    "path": "reports/2026/11/19/historical-initial/moving-object-report.html",
+    "source": "rubin-historical-2026/moving-object-report.html",
+    "sha256": "afd67c6d8305240ce05922ad1a2d70220251d3b3515043326b4c6615c9c3e60a",
+    "bytes": 13170
+  },
+  {
+    "path": "reports/2026/11/19/historical-initial/extragalactic-report.html",
+    "source": "rubin-historical-2026/extragalactic-report.html",
+    "sha256": "b47a3e938966bdd388d02fce301aabfc996d0db79eee83c8368dd07e9a8eb4a0",
+    "bytes": 4246
+  },
+  {
+    "path": "reports/2026/11/20/2026-11-20-extragalactic-report.md",
+    "source": "reports-2026-11-20/2026-11-20-extragalactic-report.md",
+    "sha256": "73994abd1b2db22c0a281e5262d1c0dd71b4336588cd80a6728d1e53e86268e2",
+    "bytes": 6472
+  },
+  {
+    "path": "reports/2026/11/20/2026-11-20-moving-object-report.html",
+    "source": "reports-2026-11-20/2026-11-20-moving-object-report.html",
+    "sha256": "69aacf54a9104a9415af4d63543ce8dabf9318fd6d47cbb9b5803bc533ad9b47",
+    "bytes": 15791
+  },
+  {
+    "path": "reports/2026/11/20/2026-11-20-moving-object-report.md",
+    "source": "reports-2026-11-20/2026-11-20-moving-object-report.md",
+    "sha256": "297c87d8e3ac8cf16b99b1bab5726e04faa6ef888801afca3dd007343feda68d",
+    "bytes": 15585
+  },
+  {
+    "path": "reports/2026/11/20/2026-11-20-extragalactic-report.html",
+    "source": "reports-2026-11-20/2026-11-20-extragalactic-report.html",
+    "sha256": "06d9e6db44b1f9cd1671e9644c9853d7404ffb74afa8cee72eec00a411545553",
+    "bytes": 6688
+  },
+  {
+    "path": "data/snapshots/2026-11-20/refresh-provenance.json",
+    "source": "reports-2026-11-20/refresh-provenance.json",
+    "sha256": "b439feb8b688521fe3e66a76c5e719cf77cdb89790dca54165e56e7345b25011",
+    "bytes": 2788
+  },
+  {
+    "path": "data/snapshots/2026-11-20/object-171141216913588260.json",
+    "source": "reports-2026-11-20/data/object-171141216913588260.json",
+    "sha256": "c59ce6a336b956cbabc6f39ae6ab59f01849680b16899ecb4c84d8edcd1d8235",
+    "bytes": 30946
+  },
+  {
+    "path": "data/snapshots/2026-11-20/sso-2014_WV203.json",
+    "source": "reports-2026-11-20/data/sso-2014_WV203.json",
+    "sha256": "d15e47f98b0a904c97699d450630144f13695aa80758af1b3b9bf632c6842605",
+    "bytes": 31149
+  },
+  {
+    "path": "data/snapshots/2026-11-20/statistics-202607.json",
+    "source": "reports-2026-11-20/data/statistics-202607.json",
+    "sha256": "e2199d4eea1edc79229d2e51b1406ed65756bb948158af08444e61938a149e27",
+    "bytes": 4691
+  },
+  {
+    "path": "data/snapshots/2026-11-20/statistics-202608.json",
+    "source": "reports-2026-11-20/data/statistics-202608.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  {
+    "path": "data/snapshots/2026-11-20/statistics-202611.json",
+    "source": "reports-2026-11-20/data/statistics-202611.json",
+    "sha256": "f2ff554800f013f9027dc68d38d432d552af49add92258d1b63da9136bf59a23",
+    "bytes": 5577
+  },
+  {
+    "path": "data/snapshots/2026-11-20/object-313774266976305153.json",
+    "source": "reports-2026-11-20/data/object-313774266976305153.json",
+    "sha256": "c03f4784f7ae0e1a843204cc765e58f0d7b64dccd7eee8d06725be794977c708",
+    "bytes": 34638
+  },
+  {
+    "path": "data/snapshots/2026-11-20/sso-schema.json",
+    "source": "reports-2026-11-20/data/sso-schema.json",
+    "sha256": "d8a5244dd5403a712ed596343d8a43079173c90a44bae354e75335be04341a0e",
+    "bytes": 1438
+  },
+  {
+    "path": "data/snapshots/2026-11-20/sso-2013_CR7.json",
+    "source": "reports-2026-11-20/data/sso-2013_CR7.json",
+    "sha256": "f137add7c15b51e18d9bb7b722b90492152732f50bed8a8d356a6571257b3e00",
+    "bytes": 23293
+  },
+  {
+    "path": "data/snapshots/2026-11-20/statistics-202609.json",
+    "source": "reports-2026-11-20/data/statistics-202609.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  {
+    "path": "data/snapshots/2026-11-20/statistics-202610.json",
+    "source": "reports-2026-11-20/data/statistics-202610.json",
+    "sha256": "35ef07b75a56ee5b8fe80eb796b2a860fe6f24158397aed4fa7788b7aed2adbc",
+    "bytes": 1022
+  },
+  {
+    "path": "data/snapshots/2026-11-20/object-313862200773574662.json",
+    "source": "reports-2026-11-20/data/object-313862200773574662.json",
+    "sha256": "9eeba80a436deffd85b89696cb4deaa85e046978250052c5c674381278cee673",
+    "bytes": 1638226
+  },
+  {
+    "path": "data/snapshots/2026-11-20/object-170653056044630027.json",
+    "source": "reports-2026-11-20/data/object-170653056044630027.json",
+    "sha256": "f6341586a170f6207ed9ebede5b2065327321758574e044d00c047155fafc40c",
+    "bytes": 19373
+  },
+  {
+    "path": "archive/report-generators/2026-11-20/historical.py",
+    "source": "reports-2026-11-20/historical.py",
+    "sha256": "9f272cd4e72693babf3c5b493803d8571788e95d4cd3ac24c4ad224878ece839",
+    "bytes": 18129
+  },
+  {
+    "path": "archive/report-generators/2026-11-20/refresh.py",
+    "source": "reports-2026-11-20/refresh.py",
+    "sha256": "53ab043ec89ff7f63c12ae725c212de7ea26af0e93d0e0522052b48e4efda66f",
+    "bytes": 2305
+  },
+  {
+    "path": "archive/report-generators/2026-11-20/finalize_reports.py",
+    "source": "reports-2026-11-20/finalize_reports.py",
+    "sha256": "5abbca110ac0395eefb2fb76dee0580e8fe310ab1d545ce84528f39af6a58edd",
+    "bytes": 6242
+  },
+  {
+    "path": "reports/2026/11/14/bright-extragalactic-pavilion.md",
+    "source": "upload/Pasted markdown.md",
+    "sha256": "7dcb2eed68deee0c69a8b01bb9e43bb14b91944b28ddea77a695141e74ad6e03",
+    "bytes": 27618
+  },
+  {
+    "path": "reports/2026/11/18/bright-extragalactic-pots-original-heading.md",
+    "source": "upload/Pasted markdown(1).md",
+    "sha256": "424bce03f3fdb901b45110595d434f02a8548e5a695e239eb5246f051b462a90",
+    "bytes": 11332
+  },
+  {
+    "path": "reports/2026/11/19/bright-extragalactic-pots.md",
+    "source": "upload/Pasted markdown(2).md",
+    "sha256": "6906733b91a1b0b8604c0dc506a6918ab50e810677dbf9d65b8807f8e3e8381d",
+    "bytes": 11387
+  },
+  {
+    "path": "reports/2026/11/19/historical-expanded-pots.md",
+    "source": "upload/Pasted markdown(3).md",
+    "sha256": "679be54510cecc715398a386056436ecb6c09c5e79f5c50f1a868facfeeeceb3",
+    "bytes": 53317
+  },
+  {
+    "path": "reports/2026/11/19/slow-control-recovery.md",
+    "source": "upload/slow-control-recovery.md",
+    "sha256": "3ba46d76b2b4d9b71f0fc2d474bf368217db673fd170279bbf49c1941c52e517",
+    "bytes": 2800
+  }
+]

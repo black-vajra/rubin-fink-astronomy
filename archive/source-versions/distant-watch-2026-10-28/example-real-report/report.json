@@ -1,0 +1,1189 @@
+{
+  "version": "0.1.0",
+  "generated_utc": "2026-10-28T17:11:41+00:00",
+  "freshness": "HISTORICAL | age 106.4 days | 2026-07-14T08:31:31.084Z",
+  "fields": [
+    {
+      "label": "pilot-1",
+      "ra": 334.2496164443,
+      "dec": -18.207956187,
+      "radius": 600.0,
+      "attempted": 1793207301.7533338,
+      "description": "Automatic patch around a public hostless-alert position; NOT a Planet Nine predicted region."
+    },
+    {
+      "label": "pilot-2",
+      "ra": 313.2265018607,
+      "dec": -14.8404326012,
+      "radius": 600.0,
+      "attempted": 1793207327.3256376,
+      "description": "Automatic patch around a public hostless-alert position; NOT a Planet Nine predicted region."
+    },
+    {
+      "label": "pilot-3",
+      "ra": 313.5460615231,
+      "dec": -17.6765649873,
+      "radius": 600.0,
+      "attempted": 0.0,
+      "description": "Automatic patch around a public hostless-alert position; NOT a Planet Nine predicted region."
+    }
+  ],
+  "warnings": [
+    "Experimental linkage proposals, not confirmed objects or discoveries. A trial heliocentric radius is a MODEL INPUT, not a measured distance.",
+    "Public cones return the latest alert per indexed object. Histories are fetched separately and in a limited rotation. Truly unassociated detections not indexed as objects may be inaccessible.",
+    "Default fields are small patches around existing alert locations, not a published Planet Nine probability map or an all-sky survey. Positive detections below the alert threshold are absent; image-level shift-and-stack is not performed.",
+    "No orbit fit, acceleration fit, radial-velocity solution, mass measurement, or planetary classification. Fixed-radius short-arc models can be degenerate and can produce accidental linkages.",
+    "One filter at a time; >=6 visits on >=4 UTC-noon night bins spanning 7\u201390 days. These cuts sacrifice sensitivity. Capped samples, point/seed budgets, and historical data are explicitly recorded.",
+    "A missing ssObjectId or absent catalog match does not prove novelty. SkyBoT is checked only for a bounded number of top proposals; service failures remain UNCHECKED. Image inspection and independent orbital follow-up are required.",
+    "Size scenarios assume all measured science flux belongs to one unblended reflecting body, zero phase angle, an SDSS-r solar proxy, and r-band geometric albedo 0.04\u20130.60. They are not measured sizes, masses, or probabilities.",
+    "The model uses a geocentric observer and builtin solar ephemerides, a 0.20 arcsec per-axis systematic error floor, and a 20% angular-speed allowance. Topocentric offsets, light-time dynamics, RA\u2013Dec covariance, calibration systematics, and full gravitational dynamics are not modeled."
+  ],
+  "analysis_budgets": [
+    {
+      "field": "pilot-1",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-1",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-1",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-1",
+      "band": "i",
+      "input_points": 65,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 114,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 65
+    },
+    {
+      "field": "pilot-1",
+      "band": "z",
+      "input_points": 41,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 73,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 41
+    },
+    {
+      "field": "pilot-1",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-2",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-2",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-2",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-2",
+      "band": "i",
+      "input_points": 64,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 64
+    },
+    {
+      "field": "pilot-2",
+      "band": "z",
+      "input_points": 62,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ],
+      "used_points": 62
+    },
+    {
+      "field": "pilot-2",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-3",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-3",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-3",
+      "band": "r",
+      "input_points": 2,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-3",
+      "band": "i",
+      "input_points": 1,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-3",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    },
+    {
+      "field": "pilot-3",
+      "band": "",
+      "input_points": 0,
+      "point_limit_hit": false,
+      "seed_limit_hit": false,
+      "tested_pairs": 0,
+      "trial_radii_au": [
+        50,
+        80,
+        120,
+        200,
+        300,
+        400,
+        600,
+        900,
+        1500,
+        2500
+      ]
+    }
+  ],
+  "proposals": [],
+  "recent_runs": [
+    {
+      "id": 4,
+      "utc": "2026-10-28T17:11:41+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "pilot-1",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-1",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-1",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "pilot-1",
+            "input_points": 65,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 114,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 65
+          },
+          {
+            "band": "z",
+            "field": "pilot-1",
+            "input_points": 41,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 73,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 41
+          },
+          {
+            "band": "",
+            "field": "pilot-1",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-2",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-2",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-2",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "pilot-2",
+            "input_points": 64,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 64
+          },
+          {
+            "band": "z",
+            "field": "pilot-2",
+            "input_points": 62,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 62
+          },
+          {
+            "band": "",
+            "field": "pilot-2",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-3",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-3",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "r",
+            "field": "pilot-3",
+            "input_points": 2,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "pilot-3",
+            "input_points": 1,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-3",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-3",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 242,
+        "proposals": 0,
+        "total_records": 322
+      }
+    },
+    {
+      "id": 3,
+      "utc": "2026-10-28T17:08:59+00:00",
+      "kind": "analysis",
+      "detail": {
+        "budgets": [
+          {
+            "band": "",
+            "field": "pilot-1",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-1",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-1",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "pilot-1",
+            "input_points": 65,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 114,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 65
+          },
+          {
+            "band": "z",
+            "field": "pilot-1",
+            "input_points": 41,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 73,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 41
+          },
+          {
+            "band": "",
+            "field": "pilot-1",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-2",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-2",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-2",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "pilot-2",
+            "input_points": 64,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 64
+          },
+          {
+            "band": "z",
+            "field": "pilot-2",
+            "input_points": 62,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ],
+            "used_points": 62
+          },
+          {
+            "band": "",
+            "field": "pilot-2",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-3",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-3",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "r",
+            "field": "pilot-3",
+            "input_points": 2,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "i",
+            "field": "pilot-3",
+            "input_points": 1,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-3",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          },
+          {
+            "band": "",
+            "field": "pilot-3",
+            "input_points": 0,
+            "point_limit_hit": false,
+            "seed_limit_hit": false,
+            "tested_pairs": 0,
+            "trial_radii_au": [
+              50,
+              80,
+              120,
+              200,
+              300,
+              400,
+              600,
+              900,
+              1500,
+              2500
+            ]
+          }
+        ],
+        "eligible": 242,
+        "proposals": 0,
+        "total_records": 322
+      }
+    },
+    {
+      "id": 2,
+      "utc": "2026-10-28T17:08:47+00:00",
+      "kind": "cone",
+      "detail": {
+        "cap": 20,
+        "cap_hit": true,
+        "field": "pilot-2",
+        "note": "Latest alert per indexed object; completeness not established.",
+        "returned": 171,
+        "success": true
+      }
+    },
+    {
+      "id": 1,
+      "utc": "2026-10-28T17:08:21+00:00",
+      "kind": "cone",
+      "detail": {
+        "cap": 20,
+        "cap_hit": true,
+        "field": "pilot-1",
+        "note": "Latest alert per indexed object; completeness not established.",
+        "returned": 138,
+        "success": true
+      }
+    }
+  ],
+  "fetch_errors": []
+}
