@@ -30,3 +30,7 @@ The GitHub repository is public, as confirmed by the user. Preparation is not pr
 ## Release-listing compatibility repair
 
 Research commit 9edd7ee was successfully pushed to main and release research-archive-20261120T175302Z was created. The initial asset-listing command failed before uploads. The repair replaces --slurp pagination with explicit page requests and makes captured API errors visible. It resumes the existing capture and release; asset publication remains pending until the finalizer writes its verified receipt.
+
+## Verified Pots publication
+
+The authenticated finalizer pushed research commit `80be1d9430f3f0b427b2697adf1620b32a537021`, uploaded and verified 21 release assets, and recorded publication receipt `data/manifests/publication-research-archive-20261120T175302Z.json`. Release: https://github.com/black-vajra/rubin-fink-astronomy/releases/tag/research-archive-20261120T175302Z. Remote checksums were checked when supplied by GitHub; otherwise asset size was checked and the local SHA-256 retained. Missing download filenames and absent source roots are listed in the capture manifests rather than silently declared archived.

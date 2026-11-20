@@ -1,0 +1,176 @@
+{
+  "verified_UTC": "2026-11-20T18:09:55.641685+00:00",
+  "repository": "black-vajra/rubin-fink-astronomy",
+  "release_url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/tag/research-archive-20261120T175302Z",
+  "data_commit": "80be1d9430f3f0b427b2697adf1620b32a537021",
+  "assets": [
+    {
+      "name": "part-0000.bin",
+      "bytes": 99614720,
+      "sha256": "23766726000d14567137d07c3e8327f9a132c7e72b06f52788be470df211a6b1",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0000.bin",
+      "remote_digest": "sha256:23766726000d14567137d07c3e8327f9a132c7e72b06f52788be470df211a6b1",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0001.bin",
+      "bytes": 99614720,
+      "sha256": "dbab9d72ded5080ac6e43157b4c53ff1d25b950932bc12b507b5ab38d1891507",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0001.bin",
+      "remote_digest": "sha256:dbab9d72ded5080ac6e43157b4c53ff1d25b950932bc12b507b5ab38d1891507",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0002.bin",
+      "bytes": 99614720,
+      "sha256": "1ce8edb705474bb38912a11af4b6f0ce3918bc2c6331f3d81449326cb322dd11",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0002.bin",
+      "remote_digest": "sha256:1ce8edb705474bb38912a11af4b6f0ce3918bc2c6331f3d81449326cb322dd11",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0003.bin",
+      "bytes": 99614720,
+      "sha256": "a006ca647f9904ffcbad8e2b8700c908441f02481e72cbd8b80925d82c0df356",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0003.bin",
+      "remote_digest": "sha256:a006ca647f9904ffcbad8e2b8700c908441f02481e72cbd8b80925d82c0df356",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0004.bin",
+      "bytes": 99614720,
+      "sha256": "dd67565d648350b67b2b402818bb51a7fb93d002dff2e70d57e01f0d62a6392b",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0004.bin",
+      "remote_digest": "sha256:dd67565d648350b67b2b402818bb51a7fb93d002dff2e70d57e01f0d62a6392b",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0005.bin",
+      "bytes": 99614720,
+      "sha256": "693eff8a7407022132feaca040e483c3b4cd91f50c71c499f44d754d4dca551d",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0005.bin",
+      "remote_digest": "sha256:693eff8a7407022132feaca040e483c3b4cd91f50c71c499f44d754d4dca551d",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0006.bin",
+      "bytes": 99614720,
+      "sha256": "50909aea8df8ab4b7881f06de99fe56e3943bdea235c39e5c19a4745c95aee87",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0006.bin",
+      "remote_digest": "sha256:50909aea8df8ab4b7881f06de99fe56e3943bdea235c39e5c19a4745c95aee87",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0007.bin",
+      "bytes": 99614720,
+      "sha256": "011a9769100c6a74e2b26cee1c4ee9baeed1b45ea5d658715917e6bfa4ad2a25",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0007.bin",
+      "remote_digest": "sha256:011a9769100c6a74e2b26cee1c4ee9baeed1b45ea5d658715917e6bfa4ad2a25",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0008.bin",
+      "bytes": 99614720,
+      "sha256": "5ca02508911a35a4cfb5bb5f301ccac60daa31cc320810d25b675e14eb7fb460",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0008.bin",
+      "remote_digest": "sha256:5ca02508911a35a4cfb5bb5f301ccac60daa31cc320810d25b675e14eb7fb460",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0009.bin",
+      "bytes": 99614720,
+      "sha256": "22d07e60f125974685acaa8a87e235bff8941ebf98ea822881290e41a0ffe012",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0009.bin",
+      "remote_digest": "sha256:22d07e60f125974685acaa8a87e235bff8941ebf98ea822881290e41a0ffe012",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0010.bin",
+      "bytes": 99614720,
+      "sha256": "161ae9b0e7981240792bc1abf4069cdcbd54c51a8a10ce168b57fe1238e391ee",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0010.bin",
+      "remote_digest": "sha256:161ae9b0e7981240792bc1abf4069cdcbd54c51a8a10ce168b57fe1238e391ee",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0011.bin",
+      "bytes": 99614720,
+      "sha256": "7f9a71a762c15369f9af0cabcfa6e30aa191084554844be1813c17242b33ec8e",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0011.bin",
+      "remote_digest": "sha256:7f9a71a762c15369f9af0cabcfa6e30aa191084554844be1813c17242b33ec8e",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "part-0012.bin",
+      "bytes": 12128899,
+      "sha256": "3ef4794b67db756619d4c29e7cb194d543fa709af950d69b9806f38c683da843",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/part-0012.bin",
+      "remote_digest": "sha256:3ef4794b67db756619d4c29e7cb194d543fa709af950d69b9806f38c683da843",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "rubin-historical-2026.zip",
+      "bytes": 51436603,
+      "sha256": "a86e53ca95a4753061c35c88bc0c9ed767366c0d5aa38a782276d58267a86da5",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/rubin-historical-2026.zip",
+      "remote_digest": "sha256:a86e53ca95a4753061c35c88bc0c9ed767366c0d5aa38a782276d58267a86da5",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "rubin-fink-astronomy-start.zip",
+      "bytes": 52158532,
+      "sha256": "7c54bd9bcdcf7b479e9f5ddba882fa13d0d89471a3cd0e22d358399535e85110",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/rubin-fink-astronomy-start.zip",
+      "remote_digest": "sha256:7c54bd9bcdcf7b479e9f5ddba882fa13d0d89471a3cd0e22d358399535e85110",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "rubin-extragalactic-update.zip",
+      "bytes": 324258,
+      "sha256": "c0a5d9cc697b96d78b8b39143119b9936c092a34e321c58cd6cab1cd28093a34",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/rubin-extragalactic-update.zip",
+      "remote_digest": "sha256:c0a5d9cc697b96d78b8b39143119b9936c092a34e321c58cd6cab1cd28093a34",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "rubin-qy297-update.zip",
+      "bytes": 27579,
+      "sha256": "5415a0b115145a2861295af2542b7edee3ab1d8c9d35b0e0b19c6d34d80d3a13",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/rubin-qy297-update.zip",
+      "remote_digest": "sha256:5415a0b115145a2861295af2542b7edee3ab1d8c9d35b0e0b19c6d34d80d3a13",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "rubin-physical-orbit-update.zip",
+      "bytes": 365417,
+      "sha256": "e4126f9b0721dd083e717a248b3958a24c60881cd089cf52fbab2c37051e14ac",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/rubin-physical-orbit-update.zip",
+      "remote_digest": "sha256:e4126f9b0721dd083e717a248b3958a24c60881cd089cf52fbab2c37051e14ac",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "rubin-research-finalize-2026-11-20.zip",
+      "bytes": 296638,
+      "sha256": "87173ab7cba83ae2e20e7d589b47397d82041766a02058f1872cbc0175add47f",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/rubin-research-finalize-2026-11-20.zip",
+      "remote_digest": "sha256:87173ab7cba83ae2e20e7d589b47397d82041766a02058f1872cbc0175add47f",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "pots-capture-2026-11-20-125031.json",
+      "bytes": 4862685,
+      "sha256": "386fd14d6e11fa479ebda08db07c915afb4e0e80f42eeff08b358e0ffe928559",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/pots-capture-2026-11-20-125031.json",
+      "remote_digest": "sha256:386fd14d6e11fa479ebda08db07c915afb4e0e80f42eeff08b358e0ffe928559",
+      "verification": "sha256 and size"
+    },
+    {
+      "name": "deliveries-research-archive-20261120T175302Z.json",
+      "bytes": 1770,
+      "sha256": "30c09c00e0841867d1ea1b6708a38028f7c109207ce457679f81e34968533dfe",
+      "url": "https://github.com/black-vajra/rubin-fink-astronomy/releases/download/research-archive-20261120T175302Z/deliveries-research-archive-20261120T175302Z.json",
+      "remote_digest": "sha256:30c09c00e0841867d1ea1b6708a38028f7c109207ce457679f81e34968533dfe",
+      "verification": "sha256 and size"
+    }
+  ]
+}
