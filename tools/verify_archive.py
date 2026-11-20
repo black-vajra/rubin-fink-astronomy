@@ -14,6 +14,9 @@ def main():
             errors.append('Missing or altered preserved source: '+row['path'])
     result=subprocess.run(['git','ls-files','-z','--cached','--others','--exclude-standard'],cwd=ROOT,capture_output=True,check=True)
     names=sorted(set(n for n in result.stdout.decode().split('\0') if n))
+    for row in imported:
+        if row['path'] not in names:
+            errors.append('Imported evidence excluded from Git: '+row['path'])
     sensitive=re.compile(rb'-----BEGIN (?:OPENSSH |RSA |EC |DSA )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,}')
     for name in names:
         p=ROOT/name

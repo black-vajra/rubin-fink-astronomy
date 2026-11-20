@@ -4,7 +4,7 @@
 
 Prepared `rubin-fink-astronomy` for the GitHub account `black-vajra`. The archive separates dated journals and reports, evaluations, scientific snapshots, source code, configuration examples, historical source versions and data provenance. Added a current objectives page, status summary, operational caveats, daily workflow, journal index and source attribution.
 
-Collected 126 existing research source files, approximately 62.4 MB before Git compression, including both monthly Parquet products, public histories, consistent pilot SQLite backups, original reports supplied from Pots, recovery output and available verification logs. Original imported files have SHA-256 checksums. Five pre-existing dated journal files are retained unchanged; this entry is the sixth. The November 15 file includes a historical November 18 append and is explicitly indexed that way rather than silently retitled.
+Collected 120 existing research source files, approximately 62.3 MB before Git compression, including both monthly Parquet products, public histories, consistent pilot SQLite backups, original reports supplied from Pots, recovery output and available verification logs. Original imported files have SHA-256 checksums. Five pre-existing dated journal files are retained unchanged; this entry is the sixth. The November 15 file includes a historical November 18 append and is explicitly indexed that way rather than silently retitled.
 
 GitHub CLI and the browser were not authenticated in the preparation session. Remote repository creation and push therefore remain pending. A publication helper checks the `black-vajra` account, defaults to a private repository, and pushes without force after authentication. No claim of remote backup is made until publication is verified.
 

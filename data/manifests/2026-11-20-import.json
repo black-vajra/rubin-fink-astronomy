@@ -306,18 +306,6 @@
     "bytes": 161
   },
   {
-    "path": "archive/pilot-runs/public-watch-initial/rubin.sqlite3-shm",
-    "source": "rubin-build/live-check/rubin.sqlite3-shm",
-    "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
-    "bytes": 32768
-  },
-  {
-    "path": "archive/pilot-runs/public-watch-initial/rubin.sqlite3-wal",
-    "source": "rubin-build/live-check/rubin.sqlite3-wal",
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "bytes": 0
-  },
-  {
     "path": "data/snapshots/pilots/public-watch-initial/rubin.sqlite3",
     "source": "rubin-build/live-check/rubin.sqlite3",
     "method": "SQLite consistent backup",
@@ -365,18 +353,6 @@
     "source": "rubin-build/live-final/reports/latest.html",
     "sha256": "7a39cb890cfb3daaf53beb8c20205eef0a0d7921e2b3491765dc35cb9ef0e665",
     "bytes": 161
-  },
-  {
-    "path": "archive/pilot-runs/public-watch-final/rubin.sqlite3-shm",
-    "source": "rubin-build/live-final/rubin.sqlite3-shm",
-    "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
-    "bytes": 32768
-  },
-  {
-    "path": "archive/pilot-runs/public-watch-final/rubin.sqlite3-wal",
-    "source": "rubin-build/live-final/rubin.sqlite3-wal",
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "bytes": 0
   },
   {
     "path": "data/snapshots/pilots/public-watch-final/rubin.sqlite3",
@@ -432,18 +408,6 @@
     "source": "distant-build/live-pilot/reports/latest.html",
     "sha256": "8f45687507e17ca36ace5613386cd0ecf139c9b1c203b889621f302a2403eff2",
     "bytes": 111
-  },
-  {
-    "path": "archive/pilot-runs/distant-watch/rubin-distant.sqlite3-shm",
-    "source": "distant-build/live-pilot/rubin-distant.sqlite3-shm",
-    "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
-    "bytes": 32768
-  },
-  {
-    "path": "archive/pilot-runs/distant-watch/rubin-distant.sqlite3-wal",
-    "source": "distant-build/live-pilot/rubin-distant.sqlite3-wal",
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "bytes": 0
   },
   {
     "path": "data/snapshots/pilots/distant-watch/rubin-distant.sqlite3",
