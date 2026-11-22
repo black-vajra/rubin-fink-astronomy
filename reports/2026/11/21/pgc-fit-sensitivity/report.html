@@ -1,0 +1,27 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>pgc-fit-sensitivity</title>
+<style>body{font:16px/1.55 system-ui;max-width:1120px;margin:2em auto;padding:0 1em;color:#172033}table{border-collapse:collapse;width:100%;font-size:.94em}th,td{border:1px solid #cbd5e1;padding:.45em;text-align:left}th{background:#edf2f7}h1,h2{line-height:1.2}a{color:#174fb0}code{background:#eef2f6}</style>
+<h1>PGC 766016 · image-fit sensitivity</h1>
+<p>2026-11-22T00:58:46.597779+00:00</p>
+<p><strong>Archived-image diagnostic only.</strong> Twelve fixed choices per cutout: fit radius 6/10/14 pixels, constant/planar background, uniform/inverse-variance weighting. Supplied PSFs retain total-flux normalization. Finite image and positive variance pixels are used; masks are not semantically decoded.</p>
+<table>
+<tr><th>UTC date</th><th>Image</th><th>Minimum amplitude nJy</th><th>Median nJy</th><th>Maximum nJy</th></tr>
+<tr><td>2026-11-11</td><td>Difference</td><td>93,187</td><td>100,011</td><td>101,489</td></tr>
+<tr><td>2026-11-11</td><td>Science</td><td>664,038</td><td>725,235</td><td>813,767</td></tr>
+<tr><td>2026-11-11</td><td>Template</td><td>524,340</td><td>577,785</td><td>630,659</td></tr>
+<tr><td>2026-11-13</td><td>Difference</td><td>88,670</td><td>100,119</td><td>107,804</td></tr>
+<tr><td>2026-11-13</td><td>Science</td><td>706,713</td><td>796,326</td><td>875,511</td></tr>
+<tr><td>2026-11-13</td><td>Template</td><td>505,104</td><td>564,484</td><td>615,777</td></tr>
+<tr><td>2026-11-15</td><td>Difference</td><td>94,477</td><td>105,142</td><td>106,633</td></tr>
+<tr><td>2026-11-15</td><td>Science</td><td>840,383</td><td>904,388</td><td>947,058</td></tr>
+<tr><td>2026-11-15</td><td>Template</td><td>539,385</td><td>589,642</td><td>641,062</td></tr>
+</table>
+<p>These amplitudes measure a chosen PSF-plus-background model, not total galaxy luminosity. Cross-date ranges may reflect source structure, PSF/background choices, subtraction residuals or calibration. No significant-change claim follows from this grid.</p>
+<h2>Remaining measurement gate</h2>
+<p>All nine retained FITS products were checked for MP_ or MSKN mask-schema cards. Their absence leaves a mask-interpretation dependency; generic defaults are not assigned to these particular packets without provenance. Image-level photometric validation remains incomplete.</p>
+<h2>Limitations</h2>
+<ul>
+<li>Nonzero mask bits are counted, not interpreted or rejected: the supplied FITS omit a mask-bit dictionary.</li>
+<li>No nuclear/host decomposition, reference matching, inter-pixel covariance or independent photometric calibration.</li>
+<li>The spread across choices is model sensitivity, not a statistical uncertainty or a confidence interval.</li>
+<li>Same archived November 11/13/15 images; no new observations or flare confirmation.</li>
+</ul>

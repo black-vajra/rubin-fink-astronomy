@@ -1,0 +1,23 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Moving-object review · 2026-11-21</title>
+<style>body{font:16px/1.55 system-ui;max-width:1120px;margin:2em auto;padding:0 1em;color:#172033}table{border-collapse:collapse;width:100%;font-size:.94em}th,td{border:1px solid #cbd5e1;padding:.45em;text-align:left}th{background:#edf2f7}h1,h2{line-height:1.2}a{color:#174fb0}code{background:#eef2f6}</style>
+<h1>Moving-object review · 2026-11-21</h1>
+<p>Generated 2026-11-22T01:08:20+00:00.</p>
+<p>Active scope remains <strong>2001 QY297, 2014 WV203, 2013 CR7 and 2026 ED138</strong>. The three successful Fink histories are unchanged; ED138’s Fink query failed with HTTP 400. The public MPC route succeeded.</p>
+<h2>ED138 public-astrometry gate completed</h2>
+<p>Retrieved MPEC 2026-U85 and parsed <strong>74 public observations</strong>: <strong>30 Rubin/X05</strong> positions on <strong>20 dates</strong>, March 4–July 11, 2026; and <strong>44 DECam/W84</strong> positions on <strong>14 dates</strong>, February 25, 2016–April 7, 2023. The latter are retained but not included in this initial fit.</p>
+<p>Before numerical scoring, the training cutoff was fixed at <strong>June 13, 2026 UTC</strong>. We fitted 25 Rubin positions on 17 earlier dates and withheld five later positions. No target catalog orbit, orbital elements printed in the circular, or restricted Rubin image/catalog release entered the fit.</p>
+<table>
+<tr><th>Withheld UTC</th><th>Miss (arcsec)</th><th>Inside fixed 60 arcsec?</th></tr>
+<tr><td>2026-06-27T05:23:48.336+00:00</td><td>0.027</td><td>True</td></tr>
+<tr><td>2026-07-09T04:04:54.307+00:00</td><td>0.043</td><td>True</td></tr>
+<tr><td>2026-07-09T04:49:07.046+00:00</td><td>0.038</td><td>True</td></tr>
+<tr><td>2026-07-11T06:43:24.182+00:00</td><td>0.039</td><td>True</td></tr>
+<tr><td>2026-07-11T07:21:14.515+00:00</td><td>0.075</td><td>True</td></tr>
+</table>
+<p>This is a retrospective known-object benchmark with a Sun-only physical model, observer motion and light travel time. It is not an independent discovery, a globally unique precision orbit, or a size/mass result. Formal errors remain conditional on the assumed 0.15 arcsec coordinate floor and selected branch.</p>
+<p>See <a href="ed138-public-astrometry/report.html">ED138 raw data, geometry, trials and benchmark</a>. Native MPC line numbers/station codes are retained; no Fink source IDs or visit IDs were fabricated.</p>
+<h2>QY297 and comparison controls</h2>
+<p>The prior QY297, CR7 and WV203 fits remain their November 20 results, not freshly recomputed orbital solutions. Next numerical gate remains planetary perturbations, global orbit ambiguity/uncertainty and an established-fitter cross-check. The fitted-track full-night ranking remains separate from the already verified external-JPL recovery.</p>
+<h2>Methodology follow-up</h2>
+<p>The discovery announcement prompted a targeted review of linking and precovery methods. See <a href="methods-and-data-sources.md">methods and source-access notes</a>. Our next archive searches should remain confined to the named watchlist, preserving candidate provenance and image-level validation. No authenticated ADAM search was submitted and no broad new-object search ran.</p>
+<p>The public astrometry and restricted image/catalog release are distinct products. ED138 is now an active public-astrometry benchmark; its proprietary RSP images were not accessed.</p>

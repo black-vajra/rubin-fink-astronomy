@@ -8,8 +8,14 @@
   ],
   "purpose": "Restrict this moving-object research workflow to these four objects. Does not modify installed systemd services.",
   "2026 ED138": {
-    "status": "awaiting public astrometry",
-    "fit_enabled": false
+    "status": "public MPC astrometry acquired; initial historical benchmark completed",
+    "native_mpc_benchmark_enabled": true,
+    "public_MPC_records": 74,
+    "Rubin_records": 30,
+    "DECam_precoveries": 44,
+    "benchmark_script": "tools/ed138_mpc_benchmark.py",
+    "Fink_history_query_status": "HTTP 400 on November 21; no valid history retrieved",
+    "restricted_RSP_images_accessed": false
   },
   "acceptance_radius_arcsec": 60,
   "new_objects_require_explicit_scope_change": true

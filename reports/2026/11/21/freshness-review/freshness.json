@@ -1,0 +1,248 @@
+{
+  "report_date_America_New_York": "2026-11-21",
+  "generated_UTC": "2026-11-22T00:55:22.893054+00:00",
+  "overnight_window_UTC": [
+    "2026-11-20T22:00:00+00:00",
+    "2026-11-21T14:00:00+00:00"
+  ],
+  "queries": [
+    {
+      "label": "November statistics",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/statistics",
+      "parameters": {
+        "output-format": "json",
+        "date": "202611"
+      },
+      "file": "statistics-202611.json",
+      "requested_UTC": "2026-11-22T00:54:47.697999+00:00",
+      "HTTP_status": 200,
+      "status": "fresh",
+      "rows": 11,
+      "sha256": "f2ff554800f013f9027dc68d38d432d552af49add92258d1b63da9136bf59a23",
+      "published_nights": [
+        {
+          "night": "20261105",
+          "alerts": "10334",
+          "visits": "34"
+        },
+        {
+          "night": "20261106",
+          "alerts": "49243",
+          "visits": "30"
+        },
+        {
+          "night": "20261107",
+          "alerts": "34256",
+          "visits": "48"
+        },
+        {
+          "night": "20261108",
+          "alerts": "34119",
+          "visits": "39"
+        },
+        {
+          "night": "20261109",
+          "alerts": "18005",
+          "visits": "21"
+        },
+        {
+          "night": "20261110",
+          "alerts": "39735",
+          "visits": "41"
+        },
+        {
+          "night": "20261111",
+          "alerts": "69458",
+          "visits": "70"
+        },
+        {
+          "night": "20261112",
+          "alerts": "235039",
+          "visits": "145"
+        },
+        {
+          "night": "20261113",
+          "alerts": "76350",
+          "visits": "67"
+        },
+        {
+          "night": "20261114",
+          "alerts": "59725",
+          "visits": "46"
+        },
+        {
+          "night": "20261115",
+          "alerts": "138867",
+          "visits": "60"
+        }
+      ],
+      "latest_published_night": "20261115"
+    },
+    {
+      "label": "PGC 766016",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sources",
+      "parameters": {
+        "output-format": "json",
+        "diaObjectId": "171141216913588260"
+      },
+      "file": "object-171141216913588260.json",
+      "requested_UTC": "2026-11-22T00:54:47.698717+00:00",
+      "HTTP_status": 200,
+      "status": "fresh",
+      "rows": 8,
+      "sha256": "c59ce6a336b956cbabc6f39ae6ab59f01849680b16899ecb4c84d8edcd1d8235",
+      "baseline_file": "data/snapshots/2026-11-20/object-171141216913588260.json",
+      "unique_source_ids": 8,
+      "added_source_ids": [],
+      "removed_source_ids": [],
+      "revised_source_ids": [],
+      "latest_observation_UTC": "2026-11-15T05:31:12.579",
+      "last_night_nonwithdrawn_source_ids": []
+    },
+    {
+      "label": "Quasar crossmatch",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sources",
+      "parameters": {
+        "output-format": "json",
+        "diaObjectId": "313774266976305153"
+      },
+      "file": "object-313774266976305153.json",
+      "requested_UTC": "2026-11-22T00:54:47.699293+00:00",
+      "HTTP_status": 200,
+      "status": "fresh",
+      "rows": 9,
+      "sha256": "c03f4784f7ae0e1a843204cc765e58f0d7b64dccd7eee8d06725be794977c708",
+      "baseline_file": "data/snapshots/2026-11-20/object-313774266976305153.json",
+      "unique_source_ids": 9,
+      "added_source_ids": [],
+      "removed_source_ids": [],
+      "revised_source_ids": [],
+      "latest_observation_UTC": "2026-11-15T05:30:32.245",
+      "last_night_nonwithdrawn_source_ids": []
+    },
+    {
+      "label": "Science-image high",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sources",
+      "parameters": {
+        "output-format": "json",
+        "diaObjectId": "313862200773574662"
+      },
+      "file": "object-313862200773574662.json",
+      "requested_UTC": "2026-11-22T00:54:57.595426+00:00",
+      "HTTP_status": 200,
+      "status": "fresh",
+      "rows": 426,
+      "sha256": "9eeba80a436deffd85b89696cb4deaa85e046978250052c5c674381278cee673",
+      "baseline_file": "data/snapshots/2026-11-20/object-313862200773574662.json",
+      "unique_source_ids": 426,
+      "added_source_ids": [],
+      "removed_source_ids": [],
+      "revised_source_ids": [],
+      "latest_observation_UTC": "2026-11-15T05:33:18.561",
+      "last_night_nonwithdrawn_source_ids": []
+    },
+    {
+      "label": "AT 2019hkw",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sources",
+      "parameters": {
+        "output-format": "json",
+        "diaObjectId": "170653056044630027"
+      },
+      "file": "object-170653056044630027.json",
+      "requested_UTC": "2026-11-22T00:54:57.923347+00:00",
+      "HTTP_status": 200,
+      "status": "fresh",
+      "rows": 5,
+      "sha256": "f6341586a170f6207ed9ebede5b2065327321758574e044d00c047155fafc40c",
+      "baseline_file": "data/snapshots/2026-11-20/object-170653056044630027.json",
+      "unique_source_ids": 5,
+      "added_source_ids": [],
+      "removed_source_ids": [],
+      "revised_source_ids": [],
+      "latest_observation_UTC": "2026-11-15T00:35:36.762",
+      "last_night_nonwithdrawn_source_ids": []
+    },
+    {
+      "label": "2001 QY297",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sso",
+      "parameters": {
+        "output-format": "json",
+        "n_or_d": "2001 QY297"
+      },
+      "file": "sso-2001_QY297.json",
+      "requested_UTC": "2026-11-22T00:54:58.083796+00:00",
+      "HTTP_status": 200,
+      "status": "fresh",
+      "rows": 10,
+      "sha256": "3f431076a26b3c43f916b1372ee476832f5b0d9b178100a7b986fcb21e67bb40",
+      "baseline_file": "reports/2026/11/20/qy297-investigation/fink-name.json",
+      "unique_source_ids": 10,
+      "added_source_ids": [],
+      "removed_source_ids": [],
+      "revised_source_ids": [],
+      "latest_observation_UTC": "2026-11-12T01:21:40.083",
+      "last_night_nonwithdrawn_source_ids": []
+    },
+    {
+      "label": "2014 WV203",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sso",
+      "parameters": {
+        "output-format": "json",
+        "n_or_d": "2014 WV203"
+      },
+      "file": "sso-2014_WV203.json",
+      "requested_UTC": "2026-11-22T00:55:02.902001+00:00",
+      "HTTP_status": 200,
+      "status": "fresh",
+      "rows": 8,
+      "sha256": "d15e47f98b0a904c97699d450630144f13695aa80758af1b3b9bf632c6842605",
+      "baseline_file": "data/snapshots/2026-11-20/sso-2014_WV203.json",
+      "unique_source_ids": 8,
+      "added_source_ids": [],
+      "removed_source_ids": [],
+      "revised_source_ids": [],
+      "latest_observation_UTC": "2026-11-15T00:21:48.506",
+      "last_night_nonwithdrawn_source_ids": []
+    },
+    {
+      "label": "2013 CR7",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sso",
+      "parameters": {
+        "output-format": "json",
+        "n_or_d": "2013 CR7"
+      },
+      "file": "sso-2013_CR7.json",
+      "requested_UTC": "2026-11-22T00:55:03.658515+00:00",
+      "HTTP_status": 200,
+      "status": "fresh",
+      "rows": 6,
+      "sha256": "f137add7c15b51e18d9bb7b722b90492152732f50bed8a8d356a6571257b3e00",
+      "baseline_file": "data/snapshots/2026-11-20/sso-2013_CR7.json",
+      "unique_source_ids": 6,
+      "added_source_ids": [],
+      "removed_source_ids": [],
+      "revised_source_ids": [],
+      "latest_observation_UTC": "2026-11-12T01:21:40.083",
+      "last_night_nonwithdrawn_source_ids": []
+    },
+    {
+      "label": "2026 ED138",
+      "endpoint": "https://api.lsst.fink-portal.org/api/v1/sso",
+      "parameters": {
+        "output-format": "json",
+        "n_or_d": "2026 ED138"
+      },
+      "file": "sso-2026_ED138.json",
+      "requested_UTC": "2026-11-22T00:55:07.020304+00:00",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 400: Bad Request"
+    }
+  ],
+  "local_Pots_overnight_service_and_file_evidence": {
+    "status": "user terminal evidence supplied",
+    "file": "../pots-overnight-evidence.json",
+    "reports_completed": true,
+    "new_local_Avro_count": 0
+  },
+  "scope": "Four extragalactic watchlist histories and four named moving targets. No bulk archive download or new-object scan."
+}

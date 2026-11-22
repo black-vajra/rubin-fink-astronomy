@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "astropy": "8.0.3",
+  "source_hashes": {
+    "tools/ed138_mpc_benchmark.py": "66b74c9551b947e1ebb0cb20b23dc01587290386fa708dec60d3970a4fa76da2",
+    "tools/physical_orbit_review.py": "06cb1ecc86f0d8610208d96120e3be0c739372998be4a29c4a2c8e34a95a5f32",
+    "tools/pgc_fit_sensitivity.py": "a8dfcc59137ac814d9dde701642ea5ef113ac652631aa026ee7324048ca02591",
+    "tools/nightly_data_review.py": "43db017848a4bb941cc26d6be6fbc6fc86f8ba34d564273b593c59e444c89d14"
+  }
+}

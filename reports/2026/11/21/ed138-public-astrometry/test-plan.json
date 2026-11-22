@@ -1,0 +1,27 @@
+{
+  "declared_before_scoring_UTC": "2026-11-22T00:57:50.297224+00:00",
+  "target": "2026 ED138",
+  "source": "https://www.minorplanetcenter.net/mpec/K26/K26U85.html",
+  "source_sha256": "03fb9fc43ee0ca014e2b78ec5e4f246d6b504978329e185934f9d3c2fb0236cd",
+  "training_UTC_before": "2026-06-13",
+  "test_text_lines": [
+    361,
+    362,
+    363,
+    364,
+    365
+  ],
+  "fixed_radius_arcsec": 60,
+  "assumed_coordinate_sigma_arcsec": 0.15,
+  "initial_distance_grid_AU": [
+    2,
+    3,
+    5,
+    10,
+    20,
+    40,
+    80,
+    160
+  ],
+  "excluded_from_fitting": "All post-cutoff positions; all W84 precoveries; published orbital elements in circular; restricted RSP images/catalogs."
+}

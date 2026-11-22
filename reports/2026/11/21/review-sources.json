@@ -1,0 +1,30 @@
+{
+  "checked_for_reporting_date_America_New_York": "2026-11-21",
+  "references": [
+    {
+      "url": "https://rubinobservatory.org/",
+      "note": "Retrieved official homepage search result displays a temporary off-sky notice; live page text is JavaScript-rendered."
+    },
+    {
+      "url": "https://www.rubin.community/t/rubin-status-november-17-2026/12959",
+      "note": "Latest formal cooling notice found in the reviewed News category; dated November 17."
+    },
+    {
+      "url": "https://arxiv.org/html/2610.38693v1",
+      "note": "Primary ED138 discovery/validation methodology; pointdexter described as work in preparation."
+    },
+    {
+      "url": "https://b612.ai/adam-platform/precovery/",
+      "note": "Public methods and coverage documentation; custom searches require sign-in, none submitted here."
+    },
+    {
+      "url": "https://github.com/B612-Asteroid-Institute/precovery",
+      "note": "Public software repository; hosted archive access is separate."
+    },
+    {
+      "url": "https://prompt-products.lsst.io/products/2026-ED138/index.html",
+      "note": "Public MPC observations distinguished from proprietary image/catalog products."
+    }
+  ],
+  "query_and_data_provenance": "See freshness-review/freshness.json, ed138-public-astrometry/test-plan.json and geometry request JSON files."
+}

@@ -1,0 +1,54 @@
+{
+  "evidence_origin": "User-supplied Pots terminal output in this conversation; not executed in this workspace.",
+  "host_clock": "Sat Nov 21 19:53:42 EST 2026",
+  "review_window_local": [
+    "2026-11-20T17:00:00-05:00",
+    "2026-11-21T09:00:00-05:00"
+  ],
+  "collector_started_local": "2026-11-20T19:26:23-05:00",
+  "collector_stopped_local": "2026-11-21T09:00:01-05:00",
+  "collector_gap_reported_minutes": 626.4,
+  "Kafka_interruptions_local": [
+    "2026-11-21T07:21:34-05:00",
+    "2026-11-21T07:32:06-05:00"
+  ],
+  "Kafka_evidence": "Consumer session and heartbeat/fetch timeouts; collector remained running until scheduled stop. Current network recovery and missed-message counts not established.",
+  "bright_report": {
+    "started_local": "2026-11-21T09:00:00-05:00",
+    "finished_local": "2026-11-21T09:00:01-05:00",
+    "detections": 60,
+    "file_errors": 0,
+    "latest_html_modified_local": "2026-11-21 09:00",
+    "latest_html_size_display": "12K"
+  },
+  "morning_research": {
+    "started_local": "2026-11-21T09:10:00-05:00",
+    "finished_local": "2026-11-21T09:10:12-05:00",
+    "latest_html_modified_local": "2026-11-21 09:10",
+    "latest_html_size_display": "4.9K"
+  },
+  "local_new_Avro_count": 0,
+  "interpretation": "Late start is consistent with the stated dual-boot routine. The gap includes planned daytime inactivity; timeouts are distinct from the telescope off-sky condition.",
+  "latest_Avro_files_local_mtime": [
+    {
+      "file": "171211595926994960.avro",
+      "mtime": "2026-11-15 22:47:21.0865650660"
+    },
+    {
+      "file": "171211594967547907.avro",
+      "mtime": "2026-11-15 22:47:21.0835649260"
+    },
+    {
+      "file": "171211594990092321.avro",
+      "mtime": "2026-11-15 22:47:21.0725644120"
+    },
+    {
+      "file": "171211595796447245.avro",
+      "mtime": "2026-11-15 22:47:21.0655640850"
+    },
+    {
+      "file": "171211594992713752.avro",
+      "mtime": "2026-11-15 22:47:21.0625639450"
+    }
+  ]
+}

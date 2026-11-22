@@ -1,3 +1,9 @@
+# Status · November 21, 2026
+
+[Current review](../reports/2026/11/21/overnight-review.md): scheduled overnight reports completed; fresh public watchlist histories remain unchanged and statistics still end November 15. ED138 public MPC data are now acquired and a new historical prediction benchmark completed. PGC image-fit sensitivity was explored without a flare claim. [Journal](../journal/2026/11/2026-11-21-rubin-journal.md).
+
+## Earlier November 20 status notes
+
 # Status · November 20, 2026
 
 Current moving-object addendum: work is restricted to QY297, WV203, CR7 and ED138. User-supplied Pots results confirm QY297's full-night JPL recovery (rank 1/235,039; 0.094 arcsec). New independent Sun-only fits predict withheld detections within 0.652 arcsec (QY297), 0.054 arcsec (CR7), and 0.539 arcsec (WV203 after three training dates). WV203's two-date fit fails badly and is retained as a control. Physical fitted-track all-alert ranking, planetary perturbations, global orbit uncertainty, usable footprints and ED138 astrometry remain pending. See [new report](../reports/2026/11/20/physical-orbit-watchlist/report.md) and [journal f](../journal/2026/11/2026-11-20f-rubin-journal.md). Earlier paragraphs below retain previous status observations and pending statements superseded by this addendum.
