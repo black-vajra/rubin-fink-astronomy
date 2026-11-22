@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="xmlns:http://www.ivoa.net/xml/VOTable-1.2.xsd" version="1.2">
+<RESOURCE type="results">
+<DESCRIPTION>DALServer SIAP Version 1.0 (generic)</DESCRIPTION>
+<INFO name="QUERY_STATUS" value="OK"/>
+<INFO name="INPUT:POS" value="331.70716497644065,-12.71961088523514"/>
+<INFO name="INPUT:SIZE" value="0.05"/>
+<INFO name="INPUT:FORMAT" value="ALL"/>
+<INFO name="ServiceEngine" value="siapv1_nsc_dr2: SIAP version 1.0 (generic) DALServer version 0.7"/>
+<INFO name="QUERY" value="SELECT * FROM (SELECT * FROM ivoa_nsc_dr2.siav1 WHERE q3c_radial_query (s_ra,s_dec,331.70716497644065,-12.71961088523514,4.0)) s  WHERE  (331.70716497644065 BETWEEN spat_lolimit1 and spat_hilimit1) AND  (-12.71961088523514 BETWEEN spat_lolimit2 and spat_hilimit2)"/>
+<INFO name="TableRows" value="21"/>
+<TABLE>
+<FIELD ID="assoc_id" name="assoc_id" datatype="char" utype="im:Association.ID" arraysize="*">
+<DESCRIPTION>Association identifier</DESCRIPTION>
+</FIELD>
+<FIELD ID="access_url" name="access_url" datatype="char" ucd="VOX:Image_AccessReference" utype="im:Access.Reference" arraysize="*">
+<DESCRIPTION>URL used to access dataset</DESCRIPTION>
+</FIELD>
+<FIELD ID="access_format" name="access_format" datatype="char" ucd="VOX:Image_Format" utype="im:Access.Format" arraysize="*">
+<DESCRIPTION>Content or MIME type of dataset</DESCRIPTION>
+</FIELD>
+<FIELD ID="access_estsize" name="access_estsize" datatype="int" ucd="VOX:Image_FileSize" utype="im:Access.Size" unit="bytes">
+<DESCRIPTION>Estimated dataset size</DESCRIPTION>
+</FIELD>
+<FIELD ID="calib_level" name="calib_level" datatype="long" utype="im:Dataset.CalibLevel">
+<DESCRIPTION>Calibration level</DESCRIPTION>
+</FIELD>
+<FIELD ID="im_naxes" name="im_naxes" datatype="int" ucd="VOX:Image_Naxes" utype="im:Image.Naxes">
+<DESCRIPTION>Number of image axes</DESCRIPTION>
+</FIELD>
+<FIELD ID="im_naxis" name="im_naxis" datatype="int" ucd="VOX:Image_Naxis" utype="im:Image.Naxis" arraysize="*">
+<DESCRIPTION>Length of each axis of each subarray</DESCRIPTION>
+</FIELD>
+<FIELD ID="im_scale" name="im_scale" datatype="double" ucd="VOX:Image_Scale" utype="im:Image.Scale" arraysize="*" unit="deg">
+<DESCRIPTION>Image spatial scale in arcsec per pixel</DESCRIPTION>
+</FIELD>
+<FIELD ID="obs_title" name="obs_title" datatype="char" ucd="VOX:Image_Title" utype="im:DataID.Title" arraysize="*">
+<DESCRIPTION>Dataset Title</DESCRIPTION>
+</FIELD>
+<FIELD ID="obs_id" name="obs_id" datatype="char" utype="im:DataID.ObservationID" arraysize="*">
+<DESCRIPTION>Unique observation ID shared by all obs datasets</DESCRIPTION>
+</FIELD>
+<FIELD ID="instrument_name" name="instrument_name" datatype="char" ucd="INST_ID" utype="im:Provenance.ObsConfig.Instrument.name" arraysize="*">
+<DESCRIPTION>Instrument name</DESCRIPTION>
+</FIELD>
+<FIELD ID="obs_bandpass" name="obs_bandpass" datatype="char" ucd="VOX:BandPass_ID" utype="im:Provenance.ObsConfig.Bandpass" arraysize="*">
+<DESCRIPTION>Spectral bandpass name or names</DESCRIPTION>
+</FIELD>
+<FIELD ID="preview" name="preview" datatype="char" ucd="meta.ref.url" utype="im:Curation.Preview" arraysize="*">
+<DESCRIPTION>URL of preview graphic for dataset</DESCRIPTION>
+</FIELD>
+<FIELD ID="s_ra" name="s_ra" datatype="double" ucd="POS_EQ_RA_MAIN" utype="im:Char.SpatialAxis.Coverage.Location.Coord.Position2D.Value2.C1" unit="deg">
+<DESCRIPTION>Spatial position first coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="s_dec" name="s_dec" datatype="double" ucd="POS_EQ_DEC_MAIN" utype="im:Char.SpatialAxis.Coverage.Location.Coord.Position2D.Value2.C2" unit="deg">
+<DESCRIPTION>Spatial position second coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_min" name="em_min" datatype="double" ucd="VOX:BandPass_LoLimit" utype="im:Char.SpectralAxis.Coverage.Bounds.Limits.LoLimit" unit="m">
+<DESCRIPTION>Start in spectral coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_max" name="em_max" datatype="double" ucd="VOX:BandPass_HiLimit" utype="im:Char.SpectralAxis.Coverage.Bounds.Limits.HiLimit" unit="m">
+<DESCRIPTION>Stop in spectral coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_res_power" name="em_res_power" datatype="double" ucd="spect.resolution" utype="im:Char.SpectralAxis.Resolution.ResolPower.RefVal">
+<DESCRIPTION>Spectral resolving power</DESCRIPTION>
+</FIELD>
+<FIELD ID="object" name="object" datatype="char" arraysize="*"/>
+<FIELD ID="airmass" name="airmass" datatype="char" arraysize="*"/>
+<FIELD ID="project_code" name="project_code" datatype="char" arraysize="*"/>
+<FIELD ID="magzero" name="magzero" datatype="char" arraysize="*"/>
+<FIELD ID="prodtype" name="prodtype" datatype="char" arraysize="*"/>
+<FIELD ID="seeing" name="seeing" datatype="char" arraysize="*"/>
+<FIELD ID="fwhm" name="fwhm" datatype="char" arraysize="*"/>
+<FIELD ID="exptime" name="exptime" datatype="char" arraysize="*"/>
+<FIELD ID="photflag" name="photflag" datatype="char" arraysize="*"/>
+<FIELD ID="proctype" name="proctype" datatype="char" arraysize="*"/>
+<FIELD ID="date_obs" name="date_obs" datatype="char" arraysize="*"/>
+<FIELD ID="mjd_obs" name="mjd_obs" datatype="char" arraysize="*"/>
+<FIELD ID="elliptic" name="elliptic" datatype="char" arraysize="*"/>
+<GROUP ID="Association" name="Association" utype="im:Association">
+<DESCRIPTION>Association Metadata</DESCRIPTION>
+<FIELDref ref="assoc_id"/>
+</GROUP>
+<GROUP ID="Access" name="Access" utype="im:Access">
+<DESCRIPTION>Access Metadata</DESCRIPTION>
+<FIELDref ref="access_url"/>
+<FIELDref ref="access_format"/>
+<FIELDref ref="access_estsize"/>
+</GROUP>
+<GROUP ID="Dataset" name="Dataset" utype="im:Dataset">
+<DESCRIPTION>General Dataset Metadata</DESCRIPTION>
+<FIELDref ref="calib_level"/>
+<PARAM ID="datamodel_name" datatype="char" name="datamodel_name" ucd="meta.id" utype="im:Dataset.DataModel.Name" value="Image-1.0" arraysize="*">
+<DESCRIPTION>Data model name and version</DESCRIPTION>
+</PARAM>
+</GROUP>
+<GROUP ID="Image" name="Image" utype="im:Image">
+<DESCRIPTION>Image-specific Dataset metadata</DESCRIPTION>
+<FIELDref ref="im_naxes"/>
+<FIELDref ref="im_naxis"/>
+<FIELDref ref="im_scale"/>
+</GROUP>
+<GROUP ID="DataID" name="DataID" utype="im:DataID">
+<DESCRIPTION>Dataset Identification Metadata</DESCRIPTION>
+<FIELDref ref="obs_title"/>
+<FIELDref ref="obs_id"/>
+</GROUP>
+<GROUP ID="Provenance" name="Provenance" utype="im:Provenance">
+<DESCRIPTION>Provenance Metadata</DESCRIPTION>
+<FIELDref ref="instrument_name"/>
+<FIELDref ref="obs_bandpass"/>
+</GROUP>
+<GROUP ID="Curation" name="Curation" utype="im:Curation">
+<DESCRIPTION>Curation Metadata</DESCRIPTION>
+<FIELDref ref="preview"/>
+</GROUP>
+<GROUP ID="Target" name="Target" utype="im:Target">
+<DESCRIPTION>Target Metadata</DESCRIPTION>
+</GROUP>
+<GROUP ID="Char.SpatialAxis" name="Char.SpatialAxis" utype="im:Char.SpatialAxis">
+<DESCRIPTION>Spatial Axis Characterization</DESCRIPTION>
+<FIELDref ref="s_ra"/>
+<FIELDref ref="s_dec"/>
+</GROUP>
+<GROUP ID="Char.SpectralAxis" name="Char.SpectralAxis" utype="im:Char.SpectralAxis">
+<DESCRIPTION>Spectral Axis Characterization</DESCRIPTION>
+<FIELDref ref="em_min"/>
+<FIELDref ref="em_max"/>
+<FIELDref ref="em_res_power"/>
+</GROUP>
+<GROUP ID="Char.TimeAxis" name="Char.TimeAxis" utype="im:Char.TimeAxis">
+<DESCRIPTION>Time Axis Characterization</DESCRIPTION>
+</GROUP>
+<GROUP ID="Char.ObservableAxis" name="Char.ObservableAxis" utype="im:Char.ObservableAxis">
+<DESCRIPTION>Observable Axis Characterization</DESCRIPTION>
+</GROUP>
+<GROUP ID="Char.PolAxis" name="Char.PolAxis" utype="im:Char.PolAxis">
+<DESCRIPTION>Polarization Axis Characterization</DESCRIPTION>
+</GROUP>
+<DATA>
+<TABLEDATA>
+<TR><TD>ct4m20191025t001423</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_001423_ood_i_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>7678</TD><TD>2</TD><TD>2</TD><TD>8 4094</TD><TD>-0.13299</TD><TD></TD><TD>ct4m20191025t001423</TD><TD>DECam</TD><TD>i</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_001423_ood_i_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.698</TD><TD>-12.665</TD><TD>7100</TD><TD>8570</TD><TD></TD><TD>A2420</TD><TD>1.06</TD><TD>2019A-0308</TD><TD>30.959</TD><TD>dqmask</TD><TD>0</TD><TD>0</TD><TD>190</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T00:14:23.806450</TD><TD>58781.00999776</TD><TD>0</TD></TR>
+<TR><TD>ct4m20191025t001423</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_001423_ooi_i_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>315905</TD><TD>2</TD><TD>2</TD><TD>24 4094</TD><TD>-0.13299</TD><TD></TD><TD>ct4m20191025t001423</TD><TD>DECam</TD><TD>i</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_001423_ooi_i_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.698</TD><TD>-12.665</TD><TD>7100</TD><TD>8570</TD><TD></TD><TD>A2420</TD><TD>1.06</TD><TD>2019A-0308</TD><TD>30.959</TD><TD>image</TD><TD>0</TD><TD>0</TD><TD>190</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T00:14:23.806450</TD><TD>58781.00999776</TD><TD>0</TD></TR>
+<TR><TD>ct4m20191025t001423</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_001423_oow_i_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>259931</TD><TD>2</TD><TD>2</TD><TD>32 4094</TD><TD>-0.13299</TD><TD></TD><TD>ct4m20191025t001423</TD><TD>DECam</TD><TD>i</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_001423_oow_i_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.698</TD><TD>-12.665</TD><TD>7100</TD><TD>8570</TD><TD></TD><TD>A2420</TD><TD>1.06</TD><TD>2019A-0308</TD><TD>30.959</TD><TD>wtmap</TD><TD>0</TD><TD>0</TD><TD>190</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T00:14:23.806450</TD><TD>58781.00999776</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t042711</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_042711_ood_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>7922</TD><TD>2</TD><TD>2</TD><TD>8 4094</TD><TD>-0.13295</TD><TD></TD><TD>ct4m20190826t042711</TD><TD>DECam</TD><TD>u</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_042711_ood_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.701</TD><TD>-12.6643</TD><TD>1000</TD><TD>1000</TD><TD></TD><TD>A2420</TD><TD>1.05</TD><TD>2019A-0308</TD><TD>27.208</TD><TD>dqmask</TD><TD>0</TD><TD>0</TD><TD>290</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T04:27:11.429957</TD><TD>58721.18554896</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t042711</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_042711_ooi_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>312592</TD><TD>2</TD><TD>2</TD><TD>24 4094</TD><TD>-0.13295</TD><TD></TD><TD>ct4m20190826t042711</TD><TD>DECam</TD><TD>u</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_042711_ooi_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.701</TD><TD>-12.6643</TD><TD>1000</TD><TD>1000</TD><TD></TD><TD>A2420</TD><TD>1.05</TD><TD>2019A-0308</TD><TD>27.208</TD><TD>image</TD><TD>0</TD><TD>0</TD><TD>290</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T04:27:11.429957</TD><TD>58721.18554896</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t042711</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_042711_oow_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>255479</TD><TD>2</TD><TD>2</TD><TD>32 4094</TD><TD>-0.13295</TD><TD></TD><TD>ct4m20190826t042711</TD><TD>DECam</TD><TD>u</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_042711_oow_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.701</TD><TD>-12.6643</TD><TD>1000</TD><TD>1000</TD><TD></TD><TD>A2420</TD><TD>1.05</TD><TD>2019A-0308</TD><TD>27.208</TD><TD>wtmap</TD><TD>0</TD><TD>0</TD><TD>290</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T04:27:11.429957</TD><TD>58721.18554896</TD><TD>0</TD></TR>
+<TR><TD>ct4m20191025t015047</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_015047_ood_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>8609</TD><TD>2</TD><TD>2</TD><TD>8 4094</TD><TD>-0.13297</TD><TD></TD><TD>ct4m20191025t015047</TD><TD>DECam</TD><TD>r</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_015047_ood_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.702</TD><TD>-12.6643</TD><TD>5675</TD><TD>7155</TD><TD></TD><TD>A2420</TD><TD>1.09</TD><TD>2019A-0308</TD><TD>31.283</TD><TD>dqmask</TD><TD>0</TD><TD>0</TD><TD>240</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T01:50:47.203981</TD><TD>58781.07693523</TD><TD>0</TD></TR>
+<TR><TD>ct4m20191025t015047</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_015047_ooi_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>315503</TD><TD>2</TD><TD>2</TD><TD>24 4094</TD><TD>-0.13297</TD><TD></TD><TD>ct4m20191025t015047</TD><TD>DECam</TD><TD>r</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_015047_ooi_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.702</TD><TD>-12.6643</TD><TD>5675</TD><TD>7155</TD><TD></TD><TD>A2420</TD><TD>1.09</TD><TD>2019A-0308</TD><TD>31.283</TD><TD>image</TD><TD>0</TD><TD>0</TD><TD>240</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T01:50:47.203981</TD><TD>58781.07693523</TD><TD>0</TD></TR>
+<TR><TD>ct4m20191025t015047</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_015047_oow_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>259399</TD><TD>2</TD><TD>2</TD><TD>32 4094</TD><TD>-0.13297</TD><TD></TD><TD>ct4m20191025t015047</TD><TD>DECam</TD><TD>r</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_015047_oow_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.702</TD><TD>-12.6643</TD><TD>5675</TD><TD>7155</TD><TD></TD><TD>A2420</TD><TD>1.09</TD><TD>2019A-0308</TD><TD>31.283</TD><TD>wtmap</TD><TD>0</TD><TD>0</TD><TD>240</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T01:50:47.203981</TD><TD>58781.07693523</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t024155</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_024155_ood_g_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>8015</TD><TD>2</TD><TD>2</TD><TD>8 4094</TD><TD>-0.13292</TD><TD></TD><TD>ct4m20190826t024155</TD><TD>DECam</TD><TD>g</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_024155_ood_g_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.709</TD><TD>-12.6574</TD><TD>3960</TD><TD>5480</TD><TD></TD><TD>A2420</TD><TD>1.18</TD><TD>2019A-0308</TD><TD>31.03</TD><TD>dqmask</TD><TD>0</TD><TD>0</TD><TD>260</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T02:41:55.026190</TD><TD>58721.11244243</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t024155</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_024155_ooi_g_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>313894</TD><TD>2</TD><TD>2</TD><TD>24 4094</TD><TD>-0.13292</TD><TD></TD><TD>ct4m20190826t024155</TD><TD>DECam</TD><TD>g</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_024155_ooi_g_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.709</TD><TD>-12.6574</TD><TD>3960</TD><TD>5480</TD><TD></TD><TD>A2420</TD><TD>1.18</TD><TD>2019A-0308</TD><TD>31.03</TD><TD>image</TD><TD>0</TD><TD>0</TD><TD>260</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T02:41:55.026190</TD><TD>58721.11244243</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t024155</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_024155_oow_g_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>257821</TD><TD>2</TD><TD>2</TD><TD>32 4094</TD><TD>-0.13292</TD><TD></TD><TD>ct4m20190826t024155</TD><TD>DECam</TD><TD>g</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_024155_oow_g_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.709</TD><TD>-12.6574</TD><TD>3960</TD><TD>5480</TD><TD></TD><TD>A2420</TD><TD>1.18</TD><TD>2019A-0308</TD><TD>31.03</TD><TD>wtmap</TD><TD>0</TD><TD>0</TD><TD>260</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T02:41:55.026190</TD><TD>58721.11244243</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t070830</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_070830_ood_z_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>8699</TD><TD>2</TD><TD>2</TD><TD>8 4094</TD><TD>-0.13297</TD><TD></TD><TD>ct4m20190826t070830</TD><TD>DECam</TD><TD>z</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_070830_ood_z_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.71</TD><TD>-12.6552</TD><TD>8500</TD><TD>10020</TD><TD></TD><TD>A2420</TD><TD>1.29</TD><TD>2019A-0308</TD><TD>31.009</TD><TD>dqmask</TD><TD>0</TD><TD>0</TD><TD>260</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T07:08:30.092099</TD><TD>58721.29757051</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t070830</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_070830_ooi_z_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>318366</TD><TD>2</TD><TD>2</TD><TD>24 4094</TD><TD>-0.13297</TD><TD></TD><TD>ct4m20190826t070830</TD><TD>DECam</TD><TD>z</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_070830_ooi_z_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.71</TD><TD>-12.6552</TD><TD>8500</TD><TD>10020</TD><TD></TD><TD>A2420</TD><TD>1.29</TD><TD>2019A-0308</TD><TD>31.009</TD><TD>image</TD><TD>0</TD><TD>0</TD><TD>260</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T07:08:30.092099</TD><TD>58721.29757051</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t070830</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_070830_oow_z_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>262991</TD><TD>2</TD><TD>2</TD><TD>32 4094</TD><TD>-0.13297</TD><TD></TD><TD>ct4m20190826t070830</TD><TD>DECam</TD><TD>z</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_070830_oow_z_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.71</TD><TD>-12.6552</TD><TD>8500</TD><TD>10020</TD><TD></TD><TD>A2420</TD><TD>1.29</TD><TD>2019A-0308</TD><TD>31.009</TD><TD>wtmap</TD><TD>0</TD><TD>0</TD><TD>260</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T07:08:30.092099</TD><TD>58721.29757051</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t033916</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_033916_ood_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>7979</TD><TD>2</TD><TD>2</TD><TD>8 4094</TD><TD>-0.13295</TD><TD></TD><TD>ct4m20190826t033916</TD><TD>DECam</TD><TD>u</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_033916_ood_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.715</TD><TD>-12.6474</TD><TD>1000</TD><TD>1000</TD><TD></TD><TD>A2420</TD><TD>1.08</TD><TD>2019A-0308</TD><TD>27.228</TD><TD>dqmask</TD><TD>0</TD><TD>0</TD><TD>290</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T03:39:16.802972</TD><TD>58721.15227781</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t033916</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_033916_ooi_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>312699</TD><TD>2</TD><TD>2</TD><TD>24 4094</TD><TD>-0.13295</TD><TD></TD><TD>ct4m20190826t033916</TD><TD>DECam</TD><TD>u</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_033916_ooi_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.715</TD><TD>-12.6474</TD><TD>1000</TD><TD>1000</TD><TD></TD><TD>A2420</TD><TD>1.08</TD><TD>2019A-0308</TD><TD>27.228</TD><TD>image</TD><TD>0</TD><TD>0</TD><TD>290</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T03:39:16.802972</TD><TD>58721.15227781</TD><TD>0</TD></TR>
+<TR><TD>ct4m20190826t033916</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_033916_oow_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>255569</TD><TD>2</TD><TD>2</TD><TD>32 4094</TD><TD>-0.13295</TD><TD></TD><TD>ct4m20190826t033916</TD><TD>DECam</TD><TD>u</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_190826_033916_oow_u_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.715</TD><TD>-12.6474</TD><TD>1000</TD><TD>1000</TD><TD></TD><TD>A2420</TD><TD>1.08</TD><TD>2019A-0308</TD><TD>27.228</TD><TD>wtmap</TD><TD>0</TD><TD>0</TD><TD>290</TD><TD></TD><TD>InstCal</TD><TD>2019-08-26T03:39:16.802972</TD><TD>58721.15227781</TD><TD>0</TD></TR>
+<TR><TD>ct4m20191025t011024</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_011024_ood_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>8493</TD><TD>2</TD><TD>2</TD><TD>8 4094</TD><TD>-0.13298</TD><TD></TD><TD>ct4m20191025t011024</TD><TD>DECam</TD><TD>r</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_011024_ood_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.719</TD><TD>-12.648</TD><TD>5675</TD><TD>7155</TD><TD></TD><TD>A2420</TD><TD>1.06</TD><TD>2019A-0308</TD><TD>31.26</TD><TD>dqmask</TD><TD>0</TD><TD>0</TD><TD>240</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T01:10:24.377664</TD><TD>58781.04889326</TD><TD>0</TD></TR>
+<TR><TD>ct4m20191025t011024</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_011024_ooi_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>315441</TD><TD>2</TD><TD>2</TD><TD>24 4094</TD><TD>-0.13298</TD><TD></TD><TD>ct4m20191025t011024</TD><TD>DECam</TD><TD>r</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_011024_ooi_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.719</TD><TD>-12.648</TD><TD>5675</TD><TD>7155</TD><TD></TD><TD>A2420</TD><TD>1.06</TD><TD>2019A-0308</TD><TD>31.26</TD><TD>image</TD><TD>0</TD><TD>0</TD><TD>240</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T01:10:24.377664</TD><TD>58781.04889326</TD><TD>0</TD></TR>
+<TR><TD>ct4m20191025t011024</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_011024_oow_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>259548</TD><TD>2</TD><TD>2</TD><TD>32 4094</TD><TD>-0.13298</TD><TD></TD><TD>ct4m20191025t011024</TD><TD>DECam</TD><TD>r</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_191025_011024_oow_r_v1.fits.fz&amp;extn=45&amp;POS=331.70716497644065,-12.71961088523514&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>331.719</TD><TD>-12.648</TD><TD>5675</TD><TD>7155</TD><TD></TD><TD>A2420</TD><TD>1.06</TD><TD>2019A-0308</TD><TD>31.26</TD><TD>wtmap</TD><TD>0</TD><TD>0</TD><TD>240</TD><TD></TD><TD>InstCal</TD><TD>2019-10-25T01:10:24.377664</TD><TD>58781.04889326</TD><TD>0</TD></TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>

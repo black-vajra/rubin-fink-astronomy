@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="xmlns:http://www.ivoa.net/xml/VOTable-1.2.xsd" version="1.2">
+<RESOURCE type="results">
+<DESCRIPTION>DALServer SIAP Version 1.0 (generic)</DESCRIPTION>
+<INFO name="QUERY_STATUS" value="OK"/>
+<INFO name="INPUT:POS" value="326.3262232545373,-14.470444852673182"/>
+<INFO name="INPUT:SIZE" value="0.05"/>
+<INFO name="INPUT:FORMAT" value="ALL"/>
+<INFO name="ServiceEngine" value="siapv1_nsc_dr2: SIAP version 1.0 (generic) DALServer version 0.7"/>
+<INFO name="QUERY" value="SELECT * FROM (SELECT * FROM ivoa_nsc_dr2.siav1 WHERE q3c_radial_query (s_ra,s_dec,326.3262232545373,-14.470444852673182,4.0)) s  WHERE  (326.3262232545373 BETWEEN spat_lolimit1 and spat_hilimit1) AND  (-14.470444852673182 BETWEEN spat_lolimit2 and spat_hilimit2)"/>
+<INFO name="TableRows" value="3"/>
+<TABLE>
+<FIELD ID="assoc_id" name="assoc_id" datatype="char" utype="im:Association.ID" arraysize="*">
+<DESCRIPTION>Association identifier</DESCRIPTION>
+</FIELD>
+<FIELD ID="access_url" name="access_url" datatype="char" ucd="VOX:Image_AccessReference" utype="im:Access.Reference" arraysize="*">
+<DESCRIPTION>URL used to access dataset</DESCRIPTION>
+</FIELD>
+<FIELD ID="access_format" name="access_format" datatype="char" ucd="VOX:Image_Format" utype="im:Access.Format" arraysize="*">
+<DESCRIPTION>Content or MIME type of dataset</DESCRIPTION>
+</FIELD>
+<FIELD ID="access_estsize" name="access_estsize" datatype="int" ucd="VOX:Image_FileSize" utype="im:Access.Size" unit="bytes">
+<DESCRIPTION>Estimated dataset size</DESCRIPTION>
+</FIELD>
+<FIELD ID="calib_level" name="calib_level" datatype="long" utype="im:Dataset.CalibLevel">
+<DESCRIPTION>Calibration level</DESCRIPTION>
+</FIELD>
+<FIELD ID="im_naxes" name="im_naxes" datatype="int" ucd="VOX:Image_Naxes" utype="im:Image.Naxes">
+<DESCRIPTION>Number of image axes</DESCRIPTION>
+</FIELD>
+<FIELD ID="im_naxis" name="im_naxis" datatype="int" ucd="VOX:Image_Naxis" utype="im:Image.Naxis" arraysize="*">
+<DESCRIPTION>Length of each axis of each subarray</DESCRIPTION>
+</FIELD>
+<FIELD ID="im_scale" name="im_scale" datatype="double" ucd="VOX:Image_Scale" utype="im:Image.Scale" arraysize="*" unit="deg">
+<DESCRIPTION>Image spatial scale in arcsec per pixel</DESCRIPTION>
+</FIELD>
+<FIELD ID="obs_title" name="obs_title" datatype="char" ucd="VOX:Image_Title" utype="im:DataID.Title" arraysize="*">
+<DESCRIPTION>Dataset Title</DESCRIPTION>
+</FIELD>
+<FIELD ID="obs_id" name="obs_id" datatype="char" utype="im:DataID.ObservationID" arraysize="*">
+<DESCRIPTION>Unique observation ID shared by all obs datasets</DESCRIPTION>
+</FIELD>
+<FIELD ID="instrument_name" name="instrument_name" datatype="char" ucd="INST_ID" utype="im:Provenance.ObsConfig.Instrument.name" arraysize="*">
+<DESCRIPTION>Instrument name</DESCRIPTION>
+</FIELD>
+<FIELD ID="obs_bandpass" name="obs_bandpass" datatype="char" ucd="VOX:BandPass_ID" utype="im:Provenance.ObsConfig.Bandpass" arraysize="*">
+<DESCRIPTION>Spectral bandpass name or names</DESCRIPTION>
+</FIELD>
+<FIELD ID="preview" name="preview" datatype="char" ucd="meta.ref.url" utype="im:Curation.Preview" arraysize="*">
+<DESCRIPTION>URL of preview graphic for dataset</DESCRIPTION>
+</FIELD>
+<FIELD ID="s_ra" name="s_ra" datatype="double" ucd="POS_EQ_RA_MAIN" utype="im:Char.SpatialAxis.Coverage.Location.Coord.Position2D.Value2.C1" unit="deg">
+<DESCRIPTION>Spatial position first coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="s_dec" name="s_dec" datatype="double" ucd="POS_EQ_DEC_MAIN" utype="im:Char.SpatialAxis.Coverage.Location.Coord.Position2D.Value2.C2" unit="deg">
+<DESCRIPTION>Spatial position second coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_min" name="em_min" datatype="double" ucd="VOX:BandPass_LoLimit" utype="im:Char.SpectralAxis.Coverage.Bounds.Limits.LoLimit" unit="m">
+<DESCRIPTION>Start in spectral coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_max" name="em_max" datatype="double" ucd="VOX:BandPass_HiLimit" utype="im:Char.SpectralAxis.Coverage.Bounds.Limits.HiLimit" unit="m">
+<DESCRIPTION>Stop in spectral coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_res_power" name="em_res_power" datatype="double" ucd="spect.resolution" utype="im:Char.SpectralAxis.Resolution.ResolPower.RefVal">
+<DESCRIPTION>Spectral resolving power</DESCRIPTION>
+</FIELD>
+<FIELD ID="object" name="object" datatype="char" arraysize="*"/>
+<FIELD ID="airmass" name="airmass" datatype="char" arraysize="*"/>
+<FIELD ID="project_code" name="project_code" datatype="char" arraysize="*"/>
+<FIELD ID="magzero" name="magzero" datatype="char" arraysize="*"/>
+<FIELD ID="prodtype" name="prodtype" datatype="char" arraysize="*"/>
+<FIELD ID="seeing" name="seeing" datatype="char" arraysize="*"/>
+<FIELD ID="fwhm" name="fwhm" datatype="char" arraysize="*"/>
+<FIELD ID="exptime" name="exptime" datatype="char" arraysize="*"/>
+<FIELD ID="photflag" name="photflag" datatype="char" arraysize="*"/>
+<FIELD ID="proctype" name="proctype" datatype="char" arraysize="*"/>
+<FIELD ID="date_obs" name="date_obs" datatype="char" arraysize="*"/>
+<FIELD ID="mjd_obs" name="mjd_obs" datatype="char" arraysize="*"/>
+<FIELD ID="elliptic" name="elliptic" datatype="char" arraysize="*"/>
+<GROUP ID="Association" name="Association" utype="im:Association">
+<DESCRIPTION>Association Metadata</DESCRIPTION>
+<FIELDref ref="assoc_id"/>
+</GROUP>
+<GROUP ID="Access" name="Access" utype="im:Access">
+<DESCRIPTION>Access Metadata</DESCRIPTION>
+<FIELDref ref="access_url"/>
+<FIELDref ref="access_format"/>
+<FIELDref ref="access_estsize"/>
+</GROUP>
+<GROUP ID="Dataset" name="Dataset" utype="im:Dataset">
+<DESCRIPTION>General Dataset Metadata</DESCRIPTION>
+<FIELDref ref="calib_level"/>
+<PARAM ID="datamodel_name" datatype="char" name="datamodel_name" ucd="meta.id" utype="im:Dataset.DataModel.Name" value="Image-1.0" arraysize="*">
+<DESCRIPTION>Data model name and version</DESCRIPTION>
+</PARAM>
+</GROUP>
+<GROUP ID="Image" name="Image" utype="im:Image">
+<DESCRIPTION>Image-specific Dataset metadata</DESCRIPTION>
+<FIELDref ref="im_naxes"/>
+<FIELDref ref="im_naxis"/>
+<FIELDref ref="im_scale"/>
+</GROUP>
+<GROUP ID="DataID" name="DataID" utype="im:DataID">
+<DESCRIPTION>Dataset Identification Metadata</DESCRIPTION>
+<FIELDref ref="obs_title"/>
+<FIELDref ref="obs_id"/>
+</GROUP>
+<GROUP ID="Provenance" name="Provenance" utype="im:Provenance">
+<DESCRIPTION>Provenance Metadata</DESCRIPTION>
+<FIELDref ref="instrument_name"/>
+<FIELDref ref="obs_bandpass"/>
+</GROUP>
+<GROUP ID="Curation" name="Curation" utype="im:Curation">
+<DESCRIPTION>Curation Metadata</DESCRIPTION>
+<FIELDref ref="preview"/>
+</GROUP>
+<GROUP ID="Target" name="Target" utype="im:Target">
+<DESCRIPTION>Target Metadata</DESCRIPTION>
+</GROUP>
+<GROUP ID="Char.SpatialAxis" name="Char.SpatialAxis" utype="im:Char.SpatialAxis">
+<DESCRIPTION>Spatial Axis Characterization</DESCRIPTION>
+<FIELDref ref="s_ra"/>
+<FIELDref ref="s_dec"/>
+</GROUP>
+<GROUP ID="Char.SpectralAxis" name="Char.SpectralAxis" utype="im:Char.SpectralAxis">
+<DESCRIPTION>Spectral Axis Characterization</DESCRIPTION>
+<FIELDref ref="em_min"/>
+<FIELDref ref="em_max"/>
+<FIELDref ref="em_res_power"/>
+</GROUP>
+<GROUP ID="Char.TimeAxis" name="Char.TimeAxis" utype="im:Char.TimeAxis">
+<DESCRIPTION>Time Axis Characterization</DESCRIPTION>
+</GROUP>
+<GROUP ID="Char.ObservableAxis" name="Char.ObservableAxis" utype="im:Char.ObservableAxis">
+<DESCRIPTION>Observable Axis Characterization</DESCRIPTION>
+</GROUP>
+<GROUP ID="Char.PolAxis" name="Char.PolAxis" utype="im:Char.PolAxis">
+<DESCRIPTION>Polarization Axis Characterization</DESCRIPTION>
+</GROUP>
+<DATA>
+<TABLEDATA>
+<TR><TD>ct4m20180905t020014</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_180905_020014_ood_g_ls9.fits.fz&amp;extn=37&amp;POS=326.3262232545373,-14.470444852673182&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>3692</TD><TD>2</TD><TD>2</TD><TD>8 4094</TD><TD>-0.13135</TD><TD></TD><TD>ct4m20180905t020014</TD><TD>DECam</TD><TD>g</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_180905_020014_ood_g_ls9.fits.fz&amp;extn=37&amp;POS=326.3262232545373,-14.470444852673182&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>326.316</TD><TD>-14.5228</TD><TD>3960</TD><TD>5480</TD><TD></TD><TD>DECaLS_50716_g</TD><TD>1.11</TD><TD>2014B-0404</TD><TD>0</TD><TD>dqmask</TD><TD>0</TD><TD>0</TD><TD>56</TD><TD></TD><TD>InstCal</TD><TD>2018-09-05T02:00:14.826102</TD><TD>58366.08350493</TD><TD>0</TD></TR>
+<TR><TD>ct4m20180905t020014</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_180905_020014_ooi_g_ls9.fits.fz&amp;extn=37&amp;POS=326.3262232545373,-14.470444852673182&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>272126</TD><TD>2</TD><TD>2</TD><TD>24 4094</TD><TD>-0.13135</TD><TD></TD><TD>ct4m20180905t020014</TD><TD>DECam</TD><TD>g</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_180905_020014_ooi_g_ls9.fits.fz&amp;extn=37&amp;POS=326.3262232545373,-14.470444852673182&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>326.316</TD><TD>-14.5228</TD><TD>3960</TD><TD>5480</TD><TD></TD><TD>DECaLS_50716_g</TD><TD>1.11</TD><TD>2014B-0404</TD><TD>0</TD><TD>image</TD><TD>0</TD><TD>0</TD><TD>56</TD><TD></TD><TD>InstCal</TD><TD>2018-09-05T02:00:14.826102</TD><TD>58366.08350493</TD><TD>0</TD></TR>
+<TR><TD>ct4m20180905t020014</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_180905_020014_oow_g_ls9.fits.fz&amp;extn=37&amp;POS=326.3262232545373,-14.470444852673182&amp;SIZE=0.05,0.05</TD><TD>image/fits</TD><TD>221909</TD><TD>2</TD><TD>2</TD><TD>32 4094</TD><TD>-0.13135</TD><TD></TD><TD>ct4m20180905t020014</TD><TD>DECam</TD><TD>g</TD><TD>https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&amp;siaRef=c4d_180905_020014_oow_g_ls9.fits.fz&amp;extn=37&amp;POS=326.3262232545373,-14.470444852673182&amp;SIZE=0.05,0.05&amp;preview=true</TD><TD>326.316</TD><TD>-14.5228</TD><TD>3960</TD><TD>5480</TD><TD></TD><TD>DECaLS_50716_g</TD><TD>1.11</TD><TD>2014B-0404</TD><TD>0</TD><TD>wtmap</TD><TD>0</TD><TD>0</TD><TD>56</TD><TD></TD><TD>InstCal</TD><TD>2018-09-05T02:00:14.826102</TD><TD>58366.08350493</TD><TD>0</TD></TR>
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+</VOTABLE>

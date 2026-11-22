@@ -1,0 +1,17 @@
+{
+  "status": "proposed; no new orbit fit run",
+  "target": "275809 (2001 QY297)",
+  "training_candidate_set": "56 NSC W84 rows, 2013-2019; image-quality approval pending",
+  "training_cutoff_utc": "2020-01-01T00:00:00Z",
+  "withheld_set": "all 10 unique 2026 Rubin X05 diaSources",
+  "radius_arcsec": 60,
+  "independence": "Do not use ADAM/JPL target state or covariance as fit input. JPL-selected candidates make this a retrospective benchmark, not blind discovery.",
+  "requirements": [
+    "verify image quality, time semantics and uncertainty conventions",
+    "planetary perturbations, observer geometry and light travel time",
+    "multiple initializations and global-ambiguity checks",
+    "training-only rejection and uncertainty rules",
+    "established-fitter cross-check",
+    "do not use this unresolved astrometry to claim mutual orbit or mass"
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "generated_utc": "2026-11-22T02:02:52.052082+00:00",
+  "job_id": "632d9656-be94-468f-a230-1d726201b600",
+  "rows": 408,
+  "catalog_counts": {
+    "mpc": 342,
+    "nsc": 56,
+    "lsst": 10
+  },
+  "screen": {
+    "same_station": true,
+    "time_seconds": 2,
+    "angular_arcsec": 2,
+    "purpose": "duplicate screen, not orbit fit gate"
+  },
+  "duplicate_pairs": [],
+  "nsc_nights": [
+    {
+      "date_utc": "2013-08-02",
+      "rows": 4,
+      "bands": "z",
+      "first_utc": "2013-08-02T06:49:44.741888+00:00",
+      "last_utc": "2013-08-02T06:53:09.632954+00:00",
+      "position_span_arcsec": 0.30744200292678275,
+      "median_mag_sigma": 0.147156
+    },
+    {
+      "date_utc": "2017-08-22",
+      "rows": 1,
+      "bands": "g",
+      "first_utc": "2017-08-22T02:20:36.759453+00:00",
+      "last_utc": "2017-08-22T02:20:36.759453+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.201744
+    },
+    {
+      "date_utc": "2017-09-22",
+      "rows": 1,
+      "bands": "r",
+      "first_utc": "2017-09-22T00:13:42.114546+00:00",
+      "last_utc": "2017-09-22T00:13:42.114546+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.078264
+    },
+    {
+      "date_utc": "2018-08-09",
+      "rows": 1,
+      "bands": "r",
+      "first_utc": "2018-08-09T04:11:08.122442+00:00",
+      "last_utc": "2018-08-09T04:11:08.122442+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.059544
+    },
+    {
+      "date_utc": "2018-08-30",
+      "rows": 1,
+      "bands": "g",
+      "first_utc": "2018-08-30T01:13:20.609944+00:00",
+      "last_utc": "2018-08-30T01:13:20.609944+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.094429
+    },
+    {
+      "date_utc": "2018-09-11",
+      "rows": 1,
+      "bands": "r",
+      "first_utc": "2018-09-11T02:28:11.183055+00:00",
+      "last_utc": "2018-09-11T02:28:11.183055+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.068514
+    },
+    {
+      "date_utc": "2018-09-14",
+      "rows": 1,
+      "bands": "z",
+      "first_utc": "2018-09-14T01:12:41.350079+00:00",
+      "last_utc": "2018-09-14T01:12:41.350079+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.090867
+    },
+    {
+      "date_utc": "2018-09-15",
+      "rows": 1,
+      "bands": "z",
+      "first_utc": "2018-09-15T00:47:01.517984+00:00",
+      "last_utc": "2018-09-15T00:47:01.517984+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.099886
+    },
+    {
+      "date_utc": "2018-09-17",
+      "rows": 1,
+      "bands": "z",
+      "first_utc": "2018-09-17T00:27:17.533237+00:00",
+      "last_utc": "2018-09-17T00:27:17.533237+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.215406
+    },
+    {
+      "date_utc": "2019-08-10",
+      "rows": 1,
+      "bands": "i",
+      "first_utc": "2019-08-10T05:52:36.036407+00:00",
+      "last_utc": "2019-08-10T05:52:36.036407+00:00",
+      "position_span_arcsec": 0.0,
+      "median_mag_sigma": 0.132967
+    },
+    {
+      "date_utc": "2019-08-26",
+      "rows": 12,
+      "bands": "g,i,z",
+      "first_utc": "2019-08-26T02:15:07.482298+00:00",
+      "last_utc": "2019-08-26T07:10:40.092131+00:00",
+      "position_span_arcsec": 14.328693038289398,
+      "median_mag_sigma": 0.067577
+    },
+    {
+      "date_utc": "2019-10-24",
+      "rows": 2,
+      "bands": "i",
+      "first_utc": "2019-10-24T23:54:04.881018+00:00",
+      "last_utc": "2019-10-24T23:57:44.302881+00:00",
+      "position_span_arcsec": 0.05272719920052944,
+      "median_mag_sigma": 0.065957
+    },
+    {
+      "date_utc": "2019-10-25",
+      "rows": 29,
+      "bands": "i,r",
+      "first_utc": "2019-10-25T00:01:22.937543+00:00",
+      "last_utc": "2019-10-25T02:01:44.370486+00:00",
+      "position_span_arcsec": 2.242629150482962,
+      "median_mag_sigma": 0.04381
+    }
+  ],
+  "nsc_exposure_ids_unique": 56,
+  "nsc_mpc_same_station_rows": 0,
+  "lsst_ids_equal_previous_fink": true,
+  "lsst_only_ids": [],
+  "previous_fink_only_ids": [],
+  "spans": {
+    "count": 347,
+    "states": {
+      "complete": 347
+    },
+    "accepted_sum": 295
+  },
+  "image_queries": [
+    {
+      "night": "2013-08-02",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=326.3262232545373%2C-14.470444852673182&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.035462+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 3,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "7e1c07e2235341753b367520811947af5ef4d94fde027ee9c66554e612032a87"
+    },
+    {
+      "night": "2017-08-22",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=330.9390287502891%2C-12.971310811821578&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.036234+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 0,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "251bba931103adef8d3d7a9ed43e6971b01f403ca3e08afb5628037ea63d84c7"
+    },
+    {
+      "night": "2017-09-22",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=330.3982736511444%2C-13.164674239329333&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.036662+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 0,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "0b94f65d5d36915c127624cad2de0804b8ef0912ba7f02fd6a0edadc16733f6e"
+    },
+    {
+      "night": "2018-08-09",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=332.40509049203445%2C-12.462837022401054&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.037944+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 87,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "61baddbc95d286f83365948455a8535aea7ce6e0f48db36d7ed8083ef01edb68"
+    },
+    {
+      "night": "2018-08-30",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=332.02323361691765%2C-12.605006855481845&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.038046+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 63,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "43b9d8fd8f54e08c72ebc8b0fabdbacac59b2e938be0c499a8151b4134bbe5e2"
+    },
+    {
+      "night": "2018-09-11",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=331.80731015768447%2C-12.683637198106256&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.040101+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 9,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "4b9c895f440bf38183433a444e9a42f2c9b0de403a132b3cfa9f3b466d120aed"
+    },
+    {
+      "night": "2018-09-14",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=331.75677761011985%2C-12.70183345982167&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.042085+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 18,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "784b1a22391796a206eea307ce041601dd2d416fe65bb311704a0183580dbf45"
+    },
+    {
+      "night": "2018-09-15",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=331.74020075916945%2C-12.707766998380684&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.042350+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 8,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "7acccf8fe45e73277d598dd27b3ebf15625cebef9e15f67d8bcf690fb4b88efc"
+    },
+    {
+      "night": "2018-09-17",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=331.70716497644065%2C-12.71961088523514&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.044562+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 21,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "76da72f4ac8586a5eba0f10b388620d1abeb51598e492ceecdf474668f8a8220"
+    },
+    {
+      "night": "2019-08-10",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=333.6076916296731%2C-12.044598803153862&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.044697+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 57,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "8f8de547953bfdd0ef7922667e9ef66b0e3dfeab43cbb03cf5a3fcbfcf93e25d"
+    },
+    {
+      "night": "2019-08-26",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=333.3191674095048%2C-12.15390380555507&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.046547+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 32,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "af25cd2b1cf205f152eb295ecda2dc06c56ba4560d438a4b82456ddb25b7a57c"
+    },
+    {
+      "night": "2019-10-24",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=332.45631090585664%2C-12.463818239402887&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.046765+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 29,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "bb05ac1ce629c01ea625d749dc7068a0c4b3bf29c98bdafd7246cd1a2bfe461e"
+    },
+    {
+      "night": "2019-10-25",
+      "url": "https://datalab.noirlab.edu/sia/nsc_dr2?POS=332.4559869964089%2C-12.463917075602923&SIZE=0.05&FORMAT=ALL",
+      "queried_utc": "2026-11-22T02:02:52.046911+00:00",
+      "radius_note": "0.05-degree square centered on mean nightly position; not a detector-footprint test",
+      "rows": 30,
+      "status": [
+        {
+          "name": "QUERY_STATUS",
+          "value": "OK"
+        }
+      ],
+      "response_sha256": "9838fb6a97e409b099215c0bcad584058beb919787768ac6279d68e01b0dd682"
+    }
+  ],
+  "input_manifest": [
+    {
+      "path": "inputs/275809_orbit_inputs.parquet",
+      "sha256": "88bf7f4202c1e1faddb737316f286e93348cf245f27d6578d3c5908e02cba623",
+      "bytes": 8073
+    },
+    {
+      "path": "inputs/275809_observations.adam-core.parquet",
+      "sha256": "56ebeca0b6b45f629b6f128e7261c5aa75ddfa6b6435019857f0dac2b236232f",
+      "bytes": 27500
+    },
+    {
+      "path": "inputs/search-spans.txt",
+      "sha256": "5e6fbe7417a22e306103d24baf4495ace0384edd0206c6bb7554411b825d94fa",
+      "bytes": 22137
+    }
+  ]
+}

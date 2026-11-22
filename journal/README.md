@@ -16,3 +16,5 @@ New entries use their actual local date. Same-day additions get `b`, then `c`. E
 - [November 20f — restricted-watchlist physical orbit fits](2026/11/2026-11-20f-rubin-journal.md)
 - [November 20g — session closeout and publication record](2026/11/2026-11-20g-rubin-journal.md)
 - [November 21 — overnight review, PGC fit sensitivity and ED138 public-astrometry benchmark](2026/11/2026-11-21-rubin-journal.md)
+
+- [November 21b — QY297 ADAM reconciliation and initial DECam image check](2026/11/2026-11-21b-rubin-journal.md)

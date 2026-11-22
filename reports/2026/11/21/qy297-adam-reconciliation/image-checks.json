@@ -1,0 +1,22 @@
+[
+  {
+    "id": "c4d.763262.37.822",
+    "exposure_id": "c4d_180809_041048_ooi_r_ls9",
+    "utc": "2018-08-09T04:11:08.122442+00:00",
+    "url": "https://datalab.noirlab.edu/svc/cutout?col=nsc_dr2&siaRef=c4d_180809_041048_ooi_r_ls9.fits.fz&extn=37&POS=332.40509049203445%2C-12.462837022401054&SIZE=0.008333333%2C0.008333333",
+    "band": "r",
+    "pixel_x": 294.2298269125639,
+    "pixel_y": 1882.2832034162732,
+    "shape": [
+      4094,
+      2046
+    ],
+    "inside_image": true,
+    "finite_fraction": 1.0,
+    "plot_x": 60.22982691256391,
+    "plot_y": 60.28320341627318,
+    "sha256": "169fa794caa25cb3e6614fdd236705ed68bafb1a60683eb332260a2f9f644b5c",
+    "bytes": 33531840,
+    "raw_path": "data/raw/qy297-adam/c4d.763262.37.822.fits"
+  }
+]
