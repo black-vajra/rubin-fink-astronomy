@@ -43,3 +43,9 @@ The dated overnight overview, both science reports, raw Fink responses and hashe
 Four new tests cover native record counts/calendar/stations, independent sexagesimal coordinate conversion, exclusion of non-observation orbital text, and exact large source IDs/revision detection. The existing four physical-model numerical/information-isolation tests were also run. The new reports distinguish freshness from observation dates and archived-data analysis from new detections.
 
 Local packet-count evidence is now completed. Next: investigate Kafka connectivity if it persists; validate product-specific masks/calibration for PGC; add planetary dynamics and independent orbit-fitting checks for the named movers; examine targeted archive access and precovery image validation. Further work on QY297 binary physics remains a separate discussion. No push or release publication is asserted for this new session.
+
+## Report-delivery correction before publication
+
+The user could read the two primary science reports but could not open four linked appendices. The first three used companion-folder relative links, and the methods note was Markdown only. Standalone HTML copies and a single self-contained complete-review.html now embed all seven report sections, the 74-row public-observation table and selected JSON provenance/trial data. Internal link targets and absence of companion-resource dependencies were checked.
+
+One stale sentence in the freshness appendix still said the local file count was pending. It is corrected to the supplied zero, and the ED138 HTTP 400 is explicitly identified as a failed query rather than a successful empty result. The renderer was tested through two rebuilds to confirm those corrections persist. Source observations and numerical results are unchanged by this delivery correction.

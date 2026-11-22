@@ -1,6 +1,6 @@
 # Overnight review · 2026-11-21
 
-Generated 2026-11-22T01:08:20+00:00. Reporting date is America/New_York.
+Generated 2026-11-22T01:27:20+00:00. Reporting date is America/New_York.
 
 ## Delivery and automation
 
@@ -29,6 +29,6 @@ Rubin’s homepage as retrieved for this review still displays a temporary off-s
 - [Freshness data and query accounting](freshness-review/report.html)
 - [PGC fit-choice diagnostic](pgc-fit-sensitivity/report.html)
 - [ED138 public-astrometry benchmark](ed138-public-astrometry/report.html)
-- [Methods and data-source follow-up](methods-and-data-sources.md)
+- [Methods and data-source follow-up](methods-and-data-sources.html)
 
 Official sources: https://rubinobservatory.org/ ; https://www.rubin.community/t/rubin-status-november-17-2026/12959 . Fresh Fink response provenance and user-supplied host evidence are retained in this directory.

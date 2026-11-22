@@ -1,0 +1,34 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>freshness-and-query-accounting.html</title>
+<style>body{font:16px/1.55 system-ui;max-width:1120px;margin:2em auto;padding:0 1em;color:#172033}table{border-collapse:collapse;width:100%;font-size:.94em}th,td{border:1px solid #cbd5e1;padding:.45em;text-align:left}th{background:#edf2f7}h1,h2{line-height:1.2}a{color:#174fb0}code{background:#eef2f6}</style>
+<h1>Overnight data review · 2026-11-21</h1>
+<p>Generated 2026-11-22T00:55:22.893054+00:00.</p>
+<p>Collection window assessed: 2026-11-20T22:00:00+00:00 through 2026-11-21T14:00:00+00:00 (17:00–09:00 America/New_York).</p>
+<p>Fresh API retrieval time and observation time are reported separately. Returned histories are sparse; absence of a row does not establish non-observation. No local host collection success is inferred from these queries.</p>
+<table>
+<tr><th>Target</th><th>Unique returned source IDs</th><th>Latest observation UTC</th><th>Added / removed / revised IDs</th><th>In assessed overnight window</th></tr>
+<tr><td>PGC 766016</td><td>8</td><td>2026-11-15T05:31:12.579</td><td>0 / 0 / 0</td><td>0</td></tr>
+<tr><td>Quasar crossmatch</td><td>9</td><td>2026-11-15T05:30:32.245</td><td>0 / 0 / 0</td><td>0</td></tr>
+<tr><td>Science-image high</td><td>426</td><td>2026-11-15T05:33:18.561</td><td>0 / 0 / 0</td><td>0</td></tr>
+<tr><td>AT 2019hkw</td><td>5</td><td>2026-11-15T00:35:36.762</td><td>0 / 0 / 0</td><td>0</td></tr>
+<tr><td>2001 QY297</td><td>10</td><td>2026-11-12T01:21:40.083</td><td>0 / 0 / 0</td><td>0</td></tr>
+<tr><td>2014 WV203</td><td>8</td><td>2026-11-15T00:21:48.506</td><td>0 / 0 / 0</td><td>0</td></tr>
+<tr><td>2013 CR7</td><td>6</td><td>2026-11-12T01:21:40.083</td><td>0 / 0 / 0</td><td>0</td></tr>
+<tr><td>2026 ED138</td><td>query failed</td><td>unknown</td><td>unknown</td><td>unknown</td></tr>
+</table>
+<h2>Broker statistics</h2>
+<p>Latest returned published-night key: <strong>20261115</strong>.</p>
+<table>
+<tr><th>Published-night key</th><th>Alerts</th><th>Visits</th></tr>
+<tr><td>20261108</td><td>34119</td><td>39</td></tr>
+<tr><td>20261109</td><td>18005</td><td>21</td></tr>
+<tr><td>20261110</td><td>39735</td><td>41</td></tr>
+<tr><td>20261111</td><td>69458</td><td>70</td></tr>
+<tr><td>20261112</td><td>235039</td><td>145</td></tr>
+<tr><td>20261113</td><td>76350</td><td>67</td></tr>
+<tr><td>20261114</td><td>59725</td><td>46</td></tr>
+<tr><td>20261115</td><td>138867</td><td>60</td></tr>
+</table>
+<h2>Local overnight evidence</h2>
+<p>User-supplied Pots logs confirm reports completed at 09:00 and 09:10 EST. Collector start 19:26:23; scheduled stop 09:00:01; Kafka timeouts around 07:21 and 07:32. The inbox check found <strong>0 new Avro files</strong> in the assessed window; newest files remain dated November 15. See the retained pots-overnight-evidence.json for the supplied file timestamps.</p>
+<p>Counts in the freshness table cover all returned history epochs; the science report tables apply the July 16 onward interval. This explains differences between history totals and the science-table counts.</p>
+<p>Raw responses, request parameters, retrieval timestamps, response hashes and source-ID changes are retained. The ED138 Fink query returned HTTP 400; it was not a successful empty result. Public MPC astrometry was retrieved separately and used for the historical benchmark.</p>

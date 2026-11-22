@@ -34,6 +34,8 @@ Latest returned published-night key: **20261115**.
 
 ## Local overnight evidence
 
-User-supplied Pots logs confirm reports completed at 09:00 and 09:10 EST. Collector start 19:26:23; scheduled stop 09:00:01; Kafka timeouts around 07:21 and 07:32. Raw new-file count was not supplied. See ../pots-overnight-evidence.json.
+User-supplied Pots logs confirm reports completed at 09:00 and 09:10 EST. Collector start 19:26:23; scheduled stop 09:00:01; Kafka timeouts around 07:21 and 07:32. The inbox check found **0 new Avro files** in the assessed window; newest files remain dated November 15. See the retained pots-overnight-evidence.json for the supplied file timestamps.
 
-Raw responses, request parameters, retrieval timestamps, response hashes and source-ID changes are retained in this directory. Empty ED138 results mean no history returned by this endpoint; other public astrometry sources remain to investigate.
+Counts in the freshness table cover all returned history epochs; the science report tables apply the July 16 onward interval. This explains differences between history totals and the science-table counts.
+
+Raw responses, request parameters, retrieval timestamps, response hashes and source-ID changes are retained. The ED138 Fink query returned HTTP 400; it was not a successful empty result. Public MPC astrometry was retrieved separately and used for the historical benchmark.

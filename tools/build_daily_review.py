@@ -35,7 +35,7 @@ review=[f'# Overnight review · {a.report_date}','',f'Generated {generated}. Rep
     '| Methodology | Reviewed discovery/precovery sources | Targeted archival workflow identified; no ADAM login/search or new-object scan |','',
     '## Reports','',f'- [Extragalactic review]({a.report_date}-extragalactic-report.html)',f'- [Moving-object review]({a.report_date}-moving-object-report.html)',
     '- [Freshness data and query accounting](freshness-review/report.html)','- [PGC fit-choice diagnostic](pgc-fit-sensitivity/report.html)',
-    '- [ED138 public-astrometry benchmark](ed138-public-astrometry/report.html)','- [Methods and data-source follow-up](methods-and-data-sources.md)','',
+    '- [ED138 public-astrometry benchmark](ed138-public-astrometry/report.html)','- [Methods and data-source follow-up](methods-and-data-sources.html)','',
     'Official sources: https://rubinobservatory.org/ ; https://www.rubin.community/t/rubin-status-november-17-2026/12959 . Fresh Fink response provenance and user-supplied host evidence are retained in this directory.']
 write('overnight-review',review)
 
@@ -76,14 +76,26 @@ lines += ['', 'This is a retrospective known-object benchmark with a Sun-only ph
     '## QY297 and comparison controls','',
     'The prior QY297, CR7 and WV203 fits remain their November 20 results, not freshly recomputed orbital solutions. Next numerical gate remains planetary perturbations, global orbit ambiguity/uncertainty and an established-fitter cross-check. The fitted-track full-night ranking remains separate from the already verified external-JPL recovery.','',
     '## Methodology follow-up','',
-    'The discovery announcement prompted a targeted review of linking and precovery methods. See [methods and source-access notes](methods-and-data-sources.md). Our next archive searches should remain confined to the named watchlist, preserving candidate provenance and image-level validation. No authenticated ADAM search was submitted and no broad new-object search ran.','',
+    'The discovery announcement prompted a targeted review of linking and precovery methods. See [methods and source-access notes](methods-and-data-sources.html). Our next archive searches should remain confined to the named watchlist, preserving candidate provenance and image-level validation. No authenticated ADAM search was submitted and no broad new-object search ran.','',
     'The public astrometry and restricted image/catalog release are distinct products. ED138 is now an active public-astrometry benchmark; its proprietary RSP images were not accessed.']
 write(a.report_date+'-moving-object-report',lines)
 
 fresh['local_Pots_overnight_service_and_file_evidence']={'status':'user terminal evidence supplied','file':'../pots-overnight-evidence.json','reports_completed':True,'new_local_Avro_count':host['local_new_Avro_count']}
 (base/'freshness-review/freshness.json').write_text(json.dumps(fresh,indent=2)+'\n')
-fresh_report=(base/'freshness-review/report.md').read_text().replace('pending user-provided logs; no direct host access','User-supplied Pots logs confirm reports completed at 09:00 and 09:10 EST. Collector start 19:26:23; scheduled stop 09:00:01; Kafka timeouts around 07:21 and 07:32. The inbox check found zero new Avro files; newest files remain dated November 15. See ../pots-overnight-evidence.json.')
+fresh_report=(base/'freshness-review/report.md').read_text().split('## Local overnight evidence',1)[0]
+fresh_report += ('## Local overnight evidence\n\n'
+    f"User-supplied Pots logs confirm reports completed at 09:00 and 09:10 EST. Collector start 19:26:23; scheduled stop 09:00:01; Kafka timeouts around 07:21 and 07:32. "
+    f"The inbox check found **{host['local_new_Avro_count']} new Avro files** in the assessed window; newest files remain dated November 15. "
+    'See the retained pots-overnight-evidence.json for the supplied file timestamps.\n\n'
+    'Counts in the freshness table cover all returned history epochs; the science report tables apply the July 16 onward interval. '
+    'This explains differences between history totals and the science-table counts.\n\n'
+    'Raw responses, request parameters, retrieval timestamps, response hashes and source-ID changes are retained. '
+    'The ED138 Fink query returned HTTP 400; it was not a successful empty result. Public MPC astrometry was retrieved separately and used for the historical benchmark.\n')
 (base/'freshness-review/report.md').write_text(fresh_report);(base/'freshness-review/report.html').write_text(render(fresh_report,'Fink freshness review'))
 for folder in ['ed138-public-astrometry','pgc-fit-sensitivity']:
     md=(base/folder/'report.md').read_text();(base/folder/'report.html').write_text(render(md,folder))
 print('Built overview, both science reports, and readable HTML diagnostics:',base)
+
+for source,name in [('freshness-review/report.md','freshness-and-query-accounting.html'),('pgc-fit-sensitivity/report.md','pgc-fit-choice-diagnostic.html'),('ed138-public-astrometry/report.md','ed138-public-astrometry-benchmark.html'),('methods-and-data-sources.md','methods-and-data-sources.html')]:
+    md=(base/source).read_text()
+    (base/name).write_text(render(md,name))

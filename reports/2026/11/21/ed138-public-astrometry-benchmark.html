@@ -1,0 +1,23 @@
+<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>ed138-public-astrometry-benchmark.html</title>
+<style>body{font:16px/1.55 system-ui;max-width:1120px;margin:2em auto;padding:0 1em;color:#172033}table{border-collapse:collapse;width:100%;font-size:.94em}th,td{border:1px solid #cbd5e1;padding:.45em;text-align:left}th{background:#edf2f7}h1,h2{line-height:1.2}a{color:#174fb0}code{background:#eef2f6}</style>
+<h1>2026 ED138 · public astrometry benchmark</h1>
+<p>2026-11-22T00:58:04.195329+00:00</p>
+<p><strong>Historical benchmark, not new overnight observations.</strong> Native public MPC observations were retrieved successfully; the Fink query failure is not an absence-of-astrometry result.</p>
+<p>Parsed <strong>74</strong> MPC observations: <strong>44 W84</strong> DECam precoveries and <strong>30 X05</strong> Rubin positions on <strong>20</strong> dates. Only the Rubin subset is fitted here; the precoveries are retained for later work. No Fink alert IDs or visit IDs are invented.</p>
+<p>Training cutoff fixed before numerical scoring: <strong>UTC &lt; 2026-06-13</strong>. Training: <strong>25 positions on 17 dates</strong>; withheld: <strong>5 positions</strong>. All trial outcomes are retained. Published target orbital elements and all withheld positions are excluded from initialization and optimization.</p>
+<p>Model: existing six-state heliocentric Sun-only fitter; Rubin observer motion and iterated light travel time. Uniform assumed 0.15 arcsec per-coordinate errors; existing fixed 60 arcsec search gate. Retrospective known-object test, not a blind discovery or a replacement catalog orbit.</p>
+<table>
+<tr><th>Withheld UTC</th><th>Band</th><th>Miss (arcsec)</th><th>Inside 60 arcsec?</th><th>Formal 95% prediction semiaxes (arcsec)</th></tr>
+<tr><td>2026-06-27T05:23:48.336+00:00</td><td>i</td><td>0.027</td><td>True</td><td>0.501 × 0.224</td></tr>
+<tr><td>2026-07-09T04:04:54.307+00:00</td><td>i</td><td>0.043</td><td>True</td><td>0.794 × 0.289</td></tr>
+<tr><td>2026-07-09T04:49:07.046+00:00</td><td>r</td><td>0.038</td><td>True</td><td>0.795 × 0.289</td></tr>
+<tr><td>2026-07-11T06:43:24.182+00:00</td><td>r</td><td>0.039</td><td>True</td><td>0.852 × 0.300</td></tr>
+<tr><td>2026-07-11T07:21:14.515+00:00</td><td>g</td><td>0.075</td><td>True</td><td>0.853 × 0.300</td></tr>
+</table>
+<p>Training position RMS: <strong>0.0284 arcsec</strong>; maximum <strong>0.0907 arcsec</strong>.</p>
+<p>Exploratory heliocentric elements at JD 2461103.898887757 TDB: a=42.9578 AU, e=0.1431. These are not directly comparable to quoted barycentric elements without transforming definitions and epochs.</p>
+<h2>Limits and next steps</h2>
+<p>This initial model omits planetary perturbations, mutual/body-specific motion, correlated astrometric errors and image-level biases. The MPC rounded positions lack per-observation uncertainties here. Formal ellipses are conditional on an assumed error model and one local branch, not calibrated coverage. This report neither identifies all orbit solutions nor measures size/mass or a resonant classification.</p>
+<p>Next: compare with an established orbit fitter and a planetary force model, then consider independent W84 precoveries with station-specific geometry. The restricted Rubin RSP image/catalog release is not used. Public MPC astrometry is a distinct data product.</p>
+<p>Source: https://www.minorplanetcenter.net/mpec/K26/K26U85.html</p>
+<p>Rubin data-product access distinction: https://prompt-products.lsst.io/products/2026-ED138/index.html</p>

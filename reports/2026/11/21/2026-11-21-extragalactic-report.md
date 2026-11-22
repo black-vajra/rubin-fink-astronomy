@@ -1,6 +1,6 @@
 # Extragalactic review · 2026-11-21
 
-Generated 2026-11-22T01:08:20+00:00.
+Generated 2026-11-22T01:27:20+00:00.
 
 **No new observations or changed returned source records in the four queried watchlist histories.** Measurements below remain historical; the assessed interval starts July 16, 2026 and extends through this retrieval, rather than silently stopping the analysis at November 15.
 

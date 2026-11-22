@@ -1,6 +1,6 @@
 # Moving-object review · 2026-11-21
 
-Generated 2026-11-22T01:08:20+00:00.
+Generated 2026-11-22T01:27:20+00:00.
 
 Active scope remains **2001 QY297, 2014 WV203, 2013 CR7 and 2026 ED138**. The three successful Fink histories are unchanged; ED138’s Fink query failed with HTTP 400. The public MPC route succeeded.
 
@@ -28,6 +28,6 @@ The prior QY297, CR7 and WV203 fits remain their November 20 results, not freshl
 
 ## Methodology follow-up
 
-The discovery announcement prompted a targeted review of linking and precovery methods. See [methods and source-access notes](methods-and-data-sources.md). Our next archive searches should remain confined to the named watchlist, preserving candidate provenance and image-level validation. No authenticated ADAM search was submitted and no broad new-object search ran.
+The discovery announcement prompted a targeted review of linking and precovery methods. See [methods and source-access notes](methods-and-data-sources.html). Our next archive searches should remain confined to the named watchlist, preserving candidate provenance and image-level validation. No authenticated ADAM search was submitted and no broad new-object search ran.
 
 The public astrometry and restricted image/catalog release are distinct products. ED138 is now an active public-astrometry benchmark; its proprietary RSP images were not accessed.
